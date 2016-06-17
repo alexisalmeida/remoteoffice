@@ -1,0 +1,13 @@
+<template name="monitor">
+	<div class="row">
+		{{#each monitorados}}
+		<div class="col-xs-3 col-md-2 col-lg-2 monitor" id="{{_id}}">
+			<div class="output">
+				<img id="photo_{{userid}}" class="photo">
+				<div>{{exibeFoto userid}}</div>
+			</div>
+			<div>{{username}} ({{status}} {{lux}})</div>
+		</div>
+		{{/each}}
+	</div>
+</template>

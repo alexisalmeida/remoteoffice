@@ -1,0 +1,25 @@
+<template name="camera">
+	<h1>Remote Office</h1>
+				
+	<div class="row" id="painel">
+		<div class="col-xs-3 col-md-2 col-lg-2">
+			<div class="camera">
+				<video id="video">{{lang "msg001"}}</video>
+			</div>
+			<select class="status js-status-sel">
+				<option value='ATIV' {{getStatusUsu 'ATIV'}} >{{lang "active"}}</option>
+				<option value='INTERV' {{getStatusUsu 'INTERV'}}>{{lang "interval"}}</option>
+				<option value='REUN' {{getStatusUsu 'REUN'}}>{{lang "meeting"}}</option>
+				<option value='INAT' {{getStatusUsu 'INAT'}}>{{lang "inactive"}}</option>
+			</select>
+		</div>
+		
+		<div class="col-xs-3 col-md-2 col-lg-2 monitor" id="monitor">
+			<div class="output">
+				{{lang "manager"}}: <b>{{getGestor}}</b><br><br>
+				{{lang "msg008"}}
+				<!--<img id="photo" class="photo" alt="">-->
+			</div>
+		</div>
+	</div>
+</template>

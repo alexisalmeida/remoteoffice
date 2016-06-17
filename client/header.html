@@ -1,0 +1,72 @@
+<template name="header">
+	<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container-fluid">
+	
+			<!-- start collapsed navbar-->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main_navbar" aria-expanded="false">
+					<span class="glyphicon glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+				</button>
+			</div><!-- / collapsed navbar-->
+
+			<div class="navbar-collapse collapse" id="main_navbar">
+				<ul class="nav navbar-nav navbar-left">
+
+					<li class="{{menuClass "home"}}">
+						<a href="/">Remote Office</a>
+					</li>
+					<li class="{{menuClass "about"}}">
+						<a href="/about">{{ lang "about" }}</a>
+					</li>
+					{{#if currentUser}}
+					{{#if gestor}}
+					<li  class="{{menuClass 'admin'}} dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+						  {{ lang "admin" }} <span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu">
+							<li class="menu-item js-report"><a href="/report">{{ lang "report" }}</a></li>
+							<li class="menu-item js-team"><a href="/team">{{ lang "team" }}</a></li>
+						</ul>
+					</li>					
+					{{/if}}
+					<li class="{{menuClass 'exit'}} js-exit">
+						<a href="#">{{ lang "exit" }}</a>
+					</li>
+
+					{{#if monitorado}}
+					<li class="button-bar">
+						<div  class="form-control menuComp">{{getStatus}}</div>
+					</li>
+					
+					<li class="button-bar">
+						<div  class="form-control menuComp">{{getLux}}</div>
+					</li>
+					{{/if}}
+
+					{{/if}}
+				</ul>
+				
+				<ul class="nav navbar-nav navbar-right menuComp">
+					<li>
+						<div class="nav">{{> hello}}</div>
+					</li>
+					<li>
+						<div class="nav" >&nbsp;&nbsp;&nbsp;</div>
+					</li>
+					<!--
+					<li>
+						<div class="nav">{{> loginButtons align="right"}}</div>
+					</li>
+					-->
+				</ul>
+				
+			</div>
+		</div>
+	</div>
+</template>
+
+<template name="hello">
+	{{> lang_selectionForm}}
+</template>
+

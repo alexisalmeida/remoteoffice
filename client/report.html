@@ -1,0 +1,101 @@
+<template name="report">
+	<form class="js-query">
+		<div class="bs-callout bs-callout-danger">
+			<h4>{{lang "report"}}</h4>
+		</div>
+		<div class="row">
+			<div class="col-lg-3">
+				<!--<input type="text" class="form-control" placeholder="{{lang 'dtini'}}" id="dtini">-->
+				<div class="input-group datetimepicker">
+					<span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+					<input class="set-due-date form-control" type="text" id="dtini"/>
+				</div>
+			</div>
+			<div class="col-lg-3">
+				<!--<input type="text" class="form-control" placeholder="{{lang 'dtfim'}}" id="dtfim">-->
+				<div class="input-group datetimepicker">
+					<span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+					<input class="set-due-date form-control" type="text" id="dtfim"/>
+				</div>			</div>
+			<div class="col-lg-6">
+				<div class="input-group">
+					<input type="text" class="form-control" placeholder="{{lang 'username'}}" id="username">
+					<span class="input-group-btn">
+						<button class="btn btn-default" type="submit">{{lang "Go"}}</button>
+						<a class="btn btn-default" href="/">{{lang "Return"}}</a>
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="alert alert-default" role="alert" id="status"></div>
+		<div class="alert alert-default" role="alert">{{lang getStatusMsg}}</div>
+	</form>
+	
+	<div id="popup_box">
+		<img id="photo" class="photo">
+	</div>
+	
+	<canvas id="canvas" style="display:none"></canvas>
+	
+	<ul class="nav nav-pills">
+		<li role="presentation" class="active"><a class="tab" id="photos" href="#">{{lang "photo"}}</a>
+		</li>
+		<li role="presentation" ><a class="tab" id="procs" href="#">{{lang "proc"}}</a>
+		</li>
+	</ul>
+	{{#if curTab "photos"}}
+		{{> showPhotos}}
+	{{/if}}
+	{{#if curTab "procs"}}
+		{{> showProcs}}
+	{{/if}}
+
+</template>
+
+<template name="showPhotos">
+	<div class="list-group js-open-form" id="list-group">
+		<div class="panel panel-default">
+			<table class="table">
+				<tr class="panel-heading">
+					<th>{{lang "username"}}</th>
+					<th>{{lang "status"}}</th>
+					<th>{{lang "date"}}</th>
+					<th>{{lang "photo"}}</th>
+				</tr>
+				{{#each photos}}
+					<tr>
+						<td>{{username}}</td>
+						<td>{{status}}</td>
+						<td>{{moFormat createdOn 'DD/MM/YYYY HH:mm:ss'}}</td>
+						<td>
+							<span id="{{_id}}" class="glyphicon glyphicon-camera btn js-show-foto" aria-hidden="true"></span>
+						</td>
+					</tr>
+				{{/each}}
+			</table>
+		</div>
+	</div>
+</template>
+
+<template name="showProcs">
+	<div class="list-group js-open-form" id="list-group">
+		<div class="panel panel-default">
+			<table class="table">
+				<tr class="panel-heading">
+					<th>{{lang "username"}}</th>
+					<th>{{lang "status"}}</th>
+					<th>{{lang "date"}}</th>
+					<th>{{lang "proc"}}</th>
+				</tr>
+				{{#each procs}}
+					<tr>
+						<td>{{username}}</td>
+						<td>{{status}}</td>
+						<td>{{moFormat createdOn 'DD/MM/YYYY HH:mm:ss'}}</td>
+						<td>{{texto}}</td>
+					</tr>
+				{{/each}}
+			</table>
+		</div>
+	</div>
+</template>

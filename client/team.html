@@ -1,0 +1,30 @@
+<template name="team">
+	<form class="js-save">
+		<div class="bs-callout bs-callout-danger">
+			<h4>{{lang "addUser"}}</h4>
+		</div>
+		<div class="input-group">
+			<input type="text" class="form-control" placeholder="{{lang 'infoUser'}}" id="username">
+			<span class="input-group-btn">
+				<button class="btn btn-default" type="submit">Save</button>
+				<a class="btn btn-default" href="/">Return</a>
+			</span>
+		</div>
+		<div class="alert alert-default" role="alert" id="status"></div>
+	</form>
+	
+	<div class="list-group js-open-form" id="list-group">
+		<div class="list-group-item active">{{lang "yourTeam"}}</div>
+		{{#each membros}}
+
+		<div class="input-group">
+			<span type="text" class="form-control">{{id}}</span>
+			<span class="input-group-btn">
+				<button class="btn btn-default" type="button"><span id="{{_id}}" class="glyphicon glyphicon-trash js-del-usu" aria-hidden="true"></span></button>
+			</span>
+		</div><!-- /input-group -->
+
+		{{/each}}
+	</div>
+
+</template>

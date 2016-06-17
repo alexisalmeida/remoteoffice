@@ -1,0 +1,100 @@
+<template name="chat">
+	<div class="row  button-bar">
+		<div class="col-xs-12 col-md-12 col-lg-12">
+			<form id="form-chat">
+	
+			<div class="input-group">
+				<input type="text" class="form-control" name="message" id="message" 
+					placeholder="{{lang 'message'}}">
+				<span class="input-group-btn">
+					{{#if gestor}}
+						{{>userList}}
+					{{/if}}
+					<button class="btn btn-default js-send">{{lang "send"}}</button>
+					<button class="btn js-clear" type="button">{{lang "clear"}}</button>
+				</span>
+				
+			</div><!-- /input-group -->
+			</form>
+			
+			<div class="well well-sm chat-box">
+				<ul class="list-group">
+					{{#each messages}}
+					<li class="list-group-item ">
+						<!--<img src="/{{getAvatar userId}}" class="avatar_img_chat">-->
+						{{username}} {{lang "to"}} {{receiver}} {{lang "at"}} {{moFormat createdOn 'DD/MM/YYYY HH:mm:ss'}}<br>
+						<div class="alert {{getTextcolor username}}">
+						{{texto}} 
+						</div>
+					</li>
+					{{/each}}
+				</ul>
+			</div>
+			<div>{{lang getMsgStatus}}</div>
+		</div>
+	</div>	
+</template>
+
+<template name="userListx">
+	<div class="dropdown">
+		<div class="input-group" data-toggle="dropdown">
+			<!--<input class="entryInput form-control" id="query" name="query" type="text" value="{{ lang 'select' }}"/>-->
+			<span id="selection" class="entryInput form-control">{{ lang "select" }}</span>
+			
+			<span class="input-group-btn">
+				<span class="caret"></span>
+			</span>
+		</div>
+
+		<ul class="dropdown-menu" role="menu" aria-labelledby="query">
+			{{#each usuarios}}
+			<li class="menu-item js-char-usu" id="{{id}}">{{id}}</li>
+			{{/each}}
+		</ul>
+
+	</div>
+</template>
+
+<template name="userList">
+	<div class="btn">
+		<div class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">
+		  <span id="selection">{{ lang "select" }}</span> <span class="caret"></span>
+		</div>
+		<ul class="dropdown-menu" role="menu">
+			{{#each usuarios}}
+			<li class="menu-item js-char-usu" id="{{id}}">{{id}}</li>
+			{{/each}}
+		</ul>
+	</div>	
+</template>
+
+<template name="userListOk">
+	<div  class="btn-group btn">
+		<div class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+		  <span id="selection">{{ lang "select" }}</span><span class="caret"></span>
+		</div>
+		<ul class="dropdown-menu">
+			{{#each usuarios}}
+			<li class="menu-item js-char-usu" id="{{id}}">{{id}}</li>
+			{{/each}}
+		</ul>
+	</div>	
+</template>
+
+
+<!--
+<template name="chatOld">
+	<div class="row  button-bar">
+		<div class="col-xs-12 col-md-6 col-lg-6">
+			<div class="chat_wrapper">
+				<div class="message_box" id="message_box"></div>
+				<div class="panel">
+					<input type="text" name="message" id="message" placeholder="Mensagem" maxlength="80" style="width:60%" />
+					<button type="submit" id="sendbtn">Envia</button>
+					<button type="submit" id="limpatela">Limpa</button>
+				</div>
+			</div>
+		</div>
+	</div>	
+</template>
+-->

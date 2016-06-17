@@ -1,0 +1,109 @@
+#video {
+  border: 1px solid black;
+  box-shadow: 2px 2px 3px black;
+  width:160px;
+  height:120px;
+}
+
+#popup_box { 
+    display:none; /* Hide the DIV */
+    position:fixed;  
+    _position:absolute; /* hack for internet explorer 6 */  
+    width:160px;  
+    height:120px;  
+    background:#FFFFFF;  
+    left: 300px;
+    top: 150px;
+    z-index:100; /* Layering ( on-top of others), if you have lots of layers: I just maximized, you can change it yourself */
+    margin-left: 0px;  
+    
+    /* additional features, can be omitted */
+	
+    padding:0px;  
+	/*
+    border:2px solid #ff0000; 
+    font-size:15px;  
+    -moz-box-shadow: 0 0 5px #ff0000;
+    -webkit-box-shadow: 0 0 5px #ff0000;
+    box-shadow: 0 0 5px #ff0000;
+	*/
+}
+
+
+.photo {
+  border: 1px solid black;
+  box-shadow: 2px 2px 3px black;
+  width:160px;
+  height:120px;
+}
+
+#canvas {
+  display:none;
+}
+
+.camera {
+  width: 170px;
+  display:inline-block;
+}
+
+.status {
+  width: 98%;
+
+}
+
+.output {
+  width: 170px;
+  display:inline-block;
+}
+
+.mybutton {
+  background-color: rgba(0, 150, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  box-shadow: 0px 0px 1px 2px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  font-family: "Lucida Grande", "Arial", sans-serif;
+  color: rgba(255, 255, 255, 1.0);
+}
+
+.contentarea {
+  font-size: 16px;
+  font-family: "Lucida Grande", "Arial", sans-serif;
+  width: 760px;
+}
+
+.chat-box-x {
+	max-height: 250px;
+}
+/*
+.chat_wrapper {
+	width: 700px;
+	margin-right: auto;
+	background: #CCCCCC;
+	border: 1px solid #999999;
+	padding: 0px;
+	font: 12px 'lucida grande',tahoma,verdana,arial,sans-serif;
+}
+
+.chat_wrapper .message_box {
+	background: #FFFFFF;
+	height: 250px;
+	overflow: auto;
+	padding: 10px;
+	border: 1px solid #999999;
+}
+.chat_wrapper .panel input{
+	padding: 2px 2px 2px 5px;
+}
+.system_msg{color: #BDBDBD;font-style: italic;}
+.user_name{font-weight:bold;}
+.user_message{color: #88B6E0;}
+
+.button-bar{
+	padding-top:10px
+}
+
+.monitorxx {
+	visibility: hidden;
+
+}
+*/

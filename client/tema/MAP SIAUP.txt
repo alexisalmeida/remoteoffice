@@ -1,0 +1,1341 @@
+Sistema,Perfil,Tipo,Qtde Usuarios,Regras
+SIAUP,SIAUP_PERFIL1,PERFIL,267,"
+---------------Regra---------------
+((sg_unde_ltco.in({""AG"", ""ASIMP"", ""AUDAT"", ""AUDES"", ""AUDIR"", ""AUDIT"", ""AUDRE"", ""AUDTI"", ""CEATI"", ""CEBND"", ""CECVS"", ""CEFUS"", ""CEHOP"", ""CEMCO"", ""CEMOF"", ""CEOUV"", ""CEPCO"", ""CEPES"", ""CEPSO"", ""CEPTI"", ""CERAT"", ""CERIS"", ""CESEG"", ""CETEC"", ""CETES"", ""CETNE"", ""CIPES"", ""CIREC"", ""CITDI"", ""COADM"", ""COAUD"", ""COFIS"", ""DECAR"", ""DECEV"", ""DECON"", ""DECOP"", ""DECOR"", ""DEFIN"", ""DEFUS"", ""DEGAN"", ""DEGOV"", ""DEHAB"", ""DEMAC"", ""DEOPE"", ""DEORE"", ""DEPES"", ""DESAN"", ""DESCO"", ""DETEC"", ""DETER"", ""DIGER"", ""DIJUR"", ""DINOV"", ""DIPAR"", ""EREUA"", ""ERJAP"", ""ERVEN"", ""GAPRE"", ""GEABR"", ""GEAFE"", ""GEAGO"", ""GEAJU"", ""GEALO"", ""GEALT"", ""GEAMA"", ""GEAMG"", ""GEAMP"", ""GEARE"", ""GEARJ"", ""GEARQ"", ""GEART"", ""GEASP"", ""GEAST"", ""GEATI"", ""GEATO"", ""GEATS"", ""GEAVO"", ""GEBAN"", ""GEBES"", ""GECAC"", ""GECAF"", ""GECAM"", ""GECAN"", ""GECAR"", ""GECAT"", ""GECEA"", ""GECEP"", ""GECER"", ""GECGO"", ""GECIS"", ""GECME"", ""GECOA"", ""GECOC"", ""GECOE"", ""GECOG"", ""GECOL"", ""GECOM"", ""GECOP"", ""GECOR"", ""GECOT"", ""GECRI"", ""GECRM"", ""GECTE"", ""GECTI"", ""GECVA"", ""GEDEC"", ""GEDEF"", ""GEDEP"", ""GEDTI"", ""GEDUA"", ""GEDUB"", ""GEDUC"", ""GEDUD"", ""GEDUE"", ""GEECO"", ""GEEMP"", ""GEESC"", ""GEEST"", ""GEFES"", ""GEFIN"", ""GEFIP"", ""GEFIX"", ""GEFOM"", ""GEFOP"", ""GEFUS"", ""GEGAC"", ""GEGAN"", ""GEGAP"", ""GEGAT"", ""GEGRO"", ""GEHUR"", ""GEICI"", ""GEICO"", ""GEICV"", ""GEIFI"", ""GEIMP"", ""GEINC"", ""GEINF"", ""GEINV"", ""GEIPA"", ""GEIPT"", ""GEJUD"", ""GELIT"", ""GELOG"", ""GELOT"", ""GEMCV"", ""GEMEA"", ""GEMGE"", ""GEMOB"", ""GEMOC"", ""GEMOD"", ""GEMOG"", ""GEMON"", ""GEMOR"", ""GEMPE"", ""GEMPF"", ""GEMPJ"", ""GENAC"", ""GENAT"", ""GENEF"", ""GENEP"", ""GENIT"", ""GENOA"", ""GENOR"", ""GENSE"", ""GEOMI"", ""GEOPE"", ""GEORC"", ""GEOSI"", ""GEOTI"", ""GEPAD"", ""GEPAE"", ""GEPAR"", ""GEPAS"", ""GEPEC"", ""GEPES"", ""GEPEV"", ""GEPJO"", ""GEPLA"", ""GEPOS"", ""GEPOT"", ""GEPRE"", ""GEPSO"", ""GEPTE"", ""GEPUP"", ""GERAC"", ""GERAT"", ""GERED"", ""GEREL"", ""GEREM"", ""GEREP"", ""GERET"", ""GERFU"", ""GERID"", ""GERIM"", ""GERIN"", ""GERIV"", ""GEROP"", ""GERPA"", ""GERSA"", ""GERSE"", ""GERTI"", ""GESAN"", ""GESAP"", ""GESEC"", ""GESED"", ""GESEF"", ""GESEM"", ""GESET"", ""GESFI"", ""GESIG"", ""GESIR"", ""GESPJ"", ""GESTE"", ""GESTO"", ""GESUP"", ""GETEN"", ""GETER"", ""GETRE"", ""GETRI"", ""GEVAR"", ""GICAC"", ""GICET"", ""GICOM"", ""GICOT"", ""GIDUR"", ""GIFUG"", ""GIFUS"", ""GIICP"", ""GILIC"", ""GILIE"", ""GILOG"", ""GIPES"", ""GIPSO"", ""GIREC"", ""GIRET"", ""GIRIS"", ""GISEG"", ""GITEC"", ""JURIR"", ""MESAM"", ""OUVID"", ""PA"", ""PAB"", ""PEAGR"", ""PEAPF"", ""PEATE"", ""PEBSL"", ""PECAC"", ""PECAD"", ""PECOC"", ""PEDEP"", ""PEFIN"", ""PEFUG"", ""PEGOV"", ""PEJUD"", ""PEOPI"", ""PEPAN"", ""PESCC"", ""PRESI"", ""REAUD"", ""RECOC"", ""RECOL"", ""RECOM"", ""RECOV"", ""REDAD"", ""REDUR"", ""REICP"", ""REIMP"", ""REJUR"", ""RELIE"", ""RELOG"", ""REMCO"", ""REPES"", ""REPSO"", ""REREC"", ""RERET"", ""RESEC"", ""RESEG"", ""RETEC"", ""RETNE"", ""SG204"", ""SG212"", ""SG213"", ""SN"", ""SR099"", ""SR101"", ""SR102"", ""SR103"", ""SR104"", ""SR105"", ""SR107"", ""SR108"", ""SR109"", ""SR110"", ""SR112"", ""SR113"", ""SR114"", ""SR115"", ""SR117"", ""SR120"", ""SR121"", ""SR122"", ""SR123"", ""SR129"", ""SR131"", ""SR132"", ""SR133"", ""SR137"", ""SR138"", ""SR141"", ""SR142"", ""SR145"", ""SR146"", ""SR148"", ""SR149"", ""SR150"", ""SR151"", ""SR152"", ""SR153"", ""SR154"", ""SR155"", ""SR156"", ""SR157"", ""SR158"", ""SR159"", ""SR160"", ""SR162"", ""SR163"", ""SR164"", ""SR165"", ""SR166"", ""SR167"", ""SR168"", ""SR169"", ""SR170"", ""SR171"", ""SR173"", ""SR174"", ""SR177"", ""SR178"", ""SR179"", ""SR181"", ""SR182"", ""SR183"", ""SR184"", ""SR185"", ""SR186"", ""SR187"", ""SR188"", ""SR189"", ""SR190"", ""SR191"", ""SR192"", ""SR193"", ""SR194"", ""SR195"", ""SR196"", ""SR197"", ""SR199"", ""SR200"", ""SR201"", ""SR202"", ""SR203"", ""SR204"", ""SR205"", ""SR206"", ""SR207"", ""SR208"", ""SR209"", ""SR210"", ""SR211"", ""SR212"", ""SR213"", ""SR214"", ""SR215"", ""SR216"", ""SR217"", ""SR218"", ""SR219"", ""SR220"", ""SR221"", ""SR222"", ""SR223"", ""SR224"", ""SR225"", ""SR226"", ""SR227"", ""SR228"", ""SR229"", ""SR230"", ""SR231"", ""SUAFI"", ""SUAJU"", ""SUALO"", ""SUATA"", ""SUATB"", ""SUATC"", ""SUATD"", ""SUATE"", ""SUCAR"", ""SUCOI"", ""SUCON"", ""SUCOR"", ""SUCOT"", ""SUCTI"", ""SUDEC"", ""SUDES"", ""SUDIS"", ""SUEMP"", ""SUETI"", ""SUFES"", ""SUFUG"", ""SUFUS"", ""SUGET"", ""SUGTI"", ""SUHAB"", ""SUHAM"", ""SUHAR"", ""SUINP"", ""SUINT"", ""SUITI"", ""SUMAR"", ""SUMAV"", ""SUMCV"", ""SUMEF"", ""SUMPE"", ""SUNGE"", ""SUNSE"", ""SUOPE"", ""SUPEN"", ""SUPLA"", ""SUPOT"", ""SUPSO"", ""SUPUJ"", ""SURBE"", ""SUREB"", ""SUREC"", ""SUREL"", ""SUREP"", ""SURET"", ""SURIC"", ""SUSAN"", ""SUSEC"", ""SUSEG"", ""SUTEN"", ""SUVOP"", ""VICOP"", ""VICOR"", ""VIFIC"", ""VIFUG"", ""VIGOV"", ""VILOG"", ""VINER"", ""VIPES"", ""VITEC"", ""VITER"", ""VIVAR""}) 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""REMCO""}) 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEACE""}) 
+ nu_unde_ltco_fisica == ""5349"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEATE""}) 
+ nu_unde_ltco_fisica == ""5467"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEMCO""}) 
+ nu_unde_ltco_fisica == ""5517"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""GEPVA""}) 
+ nu_unde_ltco == ""5551"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEPUB""}) 
+ nu_unde_ltco_fisica == ""5583"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEOPT""}) 
+ nu_unde_ltco_fisica == ""5624"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUEMP""}) 
+ nu_unde_ltco_fisica == ""5720"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUPVA""}) 
+ nu_unde_ltco_fisica == ""5722"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEPOP""}) 
+ nu_unde_ltco_fisica == ""5781"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUMEP""}) 
+ nu_unde_ltco_fisica == ""5795"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""CNBND""}) 
+ nu_unde_ltco_fisica == ""7006"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2001"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2029"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2037"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2048""))"
+SIAUP,SIAUP_PERFIL1A,PERFIL,144,"
+---------------Regra---------------
+((sg_unde_ltco.in({""AG"", ""ASIMP"", ""AUDAT"", ""AUDES"", ""AUDIR"", ""AUDIT"", ""AUDRE"", ""AUDTI"", ""CEATI"", ""CEBND"", ""CECVS"", ""CEFUS"", ""CEHOP"", ""CEMCO"", ""CEMOF"", ""CEOUV"", ""CEPCO"", ""CEPES"", ""CEPSO"", ""CEPTI"", ""CERAT"", ""CERIS"", ""CESEG"", ""CETEC"", ""CETES"", ""CETNE"", ""CIPES"", ""CIREC"", ""CITDI"", ""COADM"", ""COAUD"", ""COFIS"", ""DECAR"", ""DECEV"", ""DECON"", ""DECOP"", ""DECOR"", ""DEFIN"", ""DEFUS"", ""DEGAN"", ""DEGOV"", ""DEHAB"", ""DEMAC"", ""DEOPE"", ""DEORE"", ""DEPES"", ""DESAN"", ""DESCO"", ""DETEC"", ""DETER"", ""DIGER"", ""DIJUR"", ""DINOV"", ""DIPAR"", ""EREUA"", ""ERJAP"", ""ERVEN"", ""GAPRE"", ""GEABR"", ""GEAFE"", ""GEAGO"", ""GEAJU"", ""GEALO"", ""GEALT"", ""GEAMA"", ""GEAMG"", ""GEAMP"", ""GEARE"", ""GEARJ"", ""GEARQ"", ""GEART"", ""GEASP"", ""GEAST"", ""GEATI"", ""GEATO"", ""GEATS"", ""GEAVO"", ""GEBAN"", ""GEBES"", ""GECAC"", ""GECAF"", ""GECAM"", ""GECAN"", ""GECAR"", ""GECAT"", ""GECEA"", ""GECEP"", ""GECER"", ""GECGO"", ""GECIS"", ""GECME"", ""GECOA"", ""GECOC"", ""GECOE"", ""GECOG"", ""GECOL"", ""GECOM"", ""GECOP"", ""GECOR"", ""GECOT"", ""GECRI"", ""GECRM"", ""GECTE"", ""GECTI"", ""GECVA"", ""GEDEC"", ""GEDEF"", ""GEDEP"", ""GEDTI"", ""GEDUA"", ""GEDUB"", ""GEDUC"", ""GEDUD"", ""GEDUE"", ""GEECO"", ""GEEMP"", ""GEESC"", ""GEEST"", ""GEFES"", ""GEFIN"", ""GEFIP"", ""GEFIX"", ""GEFOM"", ""GEFOP"", ""GEFUS"", ""GEGAC"", ""GEGAN"", ""GEGAP"", ""GEGAT"", ""GEGRO"", ""GEHUR"", ""GEICI"", ""GEICO"", ""GEICV"", ""GEIFI"", ""GEIMP"", ""GEINC"", ""GEINF"", ""GEINV"", ""GEIPA"", ""GEIPT"", ""GEJUD"", ""GELIT"", ""GELOG"", ""GELOT"", ""GEMCV"", ""GEMEA"", ""GEMGE"", ""GEMOB"", ""GEMOC"", ""GEMOD"", ""GEMOG"", ""GEMON"", ""GEMOR"", ""GEMPE"", ""GEMPF"", ""GEMPJ"", ""GENAC"", ""GENAT"", ""GENEF"", ""GENEP"", ""GENIT"", ""GENOA"", ""GENOR"", ""GENSE"", ""GEOMI"", ""GEOPE"", ""GEORC"", ""GEOSI"", ""GEOTI"", ""GEPAD"", ""GEPAE"", ""GEPAR"", ""GEPAS"", ""GEPEC"", ""GEPES"", ""GEPEV"", ""GEPJO"", ""GEPLA"", ""GEPOS"", ""GEPOT"", ""GEPRE"", ""GEPSO"", ""GEPTE"", ""GEPUP"", ""GERAC"", ""GERAT"", ""GERED"", ""GEREL"", ""GEREM"", ""GEREP"", ""GERET"", ""GERFU"", ""GERID"", ""GERIM"", ""GERIN"", ""GERIV"", ""GEROP"", ""GERPA"", ""GERSA"", ""GERSE"", ""GERTI"", ""GESAN"", ""GESAP"", ""GESEC"", ""GESED"", ""GESEF"", ""GESEM"", ""GESET"", ""GESFI"", ""GESIG"", ""GESIR"", ""GESPJ"", ""GESTE"", ""GESTO"", ""GESUP"", ""GETEN"", ""GETER"", ""GETRE"", ""GETRI"", ""GEVAR"", ""GICAC"", ""GICET"", ""GICOM"", ""GICOT"", ""GIDUR"", ""GIFUG"", ""GIFUS"", ""GIICP"", ""GILIC"", ""GILIE"", ""GILOG"", ""GIPES"", ""GIPSO"", ""GIREC"", ""GIRET"", ""GIRIS"", ""GISEG"", ""GITEC"", ""JURIR"", ""MESAM"", ""OUVID"", ""PA"", ""PAB"", ""PEAGR"", ""PEAPF"", ""PEATE"", ""PEBSL"", ""PECAC"", ""PECAD"", ""PECOC"", ""PEDEP"", ""PEFIN"", ""PEFUG"", ""PEGOV"", ""PEJUD"", ""PEOPI"", ""PEPAN"", ""PESCC"", ""PRESI"", ""REAUD"", ""RECOC"", ""RECOL"", ""RECOM"", ""RECOV"", ""REDAD"", ""REDUR"", ""REICP"", ""REIMP"", ""REJUR"", ""RELIE"", ""RELOG"", ""REMCO"", ""REPES"", ""REPSO"", ""REREC"", ""RERET"", ""RESEC"", ""RESEG"", ""RETEC"", ""RETNE"", ""SG204"", ""SG212"", ""SG213"", ""SN"", ""SR099"", ""SR101"", ""SR102"", ""SR103"", ""SR104"", ""SR105"", ""SR107"", ""SR108"", ""SR109"", ""SR110"", ""SR112"", ""SR113"", ""SR114"", ""SR115"", ""SR117"", ""SR120"", ""SR121"", ""SR122"", ""SR123"", ""SR129"", ""SR131"", ""SR132"", ""SR133"", ""SR137"", ""SR138"", ""SR141"", ""SR142"", ""SR145"", ""SR146"", ""SR148"", ""SR149"", ""SR150"", ""SR151"", ""SR152"", ""SR153"", ""SR154"", ""SR155"", ""SR156"", ""SR157"", ""SR158"", ""SR159"", ""SR160"", ""SR162"", ""SR163"", ""SR164"", ""SR165"", ""SR166"", ""SR167"", ""SR168"", ""SR169"", ""SR170"", ""SR171"", ""SR173"", ""SR174"", ""SR177"", ""SR178"", ""SR179"", ""SR181"", ""SR182"", ""SR183"", ""SR184"", ""SR185"", ""SR186"", ""SR187"", ""SR188"", ""SR189"", ""SR190"", ""SR191"", ""SR192"", ""SR193"", ""SR194"", ""SR195"", ""SR196"", ""SR197"", ""SR199"", ""SR200"", ""SR201"", ""SR202"", ""SR203"", ""SR204"", ""SR205"", ""SR206"", ""SR207"", ""SR208"", ""SR209"", ""SR210"", ""SR211"", ""SR212"", ""SR213"", ""SR214"", ""SR215"", ""SR216"", ""SR217"", ""SR218"", ""SR219"", ""SR220"", ""SR221"", ""SR222"", ""SR223"", ""SR224"", ""SR225"", ""SR226"", ""SR227"", ""SR228"", ""SR229"", ""SR230"", ""SR231"", ""SUAFI"", ""SUAJU"", ""SUALO"", ""SUATA"", ""SUATB"", ""SUATC"", ""SUATD"", ""SUATE"", ""SUCAR"", ""SUCOI"", ""SUCON"", ""SUCOR"", ""SUCOT"", ""SUCTI"", ""SUDEC"", ""SUDES"", ""SUDIS"", ""SUEMP"", ""SUETI"", ""SUFES"", ""SUFUG"", ""SUFUS"", ""SUGET"", ""SUGTI"", ""SUHAB"", ""SUHAM"", ""SUHAR"", ""SUINP"", ""SUINT"", ""SUITI"", ""SUMAR"", ""SUMAV"", ""SUMCV"", ""SUMEF"", ""SUMPE"", ""SUNGE"", ""SUNSE"", ""SUOPE"", ""SUPEN"", ""SUPLA"", ""SUPOT"", ""SUPSO"", ""SUPUJ"", ""SURBE"", ""SUREB"", ""SUREC"", ""SUREL"", ""SUREP"", ""SURET"", ""SURIC"", ""SUSAN"", ""SUSEC"", ""SUSEG"", ""SUTEN"", ""SUVOP"", ""VICOP"", ""VICOR"", ""VIFIC"", ""VIFUG"", ""VIGOV"", ""VILOG"", ""VINER"", ""VIPES"", ""VITEC"", ""VITER"", ""VIVAR""}) 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""REMCO""}) 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEACE""}) 
+ nu_unde_ltco_fisica == ""5349"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEATE""}) 
+ nu_unde_ltco_fisica == ""5467"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEMCO""}) 
+ nu_unde_ltco_fisica == ""5517"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""GEPVA""}) 
+ nu_unde_ltco == ""5551"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEPUB""}) 
+ nu_unde_ltco_fisica == ""5583"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEOPT""}) 
+ nu_unde_ltco_fisica == ""5624"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUEMP""}) 
+ nu_unde_ltco_fisica == ""5720"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUPVA""}) 
+ nu_unde_ltco_fisica == ""5722"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEPOP""}) 
+ nu_unde_ltco_fisica == ""5781"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUMEP""}) 
+ nu_unde_ltco_fisica == ""5795"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""CNBND""}) 
+ nu_unde_ltco_fisica == ""7006"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2001"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2029"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2037"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2048""))"
+SIAUP,SIAUP_PERFIL2,PERFIL,7594,"
+---------------Regra---------------
+((sg_unde_ltco.in({""AG"", ""ASIMP"", ""AUDAT"", ""AUDES"", ""AUDIR"", ""AUDIT"", ""AUDRE"", ""AUDTI"", ""CEATI"", ""CEBND"", ""CECVS"", ""CEFUS"", ""CEHOP"", ""CEMCO"", ""CEMOF"", ""CEOUV"", ""CEPCO"", ""CEPES"", ""CEPSO"", ""CEPTI"", ""CERAT"", ""CERIS"", ""CESEG"", ""CETEC"", ""CETES"", ""CETNE"", ""CIPES"", ""CIREC"", ""CITDI"", ""COADM"", ""COAUD"", ""COFIS"", ""DECAR"", ""DECEV"", ""DECON"", ""DECOP"", ""DECOR"", ""DEFIN"", ""DEFUS"", ""DEGAN"", ""DEGOV"", ""DEHAB"", ""DEMAC"", ""DEOPE"", ""DEORE"", ""DEPES"", ""DESAN"", ""DESCO"", ""DETEC"", ""DETER"", ""DIGER"", ""DIJUR"", ""DINOV"", ""DIPAR"", ""EREUA"", ""ERJAP"", ""ERVEN"", ""GAPRE"", ""GEABR"", ""GEAFE"", ""GEAGO"", ""GEAJU"", ""GEALO"", ""GEALT"", ""GEAMA"", ""GEAMG"", ""GEAMP"", ""GEARE"", ""GEARJ"", ""GEARQ"", ""GEART"", ""GEASP"", ""GEAST"", ""GEATI"", ""GEATO"", ""GEATS"", ""GEAVO"", ""GEBAN"", ""GEBES"", ""GECAC"", ""GECAF"", ""GECAM"", ""GECAN"", ""GECAR"", ""GECAT"", ""GECEA"", ""GECEP"", ""GECER"", ""GECGO"", ""GECIS"", ""GECME"", ""GECOA"", ""GECOC"", ""GECOE"", ""GECOG"", ""GECOL"", ""GECOM"", ""GECOP"", ""GECOR"", ""GECOT"", ""GECRI"", ""GECRM"", ""GECTE"", ""GECTI"", ""GECVA"", ""GEDEC"", ""GEDEF"", ""GEDEP"", ""GEDTI"", ""GEDUA"", ""GEDUB"", ""GEDUC"", ""GEDUD"", ""GEDUE"", ""GEECO"", ""GEEMP"", ""GEESC"", ""GEEST"", ""GEFES"", ""GEFIN"", ""GEFIP"", ""GEFIX"", ""GEFOM"", ""GEFOP"", ""GEFUS"", ""GEGAC"", ""GEGAN"", ""GEGAP"", ""GEGAT"", ""GEGRO"", ""GEHUR"", ""GEICI"", ""GEICO"", ""GEICV"", ""GEIFI"", ""GEIMP"", ""GEINC"", ""GEINF"", ""GEINV"", ""GEIPA"", ""GEIPT"", ""GEJUD"", ""GELIT"", ""GELOG"", ""GELOT"", ""GEMCV"", ""GEMEA"", ""GEMGE"", ""GEMOB"", ""GEMOC"", ""GEMOD"", ""GEMOG"", ""GEMON"", ""GEMOR"", ""GEMPE"", ""GEMPF"", ""GEMPJ"", ""GENAC"", ""GENAT"", ""GENEF"", ""GENEP"", ""GENIT"", ""GENOA"", ""GENOR"", ""GENSE"", ""GEOMI"", ""GEOPE"", ""GEORC"", ""GEOSI"", ""GEOTI"", ""GEPAD"", ""GEPAE"", ""GEPAR"", ""GEPAS"", ""GEPEC"", ""GEPES"", ""GEPEV"", ""GEPJO"", ""GEPLA"", ""GEPOS"", ""GEPOT"", ""GEPRE"", ""GEPSO"", ""GEPTE"", ""GEPUP"", ""GERAC"", ""GERAT"", ""GERED"", ""GEREL"", ""GEREM"", ""GEREP"", ""GERET"", ""GERFU"", ""GERID"", ""GERIM"", ""GERIN"", ""GERIV"", ""GEROP"", ""GERPA"", ""GERSA"", ""GERSE"", ""GERTI"", ""GESAN"", ""GESAP"", ""GESEC"", ""GESED"", ""GESEF"", ""GESEM"", ""GESET"", ""GESFI"", ""GESIG"", ""GESIR"", ""GESPJ"", ""GESTE"", ""GESTO"", ""GESUP"", ""GETEN"", ""GETER"", ""GETRE"", ""GETRI"", ""GEVAR"", ""GICAC"", ""GICET"", ""GICOM"", ""GICOT"", ""GIDUR"", ""GIFUG"", ""GIFUS"", ""GIICP"", ""GILIC"", ""GILIE"", ""GILOG"", ""GIPES"", ""GIPSO"", ""GIREC"", ""GIRET"", ""GIRIS"", ""GISEG"", ""GITEC"", ""JURIR"", ""MESAM"", ""OUVID"", ""PA"", ""PAB"", ""PEAGR"", ""PEAPF"", ""PEATE"", ""PEBSL"", ""PECAC"", ""PECAD"", ""PECOC"", ""PEDEP"", ""PEFIN"", ""PEFUG"", ""PEGOV"", ""PEJUD"", ""PEOPI"", ""PEPAN"", ""PESCC"", ""PRESI"", ""REAUD"", ""RECOC"", ""RECOL"", ""RECOM"", ""RECOV"", ""REDAD"", ""REDUR"", ""REICP"", ""REIMP"", ""REJUR"", ""RELIE"", ""RELOG"", ""REMCO"", ""REPES"", ""REPSO"", ""REREC"", ""RERET"", ""RESEC"", ""RESEG"", ""RETEC"", ""RETNE"", ""SG204"", ""SG212"", ""SG213"", ""SN"", ""SR099"", ""SR101"", ""SR102"", ""SR103"", ""SR104"", ""SR105"", ""SR107"", ""SR108"", ""SR109"", ""SR110"", ""SR112"", ""SR113"", ""SR114"", ""SR115"", ""SR117"", ""SR120"", ""SR121"", ""SR122"", ""SR123"", ""SR129"", ""SR131"", ""SR132"", ""SR133"", ""SR137"", ""SR138"", ""SR141"", ""SR142"", ""SR145"", ""SR146"", ""SR148"", ""SR149"", ""SR150"", ""SR151"", ""SR152"", ""SR153"", ""SR154"", ""SR155"", ""SR156"", ""SR157"", ""SR158"", ""SR159"", ""SR160"", ""SR162"", ""SR163"", ""SR164"", ""SR165"", ""SR166"", ""SR167"", ""SR168"", ""SR169"", ""SR170"", ""SR171"", ""SR173"", ""SR174"", ""SR177"", ""SR178"", ""SR179"", ""SR181"", ""SR182"", ""SR183"", ""SR184"", ""SR185"", ""SR186"", ""SR187"", ""SR188"", ""SR189"", ""SR190"", ""SR191"", ""SR192"", ""SR193"", ""SR194"", ""SR195"", ""SR196"", ""SR197"", ""SR199"", ""SR200"", ""SR201"", ""SR202"", ""SR203"", ""SR204"", ""SR205"", ""SR206"", ""SR207"", ""SR208"", ""SR209"", ""SR210"", ""SR211"", ""SR212"", ""SR213"", ""SR214"", ""SR215"", ""SR216"", ""SR217"", ""SR218"", ""SR219"", ""SR220"", ""SR221"", ""SR222"", ""SR223"", ""SR224"", ""SR225"", ""SR226"", ""SR227"", ""SR228"", ""SR229"", ""SR230"", ""SR231"", ""SUAFI"", ""SUAJU"", ""SUALO"", ""SUATA"", ""SUATB"", ""SUATC"", ""SUATD"", ""SUATE"", ""SUCAR"", ""SUCOI"", ""SUCON"", ""SUCOR"", ""SUCOT"", ""SUCTI"", ""SUDEC"", ""SUDES"", ""SUDIS"", ""SUEMP"", ""SUETI"", ""SUFES"", ""SUFUG"", ""SUFUS"", ""SUGET"", ""SUGTI"", ""SUHAB"", ""SUHAM"", ""SUHAR"", ""SUINP"", ""SUINT"", ""SUITI"", ""SUMAR"", ""SUMAV"", ""SUMCV"", ""SUMEF"", ""SUMPE"", ""SUNGE"", ""SUNSE"", ""SUOPE"", ""SUPEN"", ""SUPLA"", ""SUPOT"", ""SUPSO"", ""SUPUJ"", ""SURBE"", ""SUREB"", ""SUREC"", ""SUREL"", ""SUREP"", ""SURET"", ""SURIC"", ""SUSAN"", ""SUSEC"", ""SUSEG"", ""SUTEN"", ""SUVOP"", ""VICOP"", ""VICOR"", ""VIFIC"", ""VIFUG"", ""VIGOV"", ""VILOG"", ""VINER"", ""VIPES"", ""VITEC"", ""VITER"", ""VIVAR""}) 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""REMCO""}) 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEACE""}) 
+ nu_unde_ltco_fisica == ""5349"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEATE""}) 
+ nu_unde_ltco_fisica == ""5467"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEMCO""}) 
+ nu_unde_ltco_fisica == ""5517"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""GEPVA""}) 
+ nu_unde_ltco == ""5551"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEPUB""}) 
+ nu_unde_ltco_fisica == ""5583"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEOPT""}) 
+ nu_unde_ltco_fisica == ""5624"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUEMP""}) 
+ nu_unde_ltco_fisica == ""5720"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUPVA""}) 
+ nu_unde_ltco_fisica == ""5722"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEPOP""}) 
+ nu_unde_ltco_fisica == ""5781"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUMEP""}) 
+ nu_unde_ltco_fisica == ""5795"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""CNBND""}) 
+ nu_unde_ltco_fisica == ""7006"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2001"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2029"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2037"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2048""))"
+SIAUP,SIAUP_PERFIL3,PERFIL,757,"
+---------------Regra---------------
+((sg_unde_ltco.in({""AG"", ""ASIMP"", ""AUDAT"", ""AUDES"", ""AUDIR"", ""AUDIT"", ""AUDRE"", ""AUDTI"", ""CEATI"", ""CEBND"", ""CECVS"", ""CEFUS"", ""CEHOP"", ""CEMCO"", ""CEMOF"", ""CEOUV"", ""CEPCO"", ""CEPES"", ""CEPSO"", ""CEPTI"", ""CERAT"", ""CERIS"", ""CESEG"", ""CETEC"", ""CETES"", ""CETNE"", ""CIPES"", ""CIREC"", ""CITDI"", ""COADM"", ""COAUD"", ""COFIS"", ""DECAR"", ""DECEV"", ""DECON"", ""DECOP"", ""DECOR"", ""DEFIN"", ""DEFUS"", ""DEGAN"", ""DEGOV"", ""DEHAB"", ""DEMAC"", ""DEOPE"", ""DEORE"", ""DEPES"", ""DESAN"", ""DESCO"", ""DETEC"", ""DETER"", ""DIGER"", ""DIJUR"", ""DINOV"", ""DIPAR"", ""EREUA"", ""ERJAP"", ""ERVEN"", ""GAPRE"", ""GEABR"", ""GEAFE"", ""GEAGO"", ""GEAJU"", ""GEALO"", ""GEALT"", ""GEAMA"", ""GEAMG"", ""GEAMP"", ""GEARE"", ""GEARJ"", ""GEARQ"", ""GEART"", ""GEASP"", ""GEAST"", ""GEATI"", ""GEATO"", ""GEATS"", ""GEAVO"", ""GEBAN"", ""GEBES"", ""GECAC"", ""GECAF"", ""GECAM"", ""GECAN"", ""GECAR"", ""GECAT"", ""GECEA"", ""GECEP"", ""GECER"", ""GECGO"", ""GECIS"", ""GECME"", ""GECOA"", ""GECOC"", ""GECOE"", ""GECOG"", ""GECOL"", ""GECOM"", ""GECOP"", ""GECOR"", ""GECOT"", ""GECRI"", ""GECRM"", ""GECTE"", ""GECTI"", ""GECVA"", ""GEDEC"", ""GEDEF"", ""GEDEP"", ""GEDTI"", ""GEDUA"", ""GEDUB"", ""GEDUC"", ""GEDUD"", ""GEDUE"", ""GEECO"", ""GEEMP"", ""GEESC"", ""GEEST"", ""GEFES"", ""GEFIN"", ""GEFIP"", ""GEFIX"", ""GEFOM"", ""GEFOP"", ""GEFUS"", ""GEGAC"", ""GEGAN"", ""GEGAP"", ""GEGAT"", ""GEGRO"", ""GEHUR"", ""GEICI"", ""GEICO"", ""GEICV"", ""GEIFI"", ""GEIMP"", ""GEINC"", ""GEINF"", ""GEINV"", ""GEIPA"", ""GEIPT"", ""GEJUD"", ""GELIT"", ""GELOG"", ""GELOT"", ""GEMCV"", ""GEMEA"", ""GEMGE"", ""GEMOB"", ""GEMOC"", ""GEMOD"", ""GEMOG"", ""GEMON"", ""GEMOR"", ""GEMPE"", ""GEMPF"", ""GEMPJ"", ""GENAC"", ""GENAT"", ""GENEF"", ""GENEP"", ""GENIT"", ""GENOA"", ""GENOR"", ""GENSE"", ""GEOMI"", ""GEOPE"", ""GEORC"", ""GEOSI"", ""GEOTI"", ""GEPAD"", ""GEPAE"", ""GEPAR"", ""GEPAS"", ""GEPEC"", ""GEPES"", ""GEPEV"", ""GEPJO"", ""GEPLA"", ""GEPOS"", ""GEPOT"", ""GEPRE"", ""GEPSO"", ""GEPTE"", ""GEPUP"", ""GERAC"", ""GERAT"", ""GERED"", ""GEREL"", ""GEREM"", ""GEREP"", ""GERET"", ""GERFU"", ""GERID"", ""GERIM"", ""GERIN"", ""GERIV"", ""GEROP"", ""GERPA"", ""GERSA"", ""GERSE"", ""GERTI"", ""GESAN"", ""GESAP"", ""GESEC"", ""GESED"", ""GESEF"", ""GESEM"", ""GESET"", ""GESFI"", ""GESIG"", ""GESIR"", ""GESPJ"", ""GESTE"", ""GESTO"", ""GESUP"", ""GETEN"", ""GETER"", ""GETRE"", ""GETRI"", ""GEVAR"", ""GICAC"", ""GICET"", ""GICOM"", ""GICOT"", ""GIDUR"", ""GIFUG"", ""GIFUS"", ""GIICP"", ""GILIC"", ""GILIE"", ""GILOG"", ""GIPES"", ""GIPSO"", ""GIREC"", ""GIRET"", ""GIRIS"", ""GISEG"", ""GITEC"", ""JURIR"", ""MESAM"", ""OUVID"", ""PA"", ""PAB"", ""PEAGR"", ""PEAPF"", ""PEATE"", ""PEBSL"", ""PECAC"", ""PECAD"", ""PECOC"", ""PEDEP"", ""PEFIN"", ""PEFUG"", ""PEGOV"", ""PEJUD"", ""PEOPI"", ""PEPAN"", ""PESCC"", ""PRESI"", ""REAUD"", ""RECOC"", ""RECOL"", ""RECOM"", ""RECOV"", ""REDAD"", ""REDUR"", ""REICP"", ""REIMP"", ""REJUR"", ""RELIE"", ""RELOG"", ""REMCO"", ""REPES"", ""REPSO"", ""REREC"", ""RERET"", ""RESEC"", ""RESEG"", ""RETEC"", ""RETNE"", ""SG204"", ""SG212"", ""SG213"", ""SN"", ""SR099"", ""SR101"", ""SR102"", ""SR103"", ""SR104"", ""SR105"", ""SR107"", ""SR108"", ""SR109"", ""SR110"", ""SR112"", ""SR113"", ""SR114"", ""SR115"", ""SR117"", ""SR120"", ""SR121"", ""SR122"", ""SR123"", ""SR129"", ""SR131"", ""SR132"", ""SR133"", ""SR137"", ""SR138"", ""SR141"", ""SR142"", ""SR145"", ""SR146"", ""SR148"", ""SR149"", ""SR150"", ""SR151"", ""SR152"", ""SR153"", ""SR154"", ""SR155"", ""SR156"", ""SR157"", ""SR158"", ""SR159"", ""SR160"", ""SR162"", ""SR163"", ""SR164"", ""SR165"", ""SR166"", ""SR167"", ""SR168"", ""SR169"", ""SR170"", ""SR171"", ""SR173"", ""SR174"", ""SR177"", ""SR178"", ""SR179"", ""SR181"", ""SR182"", ""SR183"", ""SR184"", ""SR185"", ""SR186"", ""SR187"", ""SR188"", ""SR189"", ""SR190"", ""SR191"", ""SR192"", ""SR193"", ""SR194"", ""SR195"", ""SR196"", ""SR197"", ""SR199"", ""SR200"", ""SR201"", ""SR202"", ""SR203"", ""SR204"", ""SR205"", ""SR206"", ""SR207"", ""SR208"", ""SR209"", ""SR210"", ""SR211"", ""SR212"", ""SR213"", ""SR214"", ""SR215"", ""SR216"", ""SR217"", ""SR218"", ""SR219"", ""SR220"", ""SR221"", ""SR222"", ""SR223"", ""SR224"", ""SR225"", ""SR226"", ""SR227"", ""SR228"", ""SR229"", ""SR230"", ""SR231"", ""SUAFI"", ""SUAJU"", ""SUALO"", ""SUATA"", ""SUATB"", ""SUATC"", ""SUATD"", ""SUATE"", ""SUCAR"", ""SUCOI"", ""SUCON"", ""SUCOR"", ""SUCOT"", ""SUCTI"", ""SUDEC"", ""SUDES"", ""SUDIS"", ""SUEMP"", ""SUETI"", ""SUFES"", ""SUFUG"", ""SUFUS"", ""SUGET"", ""SUGTI"", ""SUHAB"", ""SUHAM"", ""SUHAR"", ""SUINP"", ""SUINT"", ""SUITI"", ""SUMAR"", ""SUMAV"", ""SUMCV"", ""SUMEF"", ""SUMPE"", ""SUNGE"", ""SUNSE"", ""SUOPE"", ""SUPEN"", ""SUPLA"", ""SUPOT"", ""SUPSO"", ""SUPUJ"", ""SURBE"", ""SUREB"", ""SUREC"", ""SUREL"", ""SUREP"", ""SURET"", ""SURIC"", ""SUSAN"", ""SUSEC"", ""SUSEG"", ""SUTEN"", ""SUVOP"", ""VICOP"", ""VICOR"", ""VIFIC"", ""VIFUG"", ""VIGOV"", ""VILOG"", ""VINER"", ""VIPES"", ""VITEC"", ""VITER"", ""VIVAR""}) 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""REMCO""}) 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEACE""}) 
+ nu_unde_ltco_fisica == ""5349"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEATE""}) 
+ nu_unde_ltco_fisica == ""5467"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEMCO""}) 
+ nu_unde_ltco_fisica == ""5517"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""GEPVA""}) 
+ nu_unde_ltco == ""5551"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEPUB""}) 
+ nu_unde_ltco_fisica == ""5583"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEOPT""}) 
+ nu_unde_ltco_fisica == ""5624"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUEMP""}) 
+ nu_unde_ltco_fisica == ""5720"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUPVA""}) 
+ nu_unde_ltco_fisica == ""5722"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEPOP""}) 
+ nu_unde_ltco_fisica == ""5781"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUMEP""}) 
+ nu_unde_ltco_fisica == ""5795"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""CNBND""}) 
+ nu_unde_ltco_fisica == ""7006"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2001"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2029"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2037"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2048""))"
+SIAUP,SIAUP_PERFIL3A,PERFIL,3304,"
+---------------Regra---------------
+((sg_unde_ltco.in({""AG"", ""ASIMP"", ""AUDAT"", ""AUDES"", ""AUDIR"", ""AUDIT"", ""AUDRE"", ""AUDTI"", ""CEATI"", ""CEBND"", ""CECVS"", ""CEFUS"", ""CEHOP"", ""CEMCO"", ""CEMOF"", ""CEOUV"", ""CEPCO"", ""CEPES"", ""CEPSO"", ""CEPTI"", ""CERAT"", ""CERIS"", ""CESEG"", ""CETEC"", ""CETES"", ""CETNE"", ""CIPES"", ""CIREC"", ""CITDI"", ""COADM"", ""COAUD"", ""COFIS"", ""DECAR"", ""DECEV"", ""DECON"", ""DECOP"", ""DECOR"", ""DEFIN"", ""DEFUS"", ""DEGAN"", ""DEGOV"", ""DEHAB"", ""DEMAC"", ""DEOPE"", ""DEORE"", ""DEPES"", ""DESAN"", ""DESCO"", ""DETEC"", ""DETER"", ""DIGER"", ""DIJUR"", ""DINOV"", ""DIPAR"", ""EREUA"", ""ERJAP"", ""ERVEN"", ""GAPRE"", ""GEABR"", ""GEAFE"", ""GEAGO"", ""GEAJU"", ""GEALO"", ""GEALT"", ""GEAMA"", ""GEAMG"", ""GEAMP"", ""GEARE"", ""GEARJ"", ""GEARQ"", ""GEART"", ""GEASP"", ""GEAST"", ""GEATI"", ""GEATO"", ""GEATS"", ""GEAVO"", ""GEBAN"", ""GEBES"", ""GECAC"", ""GECAF"", ""GECAM"", ""GECAN"", ""GECAR"", ""GECAT"", ""GECEA"", ""GECEP"", ""GECER"", ""GECGO"", ""GECIS"", ""GECME"", ""GECOA"", ""GECOC"", ""GECOE"", ""GECOG"", ""GECOL"", ""GECOM"", ""GECOP"", ""GECOR"", ""GECOT"", ""GECRI"", ""GECRM"", ""GECTE"", ""GECTI"", ""GECVA"", ""GEDEC"", ""GEDEF"", ""GEDEP"", ""GEDTI"", ""GEDUA"", ""GEDUB"", ""GEDUC"", ""GEDUD"", ""GEDUE"", ""GEECO"", ""GEEMP"", ""GEESC"", ""GEEST"", ""GEFES"", ""GEFIN"", ""GEFIP"", ""GEFIX"", ""GEFOM"", ""GEFOP"", ""GEFUS"", ""GEGAC"", ""GEGAN"", ""GEGAP"", ""GEGAT"", ""GEGRO"", ""GEHUR"", ""GEICI"", ""GEICO"", ""GEICV"", ""GEIFI"", ""GEIMP"", ""GEINC"", ""GEINF"", ""GEINV"", ""GEIPA"", ""GEIPT"", ""GEJUD"", ""GELIT"", ""GELOG"", ""GELOT"", ""GEMCV"", ""GEMEA"", ""GEMGE"", ""GEMOB"", ""GEMOC"", ""GEMOD"", ""GEMOG"", ""GEMON"", ""GEMOR"", ""GEMPE"", ""GEMPF"", ""GEMPJ"", ""GENAC"", ""GENAT"", ""GENEF"", ""GENEP"", ""GENIT"", ""GENOA"", ""GENOR"", ""GENSE"", ""GEOMI"", ""GEOPE"", ""GEORC"", ""GEOSI"", ""GEOTI"", ""GEPAD"", ""GEPAE"", ""GEPAR"", ""GEPAS"", ""GEPEC"", ""GEPES"", ""GEPEV"", ""GEPJO"", ""GEPLA"", ""GEPOS"", ""GEPOT"", ""GEPRE"", ""GEPSO"", ""GEPTE"", ""GEPUP"", ""GERAC"", ""GERAT"", ""GERED"", ""GEREL"", ""GEREM"", ""GEREP"", ""GERET"", ""GERFU"", ""GERID"", ""GERIM"", ""GERIN"", ""GERIV"", ""GEROP"", ""GERPA"", ""GERSA"", ""GERSE"", ""GERTI"", ""GESAN"", ""GESAP"", ""GESEC"", ""GESED"", ""GESEF"", ""GESEM"", ""GESET"", ""GESFI"", ""GESIG"", ""GESIR"", ""GESPJ"", ""GESTE"", ""GESTO"", ""GESUP"", ""GETEN"", ""GETER"", ""GETRE"", ""GETRI"", ""GEVAR"", ""GICAC"", ""GICET"", ""GICOM"", ""GICOT"", ""GIDUR"", ""GIFUG"", ""GIFUS"", ""GIICP"", ""GILIC"", ""GILIE"", ""GILOG"", ""GIPES"", ""GIPSO"", ""GIREC"", ""GIRET"", ""GIRIS"", ""GISEG"", ""GITEC"", ""JURIR"", ""MESAM"", ""OUVID"", ""PA"", ""PAB"", ""PEAGR"", ""PEAPF"", ""PEATE"", ""PEBSL"", ""PECAC"", ""PECAD"", ""PECOC"", ""PEDEP"", ""PEFIN"", ""PEFUG"", ""PEGOV"", ""PEJUD"", ""PEOPI"", ""PEPAN"", ""PESCC"", ""PRESI"", ""REAUD"", ""RECOC"", ""RECOL"", ""RECOM"", ""RECOV"", ""REDAD"", ""REDUR"", ""REICP"", ""REIMP"", ""REJUR"", ""RELIE"", ""RELOG"", ""REMCO"", ""REPES"", ""REPSO"", ""REREC"", ""RERET"", ""RESEC"", ""RESEG"", ""RETEC"", ""RETNE"", ""SG204"", ""SG212"", ""SG213"", ""SN"", ""SR099"", ""SR101"", ""SR102"", ""SR103"", ""SR104"", ""SR105"", ""SR107"", ""SR108"", ""SR109"", ""SR110"", ""SR112"", ""SR113"", ""SR114"", ""SR115"", ""SR117"", ""SR120"", ""SR121"", ""SR122"", ""SR123"", ""SR129"", ""SR131"", ""SR132"", ""SR133"", ""SR137"", ""SR138"", ""SR141"", ""SR142"", ""SR145"", ""SR146"", ""SR148"", ""SR149"", ""SR150"", ""SR151"", ""SR152"", ""SR153"", ""SR154"", ""SR155"", ""SR156"", ""SR157"", ""SR158"", ""SR159"", ""SR160"", ""SR162"", ""SR163"", ""SR164"", ""SR165"", ""SR166"", ""SR167"", ""SR168"", ""SR169"", ""SR170"", ""SR171"", ""SR173"", ""SR174"", ""SR177"", ""SR178"", ""SR179"", ""SR181"", ""SR182"", ""SR183"", ""SR184"", ""SR185"", ""SR186"", ""SR187"", ""SR188"", ""SR189"", ""SR190"", ""SR191"", ""SR192"", ""SR193"", ""SR194"", ""SR195"", ""SR196"", ""SR197"", ""SR199"", ""SR200"", ""SR201"", ""SR202"", ""SR203"", ""SR204"", ""SR205"", ""SR206"", ""SR207"", ""SR208"", ""SR209"", ""SR210"", ""SR211"", ""SR212"", ""SR213"", ""SR214"", ""SR215"", ""SR216"", ""SR217"", ""SR218"", ""SR219"", ""SR220"", ""SR221"", ""SR222"", ""SR223"", ""SR224"", ""SR225"", ""SR226"", ""SR227"", ""SR228"", ""SR229"", ""SR230"", ""SR231"", ""SUAFI"", ""SUAJU"", ""SUALO"", ""SUATA"", ""SUATB"", ""SUATC"", ""SUATD"", ""SUATE"", ""SUCAR"", ""SUCOI"", ""SUCON"", ""SUCOR"", ""SUCOT"", ""SUCTI"", ""SUDEC"", ""SUDES"", ""SUDIS"", ""SUEMP"", ""SUETI"", ""SUFES"", ""SUFUG"", ""SUFUS"", ""SUGET"", ""SUGTI"", ""SUHAB"", ""SUHAM"", ""SUHAR"", ""SUINP"", ""SUINT"", ""SUITI"", ""SUMAR"", ""SUMAV"", ""SUMCV"", ""SUMEF"", ""SUMPE"", ""SUNGE"", ""SUNSE"", ""SUOPE"", ""SUPEN"", ""SUPLA"", ""SUPOT"", ""SUPSO"", ""SUPUJ"", ""SURBE"", ""SUREB"", ""SUREC"", ""SUREL"", ""SUREP"", ""SURET"", ""SURIC"", ""SUSAN"", ""SUSEC"", ""SUSEG"", ""SUTEN"", ""SUVOP"", ""VICOP"", ""VICOR"", ""VIFIC"", ""VIFUG"", ""VIGOV"", ""VILOG"", ""VINER"", ""VIPES"", ""VITEC"", ""VITER"", ""VIVAR""}) 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""REMCO""}) 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEACE""}) 
+ nu_unde_ltco_fisica == ""5349"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEATE""}) 
+ nu_unde_ltco_fisica == ""5467"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEMCO""}) 
+ nu_unde_ltco_fisica == ""5517"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""GEPVA""}) 
+ nu_unde_ltco == ""5551"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEPUB""}) 
+ nu_unde_ltco_fisica == ""5583"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEOPT""}) 
+ nu_unde_ltco_fisica == ""5624"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUEMP""}) 
+ nu_unde_ltco_fisica == ""5720"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUPVA""}) 
+ nu_unde_ltco_fisica == ""5722"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEPOP""}) 
+ nu_unde_ltco_fisica == ""5781"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUMEP""}) 
+ nu_unde_ltco_fisica == ""5795"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""CNBND""}) 
+ nu_unde_ltco_fisica == ""7006"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2001"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2029"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2037"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2048""))"
+SIAUP,SIAUP_PERFIL4,PERFIL,670,"
+---------------Regra---------------
+((sg_unde_ltco.in({""AG"", ""ASIMP"", ""AUDAT"", ""AUDES"", ""AUDIR"", ""AUDIT"", ""AUDRE"", ""AUDTI"", ""CEATI"", ""CEBND"", ""CECVS"", ""CEFUS"", ""CEHOP"", ""CEMCO"", ""CEMOF"", ""CEOUV"", ""CEPCO"", ""CEPES"", ""CEPSO"", ""CEPTI"", ""CERAT"", ""CERIS"", ""CESEG"", ""CETEC"", ""CETES"", ""CETNE"", ""CIPES"", ""CIREC"", ""CITDI"", ""COADM"", ""COAUD"", ""COFIS"", ""DECAR"", ""DECEV"", ""DECON"", ""DECOP"", ""DECOR"", ""DEFIN"", ""DEFUS"", ""DEGAN"", ""DEGOV"", ""DEHAB"", ""DEMAC"", ""DEOPE"", ""DEORE"", ""DEPES"", ""DESAN"", ""DESCO"", ""DETEC"", ""DETER"", ""DIGER"", ""DIJUR"", ""DINOV"", ""DIPAR"", ""EREUA"", ""ERJAP"", ""ERVEN"", ""GAPRE"", ""GEABR"", ""GEAFE"", ""GEAGO"", ""GEAJU"", ""GEALO"", ""GEALT"", ""GEAMA"", ""GEAMG"", ""GEAMP"", ""GEARE"", ""GEARJ"", ""GEARQ"", ""GEART"", ""GEASP"", ""GEAST"", ""GEATI"", ""GEATO"", ""GEATS"", ""GEAVO"", ""GEBAN"", ""GEBES"", ""GECAC"", ""GECAF"", ""GECAM"", ""GECAN"", ""GECAR"", ""GECAT"", ""GECEA"", ""GECEP"", ""GECER"", ""GECGO"", ""GECIS"", ""GECME"", ""GECOA"", ""GECOC"", ""GECOE"", ""GECOG"", ""GECOL"", ""GECOM"", ""GECOP"", ""GECOR"", ""GECOT"", ""GECRI"", ""GECRM"", ""GECTE"", ""GECTI"", ""GECVA"", ""GEDEC"", ""GEDEF"", ""GEDEP"", ""GEDTI"", ""GEDUA"", ""GEDUB"", ""GEDUC"", ""GEDUD"", ""GEDUE"", ""GEECO"", ""GEEMP"", ""GEESC"", ""GEEST"", ""GEFES"", ""GEFIN"", ""GEFIP"", ""GEFIX"", ""GEFOM"", ""GEFOP"", ""GEFUS"", ""GEGAC"", ""GEGAN"", ""GEGAP"", ""GEGAT"", ""GEGRO"", ""GEHUR"", ""GEICI"", ""GEICO"", ""GEICV"", ""GEIFI"", ""GEIMP"", ""GEINC"", ""GEINF"", ""GEINV"", ""GEIPA"", ""GEIPT"", ""GEJUD"", ""GELIT"", ""GELOG"", ""GELOT"", ""GEMCV"", ""GEMEA"", ""GEMGE"", ""GEMOB"", ""GEMOC"", ""GEMOD"", ""GEMOG"", ""GEMON"", ""GEMOR"", ""GEMPE"", ""GEMPF"", ""GEMPJ"", ""GENAC"", ""GENAT"", ""GENEF"", ""GENEP"", ""GENIT"", ""GENOA"", ""GENOR"", ""GENSE"", ""GEOMI"", ""GEOPE"", ""GEORC"", ""GEOSI"", ""GEOTI"", ""GEPAD"", ""GEPAE"", ""GEPAR"", ""GEPAS"", ""GEPEC"", ""GEPES"", ""GEPEV"", ""GEPJO"", ""GEPLA"", ""GEPOS"", ""GEPOT"", ""GEPRE"", ""GEPSO"", ""GEPTE"", ""GEPUP"", ""GERAC"", ""GERAT"", ""GERED"", ""GEREL"", ""GEREM"", ""GEREP"", ""GERET"", ""GERFU"", ""GERID"", ""GERIM"", ""GERIN"", ""GERIV"", ""GEROP"", ""GERPA"", ""GERSA"", ""GERSE"", ""GERTI"", ""GESAN"", ""GESAP"", ""GESEC"", ""GESED"", ""GESEF"", ""GESEM"", ""GESET"", ""GESFI"", ""GESIG"", ""GESIR"", ""GESPJ"", ""GESTE"", ""GESTO"", ""GESUP"", ""GETEN"", ""GETER"", ""GETRE"", ""GETRI"", ""GEVAR"", ""GICAC"", ""GICET"", ""GICOM"", ""GICOT"", ""GIDUR"", ""GIFUG"", ""GIFUS"", ""GIICP"", ""GILIC"", ""GILIE"", ""GILOG"", ""GIPES"", ""GIPSO"", ""GIREC"", ""GIRET"", ""GIRIS"", ""GISEG"", ""GITEC"", ""JURIR"", ""MESAM"", ""OUVID"", ""PA"", ""PAB"", ""PEAGR"", ""PEAPF"", ""PEATE"", ""PEBSL"", ""PECAC"", ""PECAD"", ""PECOC"", ""PEDEP"", ""PEFIN"", ""PEFUG"", ""PEGOV"", ""PEJUD"", ""PEOPI"", ""PEPAN"", ""PESCC"", ""PRESI"", ""REAUD"", ""RECOC"", ""RECOL"", ""RECOM"", ""RECOV"", ""REDAD"", ""REDUR"", ""REICP"", ""REIMP"", ""REJUR"", ""RELIE"", ""RELOG"", ""REMCO"", ""REPES"", ""REPSO"", ""REREC"", ""RERET"", ""RESEC"", ""RESEG"", ""RETEC"", ""RETNE"", ""SG204"", ""SG212"", ""SG213"", ""SN"", ""SR099"", ""SR101"", ""SR102"", ""SR103"", ""SR104"", ""SR105"", ""SR107"", ""SR108"", ""SR109"", ""SR110"", ""SR112"", ""SR113"", ""SR114"", ""SR115"", ""SR117"", ""SR120"", ""SR121"", ""SR122"", ""SR123"", ""SR129"", ""SR131"", ""SR132"", ""SR133"", ""SR137"", ""SR138"", ""SR141"", ""SR142"", ""SR145"", ""SR146"", ""SR148"", ""SR149"", ""SR150"", ""SR151"", ""SR152"", ""SR153"", ""SR154"", ""SR155"", ""SR156"", ""SR157"", ""SR158"", ""SR159"", ""SR160"", ""SR162"", ""SR163"", ""SR164"", ""SR165"", ""SR166"", ""SR167"", ""SR168"", ""SR169"", ""SR170"", ""SR171"", ""SR173"", ""SR174"", ""SR177"", ""SR178"", ""SR179"", ""SR181"", ""SR182"", ""SR183"", ""SR184"", ""SR185"", ""SR186"", ""SR187"", ""SR188"", ""SR189"", ""SR190"", ""SR191"", ""SR192"", ""SR193"", ""SR194"", ""SR195"", ""SR196"", ""SR197"", ""SR199"", ""SR200"", ""SR201"", ""SR202"", ""SR203"", ""SR204"", ""SR205"", ""SR206"", ""SR207"", ""SR208"", ""SR209"", ""SR210"", ""SR211"", ""SR212"", ""SR213"", ""SR214"", ""SR215"", ""SR216"", ""SR217"", ""SR218"", ""SR219"", ""SR220"", ""SR221"", ""SR222"", ""SR223"", ""SR224"", ""SR225"", ""SR226"", ""SR227"", ""SR228"", ""SR229"", ""SR230"", ""SR231"", ""SUAFI"", ""SUAJU"", ""SUALO"", ""SUATA"", ""SUATB"", ""SUATC"", ""SUATD"", ""SUATE"", ""SUCAR"", ""SUCOI"", ""SUCON"", ""SUCOR"", ""SUCOT"", ""SUCTI"", ""SUDEC"", ""SUDES"", ""SUDIS"", ""SUEMP"", ""SUETI"", ""SUFES"", ""SUFUG"", ""SUFUS"", ""SUGET"", ""SUGTI"", ""SUHAB"", ""SUHAM"", ""SUHAR"", ""SUINP"", ""SUINT"", ""SUITI"", ""SUMAR"", ""SUMAV"", ""SUMCV"", ""SUMEF"", ""SUMPE"", ""SUNGE"", ""SUNSE"", ""SUOPE"", ""SUPEN"", ""SUPLA"", ""SUPOT"", ""SUPSO"", ""SUPUJ"", ""SURBE"", ""SUREB"", ""SUREC"", ""SUREL"", ""SUREP"", ""SURET"", ""SURIC"", ""SUSAN"", ""SUSEC"", ""SUSEG"", ""SUTEN"", ""SUVOP"", ""VICOP"", ""VICOR"", ""VIFIC"", ""VIFUG"", ""VIGOV"", ""VILOG"", ""VINER"", ""VIPES"", ""VITEC"", ""VITER"", ""VIVAR""}) 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""REMCO""}) 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEACE""}) 
+ nu_unde_ltco_fisica == ""5349"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEATE""}) 
+ nu_unde_ltco_fisica == ""5467"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEMCO""}) 
+ nu_unde_ltco_fisica == ""5517"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""GEPVA""}) 
+ nu_unde_ltco == ""5551"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEPUB""}) 
+ nu_unde_ltco_fisica == ""5583"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEOPT""}) 
+ nu_unde_ltco_fisica == ""5624"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUEMP""}) 
+ nu_unde_ltco_fisica == ""5720"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUPVA""}) 
+ nu_unde_ltco_fisica == ""5722"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEPOP""}) 
+ nu_unde_ltco_fisica == ""5781"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUMEP""}) 
+ nu_unde_ltco_fisica == ""5795"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""CNBND""}) 
+ nu_unde_ltco_fisica == ""7006"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2001"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2029"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2037"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2048""))"
+SIAUP,SIAUP_PERFIL5,PERFIL,1403,"
+---------------Regra---------------
+((sg_unde_ltco.in({""AG"", ""ASIMP"", ""AUDAT"", ""AUDES"", ""AUDIR"", ""AUDIT"", ""AUDRE"", ""AUDTI"", ""CEATI"", ""CEBND"", ""CECVS"", ""CEFUS"", ""CEHOP"", ""CEMCO"", ""CEMOF"", ""CEOUV"", ""CEPCO"", ""CEPES"", ""CEPSO"", ""CEPTI"", ""CERAT"", ""CERIS"", ""CESEG"", ""CETEC"", ""CETES"", ""CETNE"", ""CIPES"", ""CIREC"", ""CITDI"", ""COADM"", ""COAUD"", ""COFIS"", ""DECAR"", ""DECEV"", ""DECON"", ""DECOP"", ""DECOR"", ""DEFIN"", ""DEFUS"", ""DEGAN"", ""DEGOV"", ""DEHAB"", ""DEMAC"", ""DEOPE"", ""DEORE"", ""DEPES"", ""DESAN"", ""DESCO"", ""DETEC"", ""DETER"", ""DIGER"", ""DIJUR"", ""DINOV"", ""DIPAR"", ""EREUA"", ""ERJAP"", ""ERVEN"", ""GAPRE"", ""GEABR"", ""GEAFE"", ""GEAGO"", ""GEAJU"", ""GEALO"", ""GEALT"", ""GEAMA"", ""GEAMG"", ""GEAMP"", ""GEARE"", ""GEARJ"", ""GEARQ"", ""GEART"", ""GEASP"", ""GEAST"", ""GEATI"", ""GEATO"", ""GEATS"", ""GEAVO"", ""GEBAN"", ""GEBES"", ""GECAC"", ""GECAF"", ""GECAM"", ""GECAN"", ""GECAR"", ""GECAT"", ""GECEA"", ""GECEP"", ""GECER"", ""GECGO"", ""GECIS"", ""GECME"", ""GECOA"", ""GECOC"", ""GECOE"", ""GECOG"", ""GECOL"", ""GECOM"", ""GECOP"", ""GECOR"", ""GECOT"", ""GECRI"", ""GECRM"", ""GECTE"", ""GECTI"", ""GECVA"", ""GEDEC"", ""GEDEF"", ""GEDEP"", ""GEDTI"", ""GEDUA"", ""GEDUB"", ""GEDUC"", ""GEDUD"", ""GEDUE"", ""GEECO"", ""GEEMP"", ""GEESC"", ""GEEST"", ""GEFES"", ""GEFIN"", ""GEFIP"", ""GEFIX"", ""GEFOM"", ""GEFOP"", ""GEFUS"", ""GEGAC"", ""GEGAN"", ""GEGAP"", ""GEGAT"", ""GEGRO"", ""GEHUR"", ""GEICI"", ""GEICO"", ""GEICV"", ""GEIFI"", ""GEIMP"", ""GEINC"", ""GEINF"", ""GEINV"", ""GEIPA"", ""GEIPT"", ""GEJUD"", ""GELIT"", ""GELOG"", ""GELOT"", ""GEMCV"", ""GEMEA"", ""GEMGE"", ""GEMOB"", ""GEMOC"", ""GEMOD"", ""GEMOG"", ""GEMON"", ""GEMOR"", ""GEMPE"", ""GEMPF"", ""GEMPJ"", ""GENAC"", ""GENAT"", ""GENEF"", ""GENEP"", ""GENIT"", ""GENOA"", ""GENOR"", ""GENSE"", ""GEOMI"", ""GEOPE"", ""GEORC"", ""GEOSI"", ""GEOTI"", ""GEPAD"", ""GEPAE"", ""GEPAR"", ""GEPAS"", ""GEPEC"", ""GEPES"", ""GEPEV"", ""GEPJO"", ""GEPLA"", ""GEPOS"", ""GEPOT"", ""GEPRE"", ""GEPSO"", ""GEPTE"", ""GEPUP"", ""GERAC"", ""GERAT"", ""GERED"", ""GEREL"", ""GEREM"", ""GEREP"", ""GERET"", ""GERFU"", ""GERID"", ""GERIM"", ""GERIN"", ""GERIV"", ""GEROP"", ""GERPA"", ""GERSA"", ""GERSE"", ""GERTI"", ""GESAN"", ""GESAP"", ""GESEC"", ""GESED"", ""GESEF"", ""GESEM"", ""GESET"", ""GESFI"", ""GESIG"", ""GESIR"", ""GESPJ"", ""GESTE"", ""GESTO"", ""GESUP"", ""GETEN"", ""GETER"", ""GETRE"", ""GETRI"", ""GEVAR"", ""GICAC"", ""GICET"", ""GICOM"", ""GICOT"", ""GIDUR"", ""GIFUG"", ""GIFUS"", ""GIICP"", ""GILIC"", ""GILIE"", ""GILOG"", ""GIPES"", ""GIPSO"", ""GIREC"", ""GIRET"", ""GIRIS"", ""GISEG"", ""GITEC"", ""JURIR"", ""MESAM"", ""OUVID"", ""PA"", ""PAB"", ""PEAGR"", ""PEAPF"", ""PEATE"", ""PEBSL"", ""PECAC"", ""PECAD"", ""PECOC"", ""PEDEP"", ""PEFIN"", ""PEFUG"", ""PEGOV"", ""PEJUD"", ""PEOPI"", ""PEPAN"", ""PESCC"", ""PRESI"", ""REAUD"", ""RECOC"", ""RECOL"", ""RECOM"", ""RECOV"", ""REDAD"", ""REDUR"", ""REICP"", ""REIMP"", ""REJUR"", ""RELIE"", ""RELOG"", ""REMCO"", ""REPES"", ""REPSO"", ""REREC"", ""RERET"", ""RESEC"", ""RESEG"", ""RETEC"", ""RETNE"", ""SG204"", ""SG212"", ""SG213"", ""SN"", ""SR099"", ""SR101"", ""SR102"", ""SR103"", ""SR104"", ""SR105"", ""SR107"", ""SR108"", ""SR109"", ""SR110"", ""SR112"", ""SR113"", ""SR114"", ""SR115"", ""SR117"", ""SR120"", ""SR121"", ""SR122"", ""SR123"", ""SR129"", ""SR131"", ""SR132"", ""SR133"", ""SR137"", ""SR138"", ""SR141"", ""SR142"", ""SR145"", ""SR146"", ""SR148"", ""SR149"", ""SR150"", ""SR151"", ""SR152"", ""SR153"", ""SR154"", ""SR155"", ""SR156"", ""SR157"", ""SR158"", ""SR159"", ""SR160"", ""SR162"", ""SR163"", ""SR164"", ""SR165"", ""SR166"", ""SR167"", ""SR168"", ""SR169"", ""SR170"", ""SR171"", ""SR173"", ""SR174"", ""SR177"", ""SR178"", ""SR179"", ""SR181"", ""SR182"", ""SR183"", ""SR184"", ""SR185"", ""SR186"", ""SR187"", ""SR188"", ""SR189"", ""SR190"", ""SR191"", ""SR192"", ""SR193"", ""SR194"", ""SR195"", ""SR196"", ""SR197"", ""SR199"", ""SR200"", ""SR201"", ""SR202"", ""SR203"", ""SR204"", ""SR205"", ""SR206"", ""SR207"", ""SR208"", ""SR209"", ""SR210"", ""SR211"", ""SR212"", ""SR213"", ""SR214"", ""SR215"", ""SR216"", ""SR217"", ""SR218"", ""SR219"", ""SR220"", ""SR221"", ""SR222"", ""SR223"", ""SR224"", ""SR225"", ""SR226"", ""SR227"", ""SR228"", ""SR229"", ""SR230"", ""SR231"", ""SUAFI"", ""SUAJU"", ""SUALO"", ""SUATA"", ""SUATB"", ""SUATC"", ""SUATD"", ""SUATE"", ""SUCAR"", ""SUCOI"", ""SUCON"", ""SUCOR"", ""SUCOT"", ""SUCTI"", ""SUDEC"", ""SUDES"", ""SUDIS"", ""SUEMP"", ""SUETI"", ""SUFES"", ""SUFUG"", ""SUFUS"", ""SUGET"", ""SUGTI"", ""SUHAB"", ""SUHAM"", ""SUHAR"", ""SUINP"", ""SUINT"", ""SUITI"", ""SUMAR"", ""SUMAV"", ""SUMCV"", ""SUMEF"", ""SUMPE"", ""SUNGE"", ""SUNSE"", ""SUOPE"", ""SUPEN"", ""SUPLA"", ""SUPOT"", ""SUPSO"", ""SUPUJ"", ""SURBE"", ""SUREB"", ""SUREC"", ""SUREL"", ""SUREP"", ""SURET"", ""SURIC"", ""SUSAN"", ""SUSEC"", ""SUSEG"", ""SUTEN"", ""SUVOP"", ""VICOP"", ""VICOR"", ""VIFIC"", ""VIFUG"", ""VIGOV"", ""VILOG"", ""VINER"", ""VIPES"", ""VITEC"", ""VITER"", ""VIVAR""}) 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""REMCO""}) 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEACE""}) 
+ nu_unde_ltco_fisica == ""5349"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEATE""}) 
+ nu_unde_ltco_fisica == ""5467"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEMCO""}) 
+ nu_unde_ltco_fisica == ""5517"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""GEPVA""}) 
+ nu_unde_ltco == ""5551"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEPUB""}) 
+ nu_unde_ltco_fisica == ""5583"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEOPT""}) 
+ nu_unde_ltco_fisica == ""5624"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUEMP""}) 
+ nu_unde_ltco_fisica == ""5720"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUPVA""}) 
+ nu_unde_ltco_fisica == ""5722"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEPOP""}) 
+ nu_unde_ltco_fisica == ""5781"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUMEP""}) 
+ nu_unde_ltco_fisica == ""5795"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""CNBND""}) 
+ nu_unde_ltco_fisica == ""7006"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2001"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2029"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2037"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2048""))"
+SIAUP,SIAUP_PERFIL6,PERFIL,260,"
+---------------Regra---------------
+((sg_unde_ltco.in({""AG"", ""ASIMP"", ""AUDAT"", ""AUDES"", ""AUDIR"", ""AUDIT"", ""AUDRE"", ""AUDTI"", ""CEATI"", ""CEBND"", ""CECVS"", ""CEFUS"", ""CEHOP"", ""CEMCO"", ""CEMOF"", ""CEOUV"", ""CEPCO"", ""CEPES"", ""CEPSO"", ""CEPTI"", ""CERAT"", ""CERIS"", ""CESEG"", ""CETEC"", ""CETES"", ""CETNE"", ""CIPES"", ""CIREC"", ""CITDI"", ""COADM"", ""COAUD"", ""COFIS"", ""DECAR"", ""DECEV"", ""DECON"", ""DECOP"", ""DECOR"", ""DEFIN"", ""DEFUS"", ""DEGAN"", ""DEGOV"", ""DEHAB"", ""DEMAC"", ""DEOPE"", ""DEORE"", ""DEPES"", ""DESAN"", ""DESCO"", ""DETEC"", ""DETER"", ""DIGER"", ""DIJUR"", ""DINOV"", ""DIPAR"", ""EREUA"", ""ERJAP"", ""ERVEN"", ""GAPRE"", ""GEABR"", ""GEAFE"", ""GEAGO"", ""GEAJU"", ""GEALO"", ""GEALT"", ""GEAMA"", ""GEAMG"", ""GEAMP"", ""GEARE"", ""GEARJ"", ""GEARQ"", ""GEART"", ""GEASP"", ""GEAST"", ""GEATI"", ""GEATO"", ""GEATS"", ""GEAVO"", ""GEBAN"", ""GEBES"", ""GECAC"", ""GECAF"", ""GECAM"", ""GECAN"", ""GECAR"", ""GECAT"", ""GECEA"", ""GECEP"", ""GECER"", ""GECGO"", ""GECIS"", ""GECME"", ""GECOA"", ""GECOC"", ""GECOE"", ""GECOG"", ""GECOL"", ""GECOM"", ""GECOP"", ""GECOR"", ""GECOT"", ""GECRI"", ""GECRM"", ""GECTE"", ""GECTI"", ""GECVA"", ""GEDEC"", ""GEDEF"", ""GEDEP"", ""GEDTI"", ""GEDUA"", ""GEDUB"", ""GEDUC"", ""GEDUD"", ""GEDUE"", ""GEECO"", ""GEEMP"", ""GEESC"", ""GEEST"", ""GEFES"", ""GEFIN"", ""GEFIP"", ""GEFIX"", ""GEFOM"", ""GEFOP"", ""GEFUS"", ""GEGAC"", ""GEGAN"", ""GEGAP"", ""GEGAT"", ""GEGRO"", ""GEHUR"", ""GEICI"", ""GEICO"", ""GEICV"", ""GEIFI"", ""GEIMP"", ""GEINC"", ""GEINF"", ""GEINV"", ""GEIPA"", ""GEIPT"", ""GEJUD"", ""GELIT"", ""GELOG"", ""GELOT"", ""GEMCV"", ""GEMEA"", ""GEMGE"", ""GEMOB"", ""GEMOC"", ""GEMOD"", ""GEMOG"", ""GEMON"", ""GEMOR"", ""GEMPE"", ""GEMPF"", ""GEMPJ"", ""GENAC"", ""GENAT"", ""GENEF"", ""GENEP"", ""GENIT"", ""GENOA"", ""GENOR"", ""GENSE"", ""GEOMI"", ""GEOPE"", ""GEORC"", ""GEOSI"", ""GEOTI"", ""GEPAD"", ""GEPAE"", ""GEPAR"", ""GEPAS"", ""GEPEC"", ""GEPES"", ""GEPEV"", ""GEPJO"", ""GEPLA"", ""GEPOS"", ""GEPOT"", ""GEPRE"", ""GEPSO"", ""GEPTE"", ""GEPUP"", ""GERAC"", ""GERAT"", ""GERED"", ""GEREL"", ""GEREM"", ""GEREP"", ""GERET"", ""GERFU"", ""GERID"", ""GERIM"", ""GERIN"", ""GERIV"", ""GEROP"", ""GERPA"", ""GERSA"", ""GERSE"", ""GERTI"", ""GESAN"", ""GESAP"", ""GESEC"", ""GESED"", ""GESEF"", ""GESEM"", ""GESET"", ""GESFI"", ""GESIG"", ""GESIR"", ""GESPJ"", ""GESTE"", ""GESTO"", ""GESUP"", ""GETEN"", ""GETER"", ""GETRE"", ""GETRI"", ""GEVAR"", ""GICAC"", ""GICET"", ""GICOM"", ""GICOT"", ""GIDUR"", ""GIFUG"", ""GIFUS"", ""GIICP"", ""GILIC"", ""GILIE"", ""GILOG"", ""GIPES"", ""GIPSO"", ""GIREC"", ""GIRET"", ""GIRIS"", ""GISEG"", ""GITEC"", ""JURIR"", ""MESAM"", ""OUVID"", ""PA"", ""PAB"", ""PEAGR"", ""PEAPF"", ""PEATE"", ""PEBSL"", ""PECAC"", ""PECAD"", ""PECOC"", ""PEDEP"", ""PEFIN"", ""PEFUG"", ""PEGOV"", ""PEJUD"", ""PEOPI"", ""PEPAN"", ""PESCC"", ""PRESI"", ""REAUD"", ""RECOC"", ""RECOL"", ""RECOM"", ""RECOV"", ""REDAD"", ""REDUR"", ""REICP"", ""REIMP"", ""REJUR"", ""RELIE"", ""RELOG"", ""REMCO"", ""REPES"", ""REPSO"", ""REREC"", ""RERET"", ""RESEC"", ""RESEG"", ""RETEC"", ""RETNE"", ""SG204"", ""SG212"", ""SG213"", ""SN"", ""SR099"", ""SR101"", ""SR102"", ""SR103"", ""SR104"", ""SR105"", ""SR107"", ""SR108"", ""SR109"", ""SR110"", ""SR112"", ""SR113"", ""SR114"", ""SR115"", ""SR117"", ""SR120"", ""SR121"", ""SR122"", ""SR123"", ""SR129"", ""SR131"", ""SR132"", ""SR133"", ""SR137"", ""SR138"", ""SR141"", ""SR142"", ""SR145"", ""SR146"", ""SR148"", ""SR149"", ""SR150"", ""SR151"", ""SR152"", ""SR153"", ""SR154"", ""SR155"", ""SR156"", ""SR157"", ""SR158"", ""SR159"", ""SR160"", ""SR162"", ""SR163"", ""SR164"", ""SR165"", ""SR166"", ""SR167"", ""SR168"", ""SR169"", ""SR170"", ""SR171"", ""SR173"", ""SR174"", ""SR177"", ""SR178"", ""SR179"", ""SR181"", ""SR182"", ""SR183"", ""SR184"", ""SR185"", ""SR186"", ""SR187"", ""SR188"", ""SR189"", ""SR190"", ""SR191"", ""SR192"", ""SR193"", ""SR194"", ""SR195"", ""SR196"", ""SR197"", ""SR199"", ""SR200"", ""SR201"", ""SR202"", ""SR203"", ""SR204"", ""SR205"", ""SR206"", ""SR207"", ""SR208"", ""SR209"", ""SR210"", ""SR211"", ""SR212"", ""SR213"", ""SR214"", ""SR215"", ""SR216"", ""SR217"", ""SR218"", ""SR219"", ""SR220"", ""SR221"", ""SR222"", ""SR223"", ""SR224"", ""SR225"", ""SR226"", ""SR227"", ""SR228"", ""SR229"", ""SR230"", ""SR231"", ""SUAFI"", ""SUAJU"", ""SUALO"", ""SUATA"", ""SUATB"", ""SUATC"", ""SUATD"", ""SUATE"", ""SUCAR"", ""SUCOI"", ""SUCON"", ""SUCOR"", ""SUCOT"", ""SUCTI"", ""SUDEC"", ""SUDES"", ""SUDIS"", ""SUEMP"", ""SUETI"", ""SUFES"", ""SUFUG"", ""SUFUS"", ""SUGET"", ""SUGTI"", ""SUHAB"", ""SUHAM"", ""SUHAR"", ""SUINP"", ""SUINT"", ""SUITI"", ""SUMAR"", ""SUMAV"", ""SUMCV"", ""SUMEF"", ""SUMPE"", ""SUNGE"", ""SUNSE"", ""SUOPE"", ""SUPEN"", ""SUPLA"", ""SUPOT"", ""SUPSO"", ""SUPUJ"", ""SURBE"", ""SUREB"", ""SUREC"", ""SUREL"", ""SUREP"", ""SURET"", ""SURIC"", ""SUSAN"", ""SUSEC"", ""SUSEG"", ""SUTEN"", ""SUVOP"", ""VICOP"", ""VICOR"", ""VIFIC"", ""VIFUG"", ""VIGOV"", ""VILOG"", ""VINER"", ""VIPES"", ""VITEC"", ""VITER"", ""VIVAR""}) 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""REMCO""}) 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEACE""}) 
+ nu_unde_ltco_fisica == ""5349"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEATE""}) 
+ nu_unde_ltco_fisica == ""5467"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEMCO""}) 
+ nu_unde_ltco_fisica == ""5517"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""GEPVA""}) 
+ nu_unde_ltco == ""5551"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEPUB""}) 
+ nu_unde_ltco_fisica == ""5583"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEOPT""}) 
+ nu_unde_ltco_fisica == ""5624"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUEMP""}) 
+ nu_unde_ltco_fisica == ""5720"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUPVA""}) 
+ nu_unde_ltco_fisica == ""5722"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEPOP""}) 
+ nu_unde_ltco_fisica == ""5781"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUMEP""}) 
+ nu_unde_ltco_fisica == ""5795"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""CNBND""}) 
+ nu_unde_ltco_fisica == ""7006"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2001"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2029"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2037"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2048""))"
+SIAUP,SIAUP_PERFIL7,PERFIL,7082,"
+---------------Regra---------------
+((sg_unde_ltco.in({""AG"", ""ASIMP"", ""AUDAT"", ""AUDES"", ""AUDIR"", ""AUDIT"", ""AUDRE"", ""AUDTI"", ""CEATI"", ""CEBND"", ""CECVS"", ""CEFUS"", ""CEHOP"", ""CEMCO"", ""CEMOF"", ""CEOUV"", ""CEPCO"", ""CEPES"", ""CEPSO"", ""CEPTI"", ""CERAT"", ""CERIS"", ""CESEG"", ""CETEC"", ""CETES"", ""CETNE"", ""CIPES"", ""CIREC"", ""CITDI"", ""COADM"", ""COAUD"", ""COFIS"", ""DECAR"", ""DECEV"", ""DECON"", ""DECOP"", ""DECOR"", ""DEFIN"", ""DEFUS"", ""DEGAN"", ""DEGOV"", ""DEHAB"", ""DEMAC"", ""DEOPE"", ""DEORE"", ""DEPES"", ""DESAN"", ""DESCO"", ""DETEC"", ""DETER"", ""DIGER"", ""DIJUR"", ""DINOV"", ""DIPAR"", ""EREUA"", ""ERJAP"", ""ERVEN"", ""GAPRE"", ""GEABR"", ""GEAFE"", ""GEAGO"", ""GEAJU"", ""GEALO"", ""GEALT"", ""GEAMA"", ""GEAMG"", ""GEAMP"", ""GEARE"", ""GEARJ"", ""GEARQ"", ""GEART"", ""GEASP"", ""GEAST"", ""GEATI"", ""GEATO"", ""GEATS"", ""GEAVO"", ""GEBAN"", ""GEBES"", ""GECAC"", ""GECAF"", ""GECAM"", ""GECAN"", ""GECAR"", ""GECAT"", ""GECEA"", ""GECEP"", ""GECER"", ""GECGO"", ""GECIS"", ""GECME"", ""GECOA"", ""GECOC"", ""GECOE"", ""GECOG"", ""GECOL"", ""GECOM"", ""GECOP"", ""GECOR"", ""GECOT"", ""GECRI"", ""GECRM"", ""GECTE"", ""GECTI"", ""GECVA"", ""GEDEC"", ""GEDEF"", ""GEDEP"", ""GEDTI"", ""GEDUA"", ""GEDUB"", ""GEDUC"", ""GEDUD"", ""GEDUE"", ""GEECO"", ""GEEMP"", ""GEESC"", ""GEEST"", ""GEFES"", ""GEFIN"", ""GEFIP"", ""GEFIX"", ""GEFOM"", ""GEFOP"", ""GEFUS"", ""GEGAC"", ""GEGAN"", ""GEGAP"", ""GEGAT"", ""GEGRO"", ""GEHUR"", ""GEICI"", ""GEICO"", ""GEICV"", ""GEIFI"", ""GEIMP"", ""GEINC"", ""GEINF"", ""GEINV"", ""GEIPA"", ""GEIPT"", ""GEJUD"", ""GELIT"", ""GELOG"", ""GELOT"", ""GEMCV"", ""GEMEA"", ""GEMGE"", ""GEMOB"", ""GEMOC"", ""GEMOD"", ""GEMOG"", ""GEMON"", ""GEMOR"", ""GEMPE"", ""GEMPF"", ""GEMPJ"", ""GENAC"", ""GENAT"", ""GENEF"", ""GENEP"", ""GENIT"", ""GENOA"", ""GENOR"", ""GENSE"", ""GEOMI"", ""GEOPE"", ""GEORC"", ""GEOSI"", ""GEOTI"", ""GEPAD"", ""GEPAE"", ""GEPAR"", ""GEPAS"", ""GEPEC"", ""GEPES"", ""GEPEV"", ""GEPJO"", ""GEPLA"", ""GEPOS"", ""GEPOT"", ""GEPRE"", ""GEPSO"", ""GEPTE"", ""GEPUP"", ""GERAC"", ""GERAT"", ""GERED"", ""GEREL"", ""GEREM"", ""GEREP"", ""GERET"", ""GERFU"", ""GERID"", ""GERIM"", ""GERIN"", ""GERIV"", ""GEROP"", ""GERPA"", ""GERSA"", ""GERSE"", ""GERTI"", ""GESAN"", ""GESAP"", ""GESEC"", ""GESED"", ""GESEF"", ""GESEM"", ""GESET"", ""GESFI"", ""GESIG"", ""GESIR"", ""GESPJ"", ""GESTE"", ""GESTO"", ""GESUP"", ""GETEN"", ""GETER"", ""GETRE"", ""GETRI"", ""GEVAR"", ""GICAC"", ""GICET"", ""GICOM"", ""GICOT"", ""GIDUR"", ""GIFUG"", ""GIFUS"", ""GIICP"", ""GILIC"", ""GILIE"", ""GILOG"", ""GIPES"", ""GIPSO"", ""GIREC"", ""GIRET"", ""GIRIS"", ""GISEG"", ""GITEC"", ""JURIR"", ""MESAM"", ""OUVID"", ""PA"", ""PAB"", ""PEAGR"", ""PEAPF"", ""PEATE"", ""PEBSL"", ""PECAC"", ""PECAD"", ""PECOC"", ""PEDEP"", ""PEFIN"", ""PEFUG"", ""PEGOV"", ""PEJUD"", ""PEOPI"", ""PEPAN"", ""PESCC"", ""PRESI"", ""REAUD"", ""RECOC"", ""RECOL"", ""RECOM"", ""RECOV"", ""REDAD"", ""REDUR"", ""REICP"", ""REIMP"", ""REJUR"", ""RELIE"", ""RELOG"", ""REMCO"", ""REPES"", ""REPSO"", ""REREC"", ""RERET"", ""RESEC"", ""RESEG"", ""RETEC"", ""RETNE"", ""SG204"", ""SG212"", ""SG213"", ""SN"", ""SR099"", ""SR101"", ""SR102"", ""SR103"", ""SR104"", ""SR105"", ""SR107"", ""SR108"", ""SR109"", ""SR110"", ""SR112"", ""SR113"", ""SR114"", ""SR115"", ""SR117"", ""SR120"", ""SR121"", ""SR122"", ""SR123"", ""SR129"", ""SR131"", ""SR132"", ""SR133"", ""SR137"", ""SR138"", ""SR141"", ""SR142"", ""SR145"", ""SR146"", ""SR148"", ""SR149"", ""SR150"", ""SR151"", ""SR152"", ""SR153"", ""SR154"", ""SR155"", ""SR156"", ""SR157"", ""SR158"", ""SR159"", ""SR160"", ""SR162"", ""SR163"", ""SR164"", ""SR165"", ""SR166"", ""SR167"", ""SR168"", ""SR169"", ""SR170"", ""SR171"", ""SR173"", ""SR174"", ""SR177"", ""SR178"", ""SR179"", ""SR181"", ""SR182"", ""SR183"", ""SR184"", ""SR185"", ""SR186"", ""SR187"", ""SR188"", ""SR189"", ""SR190"", ""SR191"", ""SR192"", ""SR193"", ""SR194"", ""SR195"", ""SR196"", ""SR197"", ""SR199"", ""SR200"", ""SR201"", ""SR202"", ""SR203"", ""SR204"", ""SR205"", ""SR206"", ""SR207"", ""SR208"", ""SR209"", ""SR210"", ""SR211"", ""SR212"", ""SR213"", ""SR214"", ""SR215"", ""SR216"", ""SR217"", ""SR218"", ""SR219"", ""SR220"", ""SR221"", ""SR222"", ""SR223"", ""SR224"", ""SR225"", ""SR226"", ""SR227"", ""SR228"", ""SR229"", ""SR230"", ""SR231"", ""SUAFI"", ""SUAJU"", ""SUALO"", ""SUATA"", ""SUATB"", ""SUATC"", ""SUATD"", ""SUATE"", ""SUCAR"", ""SUCOI"", ""SUCON"", ""SUCOR"", ""SUCOT"", ""SUCTI"", ""SUDEC"", ""SUDES"", ""SUDIS"", ""SUEMP"", ""SUETI"", ""SUFES"", ""SUFUG"", ""SUFUS"", ""SUGET"", ""SUGTI"", ""SUHAB"", ""SUHAM"", ""SUHAR"", ""SUINP"", ""SUINT"", ""SUITI"", ""SUMAR"", ""SUMAV"", ""SUMCV"", ""SUMEF"", ""SUMPE"", ""SUNGE"", ""SUNSE"", ""SUOPE"", ""SUPEN"", ""SUPLA"", ""SUPOT"", ""SUPSO"", ""SUPUJ"", ""SURBE"", ""SUREB"", ""SUREC"", ""SUREL"", ""SUREP"", ""SURET"", ""SURIC"", ""SUSAN"", ""SUSEC"", ""SUSEG"", ""SUTEN"", ""SUVOP"", ""VICOP"", ""VICOR"", ""VIFIC"", ""VIFUG"", ""VIGOV"", ""VILOG"", ""VINER"", ""VIPES"", ""VITEC"", ""VITER"", ""VIVAR""}) 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""REMCO""}) 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEACE""}) 
+ nu_unde_ltco_fisica == ""5349"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEATE""}) 
+ nu_unde_ltco_fisica == ""5467"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEMCO""}) 
+ nu_unde_ltco_fisica == ""5517"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""GEPVA""}) 
+ nu_unde_ltco == ""5551"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEPUB""}) 
+ nu_unde_ltco_fisica == ""5583"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEOPT""}) 
+ nu_unde_ltco_fisica == ""5624"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUEMP""}) 
+ nu_unde_ltco_fisica == ""5720"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUPVA""}) 
+ nu_unde_ltco_fisica == ""5722"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEPOP""}) 
+ nu_unde_ltco_fisica == ""5781"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUMEP""}) 
+ nu_unde_ltco_fisica == ""5795"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""CNBND""}) 
+ nu_unde_ltco_fisica == ""7006"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2001"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2029"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2037"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2048""))"
+SIAUP,SIAUP_PERFIL7A,PERFIL,173,"
+---------------Regra---------------
+((sg_unde_ltco.in({""AG"", ""ASIMP"", ""AUDAT"", ""AUDES"", ""AUDIR"", ""AUDIT"", ""AUDRE"", ""AUDTI"", ""CEATI"", ""CEBND"", ""CECVS"", ""CEFUS"", ""CEHOP"", ""CEMCO"", ""CEMOF"", ""CEOUV"", ""CEPCO"", ""CEPES"", ""CEPSO"", ""CEPTI"", ""CERAT"", ""CERIS"", ""CESEG"", ""CETEC"", ""CETES"", ""CETNE"", ""CIPES"", ""CIREC"", ""CITDI"", ""COADM"", ""COAUD"", ""COFIS"", ""DECAR"", ""DECEV"", ""DECON"", ""DECOP"", ""DECOR"", ""DEFIN"", ""DEFUS"", ""DEGAN"", ""DEGOV"", ""DEHAB"", ""DEMAC"", ""DEOPE"", ""DEORE"", ""DEPES"", ""DESAN"", ""DESCO"", ""DETEC"", ""DETER"", ""DIGER"", ""DIJUR"", ""DINOV"", ""DIPAR"", ""EREUA"", ""ERJAP"", ""ERVEN"", ""GAPRE"", ""GEABR"", ""GEAFE"", ""GEAGO"", ""GEAJU"", ""GEALO"", ""GEALT"", ""GEAMA"", ""GEAMG"", ""GEAMP"", ""GEARE"", ""GEARJ"", ""GEARQ"", ""GEART"", ""GEASP"", ""GEAST"", ""GEATI"", ""GEATO"", ""GEATS"", ""GEAVO"", ""GEBAN"", ""GEBES"", ""GECAC"", ""GECAF"", ""GECAM"", ""GECAN"", ""GECAR"", ""GECAT"", ""GECEA"", ""GECEP"", ""GECER"", ""GECGO"", ""GECIS"", ""GECME"", ""GECOA"", ""GECOC"", ""GECOE"", ""GECOG"", ""GECOL"", ""GECOM"", ""GECOP"", ""GECOR"", ""GECOT"", ""GECRI"", ""GECRM"", ""GECTE"", ""GECTI"", ""GECVA"", ""GEDEC"", ""GEDEF"", ""GEDEP"", ""GEDTI"", ""GEDUA"", ""GEDUB"", ""GEDUC"", ""GEDUD"", ""GEDUE"", ""GEECO"", ""GEEMP"", ""GEESC"", ""GEEST"", ""GEFES"", ""GEFIN"", ""GEFIP"", ""GEFIX"", ""GEFOM"", ""GEFOP"", ""GEFUS"", ""GEGAC"", ""GEGAN"", ""GEGAP"", ""GEGAT"", ""GEGRO"", ""GEHUR"", ""GEICI"", ""GEICO"", ""GEICV"", ""GEIFI"", ""GEIMP"", ""GEINC"", ""GEINF"", ""GEINV"", ""GEIPA"", ""GEIPT"", ""GEJUD"", ""GELIT"", ""GELOG"", ""GELOT"", ""GEMCV"", ""GEMEA"", ""GEMGE"", ""GEMOB"", ""GEMOC"", ""GEMOD"", ""GEMOG"", ""GEMON"", ""GEMOR"", ""GEMPE"", ""GEMPF"", ""GEMPJ"", ""GENAC"", ""GENAT"", ""GENEF"", ""GENEP"", ""GENIT"", ""GENOA"", ""GENOR"", ""GENSE"", ""GEOMI"", ""GEOPE"", ""GEORC"", ""GEOSI"", ""GEOTI"", ""GEPAD"", ""GEPAE"", ""GEPAR"", ""GEPAS"", ""GEPEC"", ""GEPES"", ""GEPEV"", ""GEPJO"", ""GEPLA"", ""GEPOS"", ""GEPOT"", ""GEPRE"", ""GEPSO"", ""GEPTE"", ""GEPUP"", ""GERAC"", ""GERAT"", ""GERED"", ""GEREL"", ""GEREM"", ""GEREP"", ""GERET"", ""GERFU"", ""GERID"", ""GERIM"", ""GERIN"", ""GERIV"", ""GEROP"", ""GERPA"", ""GERSA"", ""GERSE"", ""GERTI"", ""GESAN"", ""GESAP"", ""GESEC"", ""GESED"", ""GESEF"", ""GESEM"", ""GESET"", ""GESFI"", ""GESIG"", ""GESIR"", ""GESPJ"", ""GESTE"", ""GESTO"", ""GESUP"", ""GETEN"", ""GETER"", ""GETRE"", ""GETRI"", ""GEVAR"", ""GICAC"", ""GICET"", ""GICOM"", ""GICOT"", ""GIDUR"", ""GIFUG"", ""GIFUS"", ""GIICP"", ""GILIC"", ""GILIE"", ""GILOG"", ""GIPES"", ""GIPSO"", ""GIREC"", ""GIRET"", ""GIRIS"", ""GISEG"", ""GITEC"", ""JURIR"", ""MESAM"", ""OUVID"", ""PA"", ""PAB"", ""PEAGR"", ""PEAPF"", ""PEATE"", ""PEBSL"", ""PECAC"", ""PECAD"", ""PECOC"", ""PEDEP"", ""PEFIN"", ""PEFUG"", ""PEGOV"", ""PEJUD"", ""PEOPI"", ""PEPAN"", ""PESCC"", ""PRESI"", ""REAUD"", ""RECOC"", ""RECOL"", ""RECOM"", ""RECOV"", ""REDAD"", ""REDUR"", ""REICP"", ""REIMP"", ""REJUR"", ""RELIE"", ""RELOG"", ""REMCO"", ""REPES"", ""REPSO"", ""REREC"", ""RERET"", ""RESEC"", ""RESEG"", ""RETEC"", ""RETNE"", ""SG204"", ""SG212"", ""SG213"", ""SN"", ""SR099"", ""SR101"", ""SR102"", ""SR103"", ""SR104"", ""SR105"", ""SR107"", ""SR108"", ""SR109"", ""SR110"", ""SR112"", ""SR113"", ""SR114"", ""SR115"", ""SR117"", ""SR120"", ""SR121"", ""SR122"", ""SR123"", ""SR129"", ""SR131"", ""SR132"", ""SR133"", ""SR137"", ""SR138"", ""SR141"", ""SR142"", ""SR145"", ""SR146"", ""SR148"", ""SR149"", ""SR150"", ""SR151"", ""SR152"", ""SR153"", ""SR154"", ""SR155"", ""SR156"", ""SR157"", ""SR158"", ""SR159"", ""SR160"", ""SR162"", ""SR163"", ""SR164"", ""SR165"", ""SR166"", ""SR167"", ""SR168"", ""SR169"", ""SR170"", ""SR171"", ""SR173"", ""SR174"", ""SR177"", ""SR178"", ""SR179"", ""SR181"", ""SR182"", ""SR183"", ""SR184"", ""SR185"", ""SR186"", ""SR187"", ""SR188"", ""SR189"", ""SR190"", ""SR191"", ""SR192"", ""SR193"", ""SR194"", ""SR195"", ""SR196"", ""SR197"", ""SR199"", ""SR200"", ""SR201"", ""SR202"", ""SR203"", ""SR204"", ""SR205"", ""SR206"", ""SR207"", ""SR208"", ""SR209"", ""SR210"", ""SR211"", ""SR212"", ""SR213"", ""SR214"", ""SR215"", ""SR216"", ""SR217"", ""SR218"", ""SR219"", ""SR220"", ""SR221"", ""SR222"", ""SR223"", ""SR224"", ""SR225"", ""SR226"", ""SR227"", ""SR228"", ""SR229"", ""SR230"", ""SR231"", ""SUAFI"", ""SUAJU"", ""SUALO"", ""SUATA"", ""SUATB"", ""SUATC"", ""SUATD"", ""SUATE"", ""SUCAR"", ""SUCOI"", ""SUCON"", ""SUCOR"", ""SUCOT"", ""SUCTI"", ""SUDEC"", ""SUDES"", ""SUDIS"", ""SUEMP"", ""SUETI"", ""SUFES"", ""SUFUG"", ""SUFUS"", ""SUGET"", ""SUGTI"", ""SUHAB"", ""SUHAM"", ""SUHAR"", ""SUINP"", ""SUINT"", ""SUITI"", ""SUMAR"", ""SUMAV"", ""SUMCV"", ""SUMEF"", ""SUMPE"", ""SUNGE"", ""SUNSE"", ""SUOPE"", ""SUPEN"", ""SUPLA"", ""SUPOT"", ""SUPSO"", ""SUPUJ"", ""SURBE"", ""SUREB"", ""SUREC"", ""SUREL"", ""SUREP"", ""SURET"", ""SURIC"", ""SUSAN"", ""SUSEC"", ""SUSEG"", ""SUTEN"", ""SUVOP"", ""VICOP"", ""VICOR"", ""VIFIC"", ""VIFUG"", ""VIGOV"", ""VILOG"", ""VINER"", ""VIPES"", ""VITEC"", ""VITER"", ""VIVAR""}) 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""REMCO""}) 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEACE""}) 
+ nu_unde_ltco_fisica == ""5349"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEATE""}) 
+ nu_unde_ltco_fisica == ""5467"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEMCO""}) 
+ nu_unde_ltco_fisica == ""5517"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""GEPVA""}) 
+ nu_unde_ltco == ""5551"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEPUB""}) 
+ nu_unde_ltco_fisica == ""5583"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEOPT""}) 
+ nu_unde_ltco_fisica == ""5624"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUEMP""}) 
+ nu_unde_ltco_fisica == ""5720"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUPVA""}) 
+ nu_unde_ltco_fisica == ""5722"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEPOP""}) 
+ nu_unde_ltco_fisica == ""5781"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUMEP""}) 
+ nu_unde_ltco_fisica == ""5795"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""CNBND""}) 
+ nu_unde_ltco_fisica == ""7006"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2001"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2029"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2037"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2048""))"
+SIAUP,SIAUP_PERFIL7B,PERFIL,1104,"
+---------------Regra---------------
+((sg_unde_ltco.in({""AG"", ""ASIMP"", ""AUDAT"", ""AUDES"", ""AUDIR"", ""AUDIT"", ""AUDRE"", ""AUDTI"", ""CEATI"", ""CEBND"", ""CECVS"", ""CEFUS"", ""CEHOP"", ""CEMCO"", ""CEMOF"", ""CEOUV"", ""CEPCO"", ""CEPES"", ""CEPSO"", ""CEPTI"", ""CERAT"", ""CERIS"", ""CESEG"", ""CETEC"", ""CETES"", ""CETNE"", ""CIPES"", ""CIREC"", ""CITDI"", ""COADM"", ""COAUD"", ""COFIS"", ""DECAR"", ""DECEV"", ""DECON"", ""DECOP"", ""DECOR"", ""DEFIN"", ""DEFUS"", ""DEGAN"", ""DEGOV"", ""DEHAB"", ""DEMAC"", ""DEOPE"", ""DEORE"", ""DEPES"", ""DESAN"", ""DESCO"", ""DETEC"", ""DETER"", ""DIGER"", ""DIJUR"", ""DINOV"", ""DIPAR"", ""EREUA"", ""ERJAP"", ""ERVEN"", ""GAPRE"", ""GEABR"", ""GEAFE"", ""GEAGO"", ""GEAJU"", ""GEALO"", ""GEALT"", ""GEAMA"", ""GEAMG"", ""GEAMP"", ""GEARE"", ""GEARJ"", ""GEARQ"", ""GEART"", ""GEASP"", ""GEAST"", ""GEATI"", ""GEATO"", ""GEATS"", ""GEAVO"", ""GEBAN"", ""GEBES"", ""GECAC"", ""GECAF"", ""GECAM"", ""GECAN"", ""GECAR"", ""GECAT"", ""GECEA"", ""GECEP"", ""GECER"", ""GECGO"", ""GECIS"", ""GECME"", ""GECOA"", ""GECOC"", ""GECOE"", ""GECOG"", ""GECOL"", ""GECOM"", ""GECOP"", ""GECOR"", ""GECOT"", ""GECRI"", ""GECRM"", ""GECTE"", ""GECTI"", ""GECVA"", ""GEDEC"", ""GEDEF"", ""GEDEP"", ""GEDTI"", ""GEDUA"", ""GEDUB"", ""GEDUC"", ""GEDUD"", ""GEDUE"", ""GEECO"", ""GEEMP"", ""GEESC"", ""GEEST"", ""GEFES"", ""GEFIN"", ""GEFIP"", ""GEFIX"", ""GEFOM"", ""GEFOP"", ""GEFUS"", ""GEGAC"", ""GEGAN"", ""GEGAP"", ""GEGAT"", ""GEGRO"", ""GEHUR"", ""GEICI"", ""GEICO"", ""GEICV"", ""GEIFI"", ""GEIMP"", ""GEINC"", ""GEINF"", ""GEINV"", ""GEIPA"", ""GEIPT"", ""GEJUD"", ""GELIT"", ""GELOG"", ""GELOT"", ""GEMCV"", ""GEMEA"", ""GEMGE"", ""GEMOB"", ""GEMOC"", ""GEMOD"", ""GEMOG"", ""GEMON"", ""GEMOR"", ""GEMPE"", ""GEMPF"", ""GEMPJ"", ""GENAC"", ""GENAT"", ""GENEF"", ""GENEP"", ""GENIT"", ""GENOA"", ""GENOR"", ""GENSE"", ""GEOMI"", ""GEOPE"", ""GEORC"", ""GEOSI"", ""GEOTI"", ""GEPAD"", ""GEPAE"", ""GEPAR"", ""GEPAS"", ""GEPEC"", ""GEPES"", ""GEPEV"", ""GEPJO"", ""GEPLA"", ""GEPOS"", ""GEPOT"", ""GEPRE"", ""GEPSO"", ""GEPTE"", ""GEPUP"", ""GERAC"", ""GERAT"", ""GERED"", ""GEREL"", ""GEREM"", ""GEREP"", ""GERET"", ""GERFU"", ""GERID"", ""GERIM"", ""GERIN"", ""GERIV"", ""GEROP"", ""GERPA"", ""GERSA"", ""GERSE"", ""GERTI"", ""GESAN"", ""GESAP"", ""GESEC"", ""GESED"", ""GESEF"", ""GESEM"", ""GESET"", ""GESFI"", ""GESIG"", ""GESIR"", ""GESPJ"", ""GESTE"", ""GESTO"", ""GESUP"", ""GETEN"", ""GETER"", ""GETRE"", ""GETRI"", ""GEVAR"", ""GICAC"", ""GICET"", ""GICOM"", ""GICOT"", ""GIDUR"", ""GIFUG"", ""GIFUS"", ""GIICP"", ""GILIC"", ""GILIE"", ""GILOG"", ""GIPES"", ""GIPSO"", ""GIREC"", ""GIRET"", ""GIRIS"", ""GISEG"", ""GITEC"", ""JURIR"", ""MESAM"", ""OUVID"", ""PA"", ""PAB"", ""PEAGR"", ""PEAPF"", ""PEATE"", ""PEBSL"", ""PECAC"", ""PECAD"", ""PECOC"", ""PEDEP"", ""PEFIN"", ""PEFUG"", ""PEGOV"", ""PEJUD"", ""PEOPI"", ""PEPAN"", ""PESCC"", ""PRESI"", ""REAUD"", ""RECOC"", ""RECOL"", ""RECOM"", ""RECOV"", ""REDAD"", ""REDUR"", ""REICP"", ""REIMP"", ""REJUR"", ""RELIE"", ""RELOG"", ""REMCO"", ""REPES"", ""REPSO"", ""REREC"", ""RERET"", ""RESEC"", ""RESEG"", ""RETEC"", ""RETNE"", ""SG204"", ""SG212"", ""SG213"", ""SN"", ""SR099"", ""SR101"", ""SR102"", ""SR103"", ""SR104"", ""SR105"", ""SR107"", ""SR108"", ""SR109"", ""SR110"", ""SR112"", ""SR113"", ""SR114"", ""SR115"", ""SR117"", ""SR120"", ""SR121"", ""SR122"", ""SR123"", ""SR129"", ""SR131"", ""SR132"", ""SR133"", ""SR137"", ""SR138"", ""SR141"", ""SR142"", ""SR145"", ""SR146"", ""SR148"", ""SR149"", ""SR150"", ""SR151"", ""SR152"", ""SR153"", ""SR154"", ""SR155"", ""SR156"", ""SR157"", ""SR158"", ""SR159"", ""SR160"", ""SR162"", ""SR163"", ""SR164"", ""SR165"", ""SR166"", ""SR167"", ""SR168"", ""SR169"", ""SR170"", ""SR171"", ""SR173"", ""SR174"", ""SR177"", ""SR178"", ""SR179"", ""SR181"", ""SR182"", ""SR183"", ""SR184"", ""SR185"", ""SR186"", ""SR187"", ""SR188"", ""SR189"", ""SR190"", ""SR191"", ""SR192"", ""SR193"", ""SR194"", ""SR195"", ""SR196"", ""SR197"", ""SR199"", ""SR200"", ""SR201"", ""SR202"", ""SR203"", ""SR204"", ""SR205"", ""SR206"", ""SR207"", ""SR208"", ""SR209"", ""SR210"", ""SR211"", ""SR212"", ""SR213"", ""SR214"", ""SR215"", ""SR216"", ""SR217"", ""SR218"", ""SR219"", ""SR220"", ""SR221"", ""SR222"", ""SR223"", ""SR224"", ""SR225"", ""SR226"", ""SR227"", ""SR228"", ""SR229"", ""SR230"", ""SR231"", ""SUAFI"", ""SUAJU"", ""SUALO"", ""SUATA"", ""SUATB"", ""SUATC"", ""SUATD"", ""SUATE"", ""SUCAR"", ""SUCOI"", ""SUCON"", ""SUCOR"", ""SUCOT"", ""SUCTI"", ""SUDEC"", ""SUDES"", ""SUDIS"", ""SUEMP"", ""SUETI"", ""SUFES"", ""SUFUG"", ""SUFUS"", ""SUGET"", ""SUGTI"", ""SUHAB"", ""SUHAM"", ""SUHAR"", ""SUINP"", ""SUINT"", ""SUITI"", ""SUMAR"", ""SUMAV"", ""SUMCV"", ""SUMEF"", ""SUMPE"", ""SUNGE"", ""SUNSE"", ""SUOPE"", ""SUPEN"", ""SUPLA"", ""SUPOT"", ""SUPSO"", ""SUPUJ"", ""SURBE"", ""SUREB"", ""SUREC"", ""SUREL"", ""SUREP"", ""SURET"", ""SURIC"", ""SUSAN"", ""SUSEC"", ""SUSEG"", ""SUTEN"", ""SUVOP"", ""VICOP"", ""VICOR"", ""VIFIC"", ""VIFUG"", ""VIGOV"", ""VILOG"", ""VINER"", ""VIPES"", ""VITEC"", ""VITER"", ""VIVAR""}) 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""REMCO""}) 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEACE""}) 
+ nu_unde_ltco_fisica == ""5349"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEATE""}) 
+ nu_unde_ltco_fisica == ""5467"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEMCO""}) 
+ nu_unde_ltco_fisica == ""5517"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""GEPVA""}) 
+ nu_unde_ltco == ""5551"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEPUB""}) 
+ nu_unde_ltco_fisica == ""5583"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEOPT""}) 
+ nu_unde_ltco_fisica == ""5624"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUEMP""}) 
+ nu_unde_ltco_fisica == ""5720"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUPVA""}) 
+ nu_unde_ltco_fisica == ""5722"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEPOP""}) 
+ nu_unde_ltco_fisica == ""5781"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUMEP""}) 
+ nu_unde_ltco_fisica == ""5795"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""CNBND""}) 
+ nu_unde_ltco_fisica == ""7006"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2001"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2029"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2037"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2048""))"
+SIAUP,SIAUP_PERFIL8,PERFIL,25821,"
+---------------Regra---------------
+((sg_unde_ltco.in({""AG"", ""ASIMP"", ""AUDAT"", ""AUDES"", ""AUDIR"", ""AUDIT"", ""AUDRE"", ""AUDTI"", ""CEATI"", ""CEBND"", ""CECVS"", ""CEFUS"", ""CEHOP"", ""CEMCO"", ""CEMOF"", ""CEOUV"", ""CEPCO"", ""CEPES"", ""CEPSO"", ""CEPTI"", ""CERAT"", ""CERIS"", ""CESEG"", ""CETEC"", ""CETES"", ""CETNE"", ""CIPES"", ""CIREC"", ""CITDI"", ""COADM"", ""COAUD"", ""COFIS"", ""DECAR"", ""DECEV"", ""DECON"", ""DECOP"", ""DECOR"", ""DEFIN"", ""DEFUS"", ""DEGAN"", ""DEGOV"", ""DEHAB"", ""DEMAC"", ""DEOPE"", ""DEORE"", ""DEPES"", ""DESAN"", ""DESCO"", ""DETEC"", ""DETER"", ""DIGER"", ""DIJUR"", ""DINOV"", ""DIPAR"", ""EREUA"", ""ERJAP"", ""ERVEN"", ""GAPRE"", ""GEABR"", ""GEAFE"", ""GEAGO"", ""GEAJU"", ""GEALO"", ""GEALT"", ""GEAMA"", ""GEAMG"", ""GEAMP"", ""GEARE"", ""GEARJ"", ""GEARQ"", ""GEART"", ""GEASP"", ""GEAST"", ""GEATI"", ""GEATO"", ""GEATS"", ""GEAVO"", ""GEBAN"", ""GEBES"", ""GECAC"", ""GECAF"", ""GECAM"", ""GECAN"", ""GECAR"", ""GECAT"", ""GECEA"", ""GECEP"", ""GECER"", ""GECGO"", ""GECIS"", ""GECME"", ""GECOA"", ""GECOC"", ""GECOE"", ""GECOG"", ""GECOL"", ""GECOM"", ""GECOP"", ""GECOR"", ""GECOT"", ""GECRI"", ""GECRM"", ""GECTE"", ""GECTI"", ""GECVA"", ""GEDEC"", ""GEDEF"", ""GEDEP"", ""GEDTI"", ""GEDUA"", ""GEDUB"", ""GEDUC"", ""GEDUD"", ""GEDUE"", ""GEECO"", ""GEEMP"", ""GEESC"", ""GEEST"", ""GEFES"", ""GEFIN"", ""GEFIP"", ""GEFIX"", ""GEFOM"", ""GEFOP"", ""GEFUS"", ""GEGAC"", ""GEGAN"", ""GEGAP"", ""GEGAT"", ""GEGRO"", ""GEHUR"", ""GEICI"", ""GEICO"", ""GEICV"", ""GEIFI"", ""GEIMP"", ""GEINC"", ""GEINF"", ""GEINV"", ""GEIPA"", ""GEIPT"", ""GEJUD"", ""GELIT"", ""GELOG"", ""GELOT"", ""GEMCV"", ""GEMEA"", ""GEMGE"", ""GEMOB"", ""GEMOC"", ""GEMOD"", ""GEMOG"", ""GEMON"", ""GEMOR"", ""GEMPE"", ""GEMPF"", ""GEMPJ"", ""GENAC"", ""GENAT"", ""GENEF"", ""GENEP"", ""GENIT"", ""GENOA"", ""GENOR"", ""GENSE"", ""GEOMI"", ""GEOPE"", ""GEORC"", ""GEOSI"", ""GEOTI"", ""GEPAD"", ""GEPAE"", ""GEPAR"", ""GEPAS"", ""GEPEC"", ""GEPES"", ""GEPEV"", ""GEPJO"", ""GEPLA"", ""GEPOS"", ""GEPOT"", ""GEPRE"", ""GEPSO"", ""GEPTE"", ""GEPUP"", ""GERAC"", ""GERAT"", ""GERED"", ""GEREL"", ""GEREM"", ""GEREP"", ""GERET"", ""GERFU"", ""GERID"", ""GERIM"", ""GERIN"", ""GERIV"", ""GEROP"", ""GERPA"", ""GERSA"", ""GERSE"", ""GERTI"", ""GESAN"", ""GESAP"", ""GESEC"", ""GESED"", ""GESEF"", ""GESEM"", ""GESET"", ""GESFI"", ""GESIG"", ""GESIR"", ""GESPJ"", ""GESTE"", ""GESTO"", ""GESUP"", ""GETEN"", ""GETER"", ""GETRE"", ""GETRI"", ""GEVAR"", ""GICAC"", ""GICET"", ""GICOM"", ""GICOT"", ""GIDUR"", ""GIFUG"", ""GIFUS"", ""GIICP"", ""GILIC"", ""GILIE"", ""GILOG"", ""GIPES"", ""GIPSO"", ""GIREC"", ""GIRET"", ""GIRIS"", ""GISEG"", ""GITEC"", ""JURIR"", ""MESAM"", ""OUVID"", ""PA"", ""PAB"", ""PEAGR"", ""PEAPF"", ""PEATE"", ""PEBSL"", ""PECAC"", ""PECAD"", ""PECOC"", ""PEDEP"", ""PEFIN"", ""PEFUG"", ""PEGOV"", ""PEJUD"", ""PEOPI"", ""PEPAN"", ""PESCC"", ""PRESI"", ""REAUD"", ""RECOC"", ""RECOL"", ""RECOM"", ""RECOV"", ""REDAD"", ""REDUR"", ""REICP"", ""REIMP"", ""REJUR"", ""RELIE"", ""RELOG"", ""REMCO"", ""REPES"", ""REPSO"", ""REREC"", ""RERET"", ""RESEC"", ""RESEG"", ""RETEC"", ""RETNE"", ""SG204"", ""SG212"", ""SG213"", ""SN"", ""SR099"", ""SR101"", ""SR102"", ""SR103"", ""SR104"", ""SR105"", ""SR107"", ""SR108"", ""SR109"", ""SR110"", ""SR112"", ""SR113"", ""SR114"", ""SR115"", ""SR117"", ""SR120"", ""SR121"", ""SR122"", ""SR123"", ""SR129"", ""SR131"", ""SR132"", ""SR133"", ""SR137"", ""SR138"", ""SR141"", ""SR142"", ""SR145"", ""SR146"", ""SR148"", ""SR149"", ""SR150"", ""SR151"", ""SR152"", ""SR153"", ""SR154"", ""SR155"", ""SR156"", ""SR157"", ""SR158"", ""SR159"", ""SR160"", ""SR162"", ""SR163"", ""SR164"", ""SR165"", ""SR166"", ""SR167"", ""SR168"", ""SR169"", ""SR170"", ""SR171"", ""SR173"", ""SR174"", ""SR177"", ""SR178"", ""SR179"", ""SR181"", ""SR182"", ""SR183"", ""SR184"", ""SR185"", ""SR186"", ""SR187"", ""SR188"", ""SR189"", ""SR190"", ""SR191"", ""SR192"", ""SR193"", ""SR194"", ""SR195"", ""SR196"", ""SR197"", ""SR199"", ""SR200"", ""SR201"", ""SR202"", ""SR203"", ""SR204"", ""SR205"", ""SR206"", ""SR207"", ""SR208"", ""SR209"", ""SR210"", ""SR211"", ""SR212"", ""SR213"", ""SR214"", ""SR215"", ""SR216"", ""SR217"", ""SR218"", ""SR219"", ""SR220"", ""SR221"", ""SR222"", ""SR223"", ""SR224"", ""SR225"", ""SR226"", ""SR227"", ""SR228"", ""SR229"", ""SR230"", ""SR231"", ""SUAFI"", ""SUAJU"", ""SUALO"", ""SUATA"", ""SUATB"", ""SUATC"", ""SUATD"", ""SUATE"", ""SUCAR"", ""SUCOI"", ""SUCON"", ""SUCOR"", ""SUCOT"", ""SUCTI"", ""SUDEC"", ""SUDES"", ""SUDIS"", ""SUEMP"", ""SUETI"", ""SUFES"", ""SUFUG"", ""SUFUS"", ""SUGET"", ""SUGTI"", ""SUHAB"", ""SUHAM"", ""SUHAR"", ""SUINP"", ""SUINT"", ""SUITI"", ""SUMAR"", ""SUMAV"", ""SUMCV"", ""SUMEF"", ""SUMPE"", ""SUNGE"", ""SUNSE"", ""SUOPE"", ""SUPEN"", ""SUPLA"", ""SUPOT"", ""SUPSO"", ""SUPUJ"", ""SURBE"", ""SUREB"", ""SUREC"", ""SUREL"", ""SUREP"", ""SURET"", ""SURIC"", ""SUSAN"", ""SUSEC"", ""SUSEG"", ""SUTEN"", ""SUVOP"", ""VICOP"", ""VICOR"", ""VIFIC"", ""VIFUG"", ""VIGOV"", ""VILOG"", ""VINER"", ""VIPES"", ""VITEC"", ""VITER"", ""VIVAR""}) 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""REMCO""}) 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEACE""}) 
+ nu_unde_ltco_fisica == ""5349"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEATE""}) 
+ nu_unde_ltco_fisica == ""5467"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEMCO""}) 
+ nu_unde_ltco_fisica == ""5517"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""GEPVA""}) 
+ nu_unde_ltco == ""5551"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEPUB""}) 
+ nu_unde_ltco_fisica == ""5583"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEOPT""}) 
+ nu_unde_ltco_fisica == ""5624"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUEMP""}) 
+ nu_unde_ltco_fisica == ""5720"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUPVA""}) 
+ nu_unde_ltco_fisica == ""5722"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEPOP""}) 
+ nu_unde_ltco_fisica == ""5781"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUMEP""}) 
+ nu_unde_ltco_fisica == ""5795"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""CNBND""}) 
+ nu_unde_ltco_fisica == ""7006"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2001"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2029"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2037"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2048""))"
+SIAUP,SIAUP_PERFIL8A,PERFIL,7051,"
+---------------Regra---------------
+((sg_unde_ltco.in({""AG"", ""ASIMP"", ""AUDAT"", ""AUDES"", ""AUDIR"", ""AUDIT"", ""AUDRE"", ""AUDTI"", ""CEATI"", ""CEBND"", ""CECVS"", ""CEFUS"", ""CEHOP"", ""CEMCO"", ""CEMOF"", ""CEOUV"", ""CEPCO"", ""CEPES"", ""CEPSO"", ""CEPTI"", ""CERAT"", ""CERIS"", ""CESEG"", ""CETEC"", ""CETES"", ""CETNE"", ""CIPES"", ""CIREC"", ""CITDI"", ""COADM"", ""COAUD"", ""COFIS"", ""DECAR"", ""DECEV"", ""DECON"", ""DECOP"", ""DECOR"", ""DEFIN"", ""DEFUS"", ""DEGAN"", ""DEGOV"", ""DEHAB"", ""DEMAC"", ""DEOPE"", ""DEORE"", ""DEPES"", ""DESAN"", ""DESCO"", ""DETEC"", ""DETER"", ""DIGER"", ""DIJUR"", ""DINOV"", ""DIPAR"", ""EREUA"", ""ERJAP"", ""ERVEN"", ""GAPRE"", ""GEABR"", ""GEAFE"", ""GEAGO"", ""GEAJU"", ""GEALO"", ""GEALT"", ""GEAMA"", ""GEAMG"", ""GEAMP"", ""GEARE"", ""GEARJ"", ""GEARQ"", ""GEART"", ""GEASP"", ""GEAST"", ""GEATI"", ""GEATO"", ""GEATS"", ""GEAVO"", ""GEBAN"", ""GEBES"", ""GECAC"", ""GECAF"", ""GECAM"", ""GECAN"", ""GECAR"", ""GECAT"", ""GECEA"", ""GECEP"", ""GECER"", ""GECGO"", ""GECIS"", ""GECME"", ""GECOA"", ""GECOC"", ""GECOE"", ""GECOG"", ""GECOL"", ""GECOM"", ""GECOP"", ""GECOR"", ""GECOT"", ""GECRI"", ""GECRM"", ""GECTE"", ""GECTI"", ""GECVA"", ""GEDEC"", ""GEDEF"", ""GEDEP"", ""GEDTI"", ""GEDUA"", ""GEDUB"", ""GEDUC"", ""GEDUD"", ""GEDUE"", ""GEECO"", ""GEEMP"", ""GEESC"", ""GEEST"", ""GEFES"", ""GEFIN"", ""GEFIP"", ""GEFIX"", ""GEFOM"", ""GEFOP"", ""GEFUS"", ""GEGAC"", ""GEGAN"", ""GEGAP"", ""GEGAT"", ""GEGRO"", ""GEHUR"", ""GEICI"", ""GEICO"", ""GEICV"", ""GEIFI"", ""GEIMP"", ""GEINC"", ""GEINF"", ""GEINV"", ""GEIPA"", ""GEIPT"", ""GEJUD"", ""GELIT"", ""GELOG"", ""GELOT"", ""GEMCV"", ""GEMEA"", ""GEMGE"", ""GEMOB"", ""GEMOC"", ""GEMOD"", ""GEMOG"", ""GEMON"", ""GEMOR"", ""GEMPE"", ""GEMPF"", ""GEMPJ"", ""GENAC"", ""GENAT"", ""GENEF"", ""GENEP"", ""GENIT"", ""GENOA"", ""GENOR"", ""GENSE"", ""GEOMI"", ""GEOPE"", ""GEORC"", ""GEOSI"", ""GEOTI"", ""GEPAD"", ""GEPAE"", ""GEPAR"", ""GEPAS"", ""GEPEC"", ""GEPES"", ""GEPEV"", ""GEPJO"", ""GEPLA"", ""GEPOS"", ""GEPOT"", ""GEPRE"", ""GEPSO"", ""GEPTE"", ""GEPUP"", ""GERAC"", ""GERAT"", ""GERED"", ""GEREL"", ""GEREM"", ""GEREP"", ""GERET"", ""GERFU"", ""GERID"", ""GERIM"", ""GERIN"", ""GERIV"", ""GEROP"", ""GERPA"", ""GERSA"", ""GERSE"", ""GERTI"", ""GESAN"", ""GESAP"", ""GESEC"", ""GESED"", ""GESEF"", ""GESEM"", ""GESET"", ""GESFI"", ""GESIG"", ""GESIR"", ""GESPJ"", ""GESTE"", ""GESTO"", ""GESUP"", ""GETEN"", ""GETER"", ""GETRE"", ""GETRI"", ""GEVAR"", ""GICAC"", ""GICET"", ""GICOM"", ""GICOT"", ""GIDUR"", ""GIFUG"", ""GIFUS"", ""GIICP"", ""GILIC"", ""GILIE"", ""GILOG"", ""GIPES"", ""GIPSO"", ""GIREC"", ""GIRET"", ""GIRIS"", ""GISEG"", ""GITEC"", ""JURIR"", ""MESAM"", ""OUVID"", ""PA"", ""PAB"", ""PEAGR"", ""PEAPF"", ""PEATE"", ""PEBSL"", ""PECAC"", ""PECAD"", ""PECOC"", ""PEDEP"", ""PEFIN"", ""PEFUG"", ""PEGOV"", ""PEJUD"", ""PEOPI"", ""PEPAN"", ""PESCC"", ""PRESI"", ""REAUD"", ""RECOC"", ""RECOL"", ""RECOM"", ""RECOV"", ""REDAD"", ""REDUR"", ""REICP"", ""REIMP"", ""REJUR"", ""RELIE"", ""RELOG"", ""REMCO"", ""REPES"", ""REPSO"", ""REREC"", ""RERET"", ""RESEC"", ""RESEG"", ""RETEC"", ""RETNE"", ""SG204"", ""SG212"", ""SG213"", ""SN"", ""SR099"", ""SR101"", ""SR102"", ""SR103"", ""SR104"", ""SR105"", ""SR107"", ""SR108"", ""SR109"", ""SR110"", ""SR112"", ""SR113"", ""SR114"", ""SR115"", ""SR117"", ""SR120"", ""SR121"", ""SR122"", ""SR123"", ""SR129"", ""SR131"", ""SR132"", ""SR133"", ""SR137"", ""SR138"", ""SR141"", ""SR142"", ""SR145"", ""SR146"", ""SR148"", ""SR149"", ""SR150"", ""SR151"", ""SR152"", ""SR153"", ""SR154"", ""SR155"", ""SR156"", ""SR157"", ""SR158"", ""SR159"", ""SR160"", ""SR162"", ""SR163"", ""SR164"", ""SR165"", ""SR166"", ""SR167"", ""SR168"", ""SR169"", ""SR170"", ""SR171"", ""SR173"", ""SR174"", ""SR177"", ""SR178"", ""SR179"", ""SR181"", ""SR182"", ""SR183"", ""SR184"", ""SR185"", ""SR186"", ""SR187"", ""SR188"", ""SR189"", ""SR190"", ""SR191"", ""SR192"", ""SR193"", ""SR194"", ""SR195"", ""SR196"", ""SR197"", ""SR199"", ""SR200"", ""SR201"", ""SR202"", ""SR203"", ""SR204"", ""SR205"", ""SR206"", ""SR207"", ""SR208"", ""SR209"", ""SR210"", ""SR211"", ""SR212"", ""SR213"", ""SR214"", ""SR215"", ""SR216"", ""SR217"", ""SR218"", ""SR219"", ""SR220"", ""SR221"", ""SR222"", ""SR223"", ""SR224"", ""SR225"", ""SR226"", ""SR227"", ""SR228"", ""SR229"", ""SR230"", ""SR231"", ""SUAFI"", ""SUAJU"", ""SUALO"", ""SUATA"", ""SUATB"", ""SUATC"", ""SUATD"", ""SUATE"", ""SUCAR"", ""SUCOI"", ""SUCON"", ""SUCOR"", ""SUCOT"", ""SUCTI"", ""SUDEC"", ""SUDES"", ""SUDIS"", ""SUEMP"", ""SUETI"", ""SUFES"", ""SUFUG"", ""SUFUS"", ""SUGET"", ""SUGTI"", ""SUHAB"", ""SUHAM"", ""SUHAR"", ""SUINP"", ""SUINT"", ""SUITI"", ""SUMAR"", ""SUMAV"", ""SUMCV"", ""SUMEF"", ""SUMPE"", ""SUNGE"", ""SUNSE"", ""SUOPE"", ""SUPEN"", ""SUPLA"", ""SUPOT"", ""SUPSO"", ""SUPUJ"", ""SURBE"", ""SUREB"", ""SUREC"", ""SUREL"", ""SUREP"", ""SURET"", ""SURIC"", ""SUSAN"", ""SUSEC"", ""SUSEG"", ""SUTEN"", ""SUVOP"", ""VICOP"", ""VICOR"", ""VIFIC"", ""VIFUG"", ""VIGOV"", ""VILOG"", ""VINER"", ""VIPES"", ""VITEC"", ""VITER"", ""VIVAR""}) 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""REMCO""}) 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEACE""}) 
+ nu_unde_ltco_fisica == ""5349"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEATE""}) 
+ nu_unde_ltco_fisica == ""5467"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEMCO""}) 
+ nu_unde_ltco_fisica == ""5517"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""GEPVA""}) 
+ nu_unde_ltco == ""5551"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEPUB""}) 
+ nu_unde_ltco_fisica == ""5583"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEOPT""}) 
+ nu_unde_ltco_fisica == ""5624"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUEMP""}) 
+ nu_unde_ltco_fisica == ""5720"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUPVA""}) 
+ nu_unde_ltco_fisica == ""5722"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEPOP""}) 
+ nu_unde_ltco_fisica == ""5781"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUMEP""}) 
+ nu_unde_ltco_fisica == ""5795"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""CNBND""}) 
+ nu_unde_ltco_fisica == ""7006"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2001"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2029"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2037"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2048""))"
+SIAUP,SIAUP_PERFIL8B,PERFIL,2919,"
+---------------Regra---------------
+((sg_unde_ltco.in({""AG"", ""ASIMP"", ""AUDAT"", ""AUDES"", ""AUDIR"", ""AUDIT"", ""AUDRE"", ""AUDTI"", ""CEATI"", ""CEBND"", ""CECVS"", ""CEFUS"", ""CEHOP"", ""CEMCO"", ""CEMOF"", ""CEOUV"", ""CEPCO"", ""CEPES"", ""CEPSO"", ""CEPTI"", ""CERAT"", ""CERIS"", ""CESEG"", ""CETEC"", ""CETES"", ""CETNE"", ""CIPES"", ""CIREC"", ""CITDI"", ""COADM"", ""COAUD"", ""COFIS"", ""DECAR"", ""DECEV"", ""DECON"", ""DECOP"", ""DECOR"", ""DEFIN"", ""DEFUS"", ""DEGAN"", ""DEGOV"", ""DEHAB"", ""DEMAC"", ""DEOPE"", ""DEORE"", ""DEPES"", ""DESAN"", ""DESCO"", ""DETEC"", ""DETER"", ""DIGER"", ""DIJUR"", ""DINOV"", ""DIPAR"", ""EREUA"", ""ERJAP"", ""ERVEN"", ""GAPRE"", ""GEABR"", ""GEAFE"", ""GEAGO"", ""GEAJU"", ""GEALO"", ""GEALT"", ""GEAMA"", ""GEAMG"", ""GEAMP"", ""GEARE"", ""GEARJ"", ""GEARQ"", ""GEART"", ""GEASP"", ""GEAST"", ""GEATI"", ""GEATO"", ""GEATS"", ""GEAVO"", ""GEBAN"", ""GEBES"", ""GECAC"", ""GECAF"", ""GECAM"", ""GECAN"", ""GECAR"", ""GECAT"", ""GECEA"", ""GECEP"", ""GECER"", ""GECGO"", ""GECIS"", ""GECME"", ""GECOA"", ""GECOC"", ""GECOE"", ""GECOG"", ""GECOL"", ""GECOM"", ""GECOP"", ""GECOR"", ""GECOT"", ""GECRI"", ""GECRM"", ""GECTE"", ""GECTI"", ""GECVA"", ""GEDEC"", ""GEDEF"", ""GEDEP"", ""GEDTI"", ""GEDUA"", ""GEDUB"", ""GEDUC"", ""GEDUD"", ""GEDUE"", ""GEECO"", ""GEEMP"", ""GEESC"", ""GEEST"", ""GEFES"", ""GEFIN"", ""GEFIP"", ""GEFIX"", ""GEFOM"", ""GEFOP"", ""GEFUS"", ""GEGAC"", ""GEGAN"", ""GEGAP"", ""GEGAT"", ""GEGRO"", ""GEHUR"", ""GEICI"", ""GEICO"", ""GEICV"", ""GEIFI"", ""GEIMP"", ""GEINC"", ""GEINF"", ""GEINV"", ""GEIPA"", ""GEIPT"", ""GEJUD"", ""GELIT"", ""GELOG"", ""GELOT"", ""GEMCV"", ""GEMEA"", ""GEMGE"", ""GEMOB"", ""GEMOC"", ""GEMOD"", ""GEMOG"", ""GEMON"", ""GEMOR"", ""GEMPE"", ""GEMPF"", ""GEMPJ"", ""GENAC"", ""GENAT"", ""GENEF"", ""GENEP"", ""GENIT"", ""GENOA"", ""GENOR"", ""GENSE"", ""GEOMI"", ""GEOPE"", ""GEORC"", ""GEOSI"", ""GEOTI"", ""GEPAD"", ""GEPAE"", ""GEPAR"", ""GEPAS"", ""GEPEC"", ""GEPES"", ""GEPEV"", ""GEPJO"", ""GEPLA"", ""GEPOS"", ""GEPOT"", ""GEPRE"", ""GEPSO"", ""GEPTE"", ""GEPUP"", ""GERAC"", ""GERAT"", ""GERED"", ""GEREL"", ""GEREM"", ""GEREP"", ""GERET"", ""GERFU"", ""GERID"", ""GERIM"", ""GERIN"", ""GERIV"", ""GEROP"", ""GERPA"", ""GERSA"", ""GERSE"", ""GERTI"", ""GESAN"", ""GESAP"", ""GESEC"", ""GESED"", ""GESEF"", ""GESEM"", ""GESET"", ""GESFI"", ""GESIG"", ""GESIR"", ""GESPJ"", ""GESTE"", ""GESTO"", ""GESUP"", ""GETEN"", ""GETER"", ""GETRE"", ""GETRI"", ""GEVAR"", ""GICAC"", ""GICET"", ""GICOM"", ""GICOT"", ""GIDUR"", ""GIFUG"", ""GIFUS"", ""GIICP"", ""GILIC"", ""GILIE"", ""GILOG"", ""GIPES"", ""GIPSO"", ""GIREC"", ""GIRET"", ""GIRIS"", ""GISEG"", ""GITEC"", ""JURIR"", ""MESAM"", ""OUVID"", ""PA"", ""PAB"", ""PEAGR"", ""PEAPF"", ""PEATE"", ""PEBSL"", ""PECAC"", ""PECAD"", ""PECOC"", ""PEDEP"", ""PEFIN"", ""PEFUG"", ""PEGOV"", ""PEJUD"", ""PEOPI"", ""PEPAN"", ""PESCC"", ""PRESI"", ""REAUD"", ""RECOC"", ""RECOL"", ""RECOM"", ""RECOV"", ""REDAD"", ""REDUR"", ""REICP"", ""REIMP"", ""REJUR"", ""RELIE"", ""RELOG"", ""REMCO"", ""REPES"", ""REPSO"", ""REREC"", ""RERET"", ""RESEC"", ""RESEG"", ""RETEC"", ""RETNE"", ""SG204"", ""SG212"", ""SG213"", ""SN"", ""SR099"", ""SR101"", ""SR102"", ""SR103"", ""SR104"", ""SR105"", ""SR107"", ""SR108"", ""SR109"", ""SR110"", ""SR112"", ""SR113"", ""SR114"", ""SR115"", ""SR117"", ""SR120"", ""SR121"", ""SR122"", ""SR123"", ""SR129"", ""SR131"", ""SR132"", ""SR133"", ""SR137"", ""SR138"", ""SR141"", ""SR142"", ""SR145"", ""SR146"", ""SR148"", ""SR149"", ""SR150"", ""SR151"", ""SR152"", ""SR153"", ""SR154"", ""SR155"", ""SR156"", ""SR157"", ""SR158"", ""SR159"", ""SR160"", ""SR162"", ""SR163"", ""SR164"", ""SR165"", ""SR166"", ""SR167"", ""SR168"", ""SR169"", ""SR170"", ""SR171"", ""SR173"", ""SR174"", ""SR177"", ""SR178"", ""SR179"", ""SR181"", ""SR182"", ""SR183"", ""SR184"", ""SR185"", ""SR186"", ""SR187"", ""SR188"", ""SR189"", ""SR190"", ""SR191"", ""SR192"", ""SR193"", ""SR194"", ""SR195"", ""SR196"", ""SR197"", ""SR199"", ""SR200"", ""SR201"", ""SR202"", ""SR203"", ""SR204"", ""SR205"", ""SR206"", ""SR207"", ""SR208"", ""SR209"", ""SR210"", ""SR211"", ""SR212"", ""SR213"", ""SR214"", ""SR215"", ""SR216"", ""SR217"", ""SR218"", ""SR219"", ""SR220"", ""SR221"", ""SR222"", ""SR223"", ""SR224"", ""SR225"", ""SR226"", ""SR227"", ""SR228"", ""SR229"", ""SR230"", ""SR231"", ""SUAFI"", ""SUAJU"", ""SUALO"", ""SUATA"", ""SUATB"", ""SUATC"", ""SUATD"", ""SUATE"", ""SUCAR"", ""SUCOI"", ""SUCON"", ""SUCOR"", ""SUCOT"", ""SUCTI"", ""SUDEC"", ""SUDES"", ""SUDIS"", ""SUEMP"", ""SUETI"", ""SUFES"", ""SUFUG"", ""SUFUS"", ""SUGET"", ""SUGTI"", ""SUHAB"", ""SUHAM"", ""SUHAR"", ""SUINP"", ""SUINT"", ""SUITI"", ""SUMAR"", ""SUMAV"", ""SUMCV"", ""SUMEF"", ""SUMPE"", ""SUNGE"", ""SUNSE"", ""SUOPE"", ""SUPEN"", ""SUPLA"", ""SUPOT"", ""SUPSO"", ""SUPUJ"", ""SURBE"", ""SUREB"", ""SUREC"", ""SUREL"", ""SUREP"", ""SURET"", ""SURIC"", ""SUSAN"", ""SUSEC"", ""SUSEG"", ""SUTEN"", ""SUVOP"", ""VICOP"", ""VICOR"", ""VIFIC"", ""VIFUG"", ""VIGOV"", ""VILOG"", ""VINER"", ""VIPES"", ""VITEC"", ""VITER"", ""VIVAR""}) 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""REMCO""}) 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEACE""}) 
+ nu_unde_ltco_fisica == ""5349"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEATE""}) 
+ nu_unde_ltco_fisica == ""5467"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEMCO""}) 
+ nu_unde_ltco_fisica == ""5517"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""GEPVA""}) 
+ nu_unde_ltco == ""5551"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEPUB""}) 
+ nu_unde_ltco_fisica == ""5583"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEOPT""}) 
+ nu_unde_ltco_fisica == ""5624"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUEMP""}) 
+ nu_unde_ltco_fisica == ""5720"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUPVA""}) 
+ nu_unde_ltco_fisica == ""5722"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEPOP""}) 
+ nu_unde_ltco_fisica == ""5781"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUMEP""}) 
+ nu_unde_ltco_fisica == ""5795"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""CNBND""}) 
+ nu_unde_ltco_fisica == ""7006"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2001"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2029"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2037"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2048""))"
+SIAUP,SIAUP_PERFIL8H,PERFIL,822,"
+---------------Regra---------------
+((sg_unde_ltco.in({""AG"", ""ASIMP"", ""AUDAT"", ""AUDES"", ""AUDIR"", ""AUDIT"", ""AUDRE"", ""AUDTI"", ""CEATI"", ""CEBND"", ""CECVS"", ""CEFUS"", ""CEHOP"", ""CEMCO"", ""CEMOF"", ""CEOUV"", ""CEPCO"", ""CEPES"", ""CEPSO"", ""CEPTI"", ""CERAT"", ""CERIS"", ""CESEG"", ""CETEC"", ""CETES"", ""CETNE"", ""CIPES"", ""CIREC"", ""CITDI"", ""COADM"", ""COAUD"", ""COFIS"", ""DECAR"", ""DECEV"", ""DECON"", ""DECOP"", ""DECOR"", ""DEFIN"", ""DEFUS"", ""DEGAN"", ""DEGOV"", ""DEHAB"", ""DEMAC"", ""DEOPE"", ""DEORE"", ""DEPES"", ""DESAN"", ""DESCO"", ""DETEC"", ""DETER"", ""DIGER"", ""DIJUR"", ""DINOV"", ""DIPAR"", ""EREUA"", ""ERJAP"", ""ERVEN"", ""GAPRE"", ""GEABR"", ""GEAFE"", ""GEAGO"", ""GEAJU"", ""GEALO"", ""GEALT"", ""GEAMA"", ""GEAMG"", ""GEAMP"", ""GEARE"", ""GEARJ"", ""GEARQ"", ""GEART"", ""GEASP"", ""GEAST"", ""GEATI"", ""GEATO"", ""GEATS"", ""GEAVO"", ""GEBAN"", ""GEBES"", ""GECAC"", ""GECAF"", ""GECAM"", ""GECAN"", ""GECAR"", ""GECAT"", ""GECEA"", ""GECEP"", ""GECER"", ""GECGO"", ""GECIS"", ""GECME"", ""GECOA"", ""GECOC"", ""GECOE"", ""GECOG"", ""GECOL"", ""GECOM"", ""GECOP"", ""GECOR"", ""GECOT"", ""GECRI"", ""GECRM"", ""GECTE"", ""GECTI"", ""GECVA"", ""GEDEC"", ""GEDEF"", ""GEDEP"", ""GEDTI"", ""GEDUA"", ""GEDUB"", ""GEDUC"", ""GEDUD"", ""GEDUE"", ""GEECO"", ""GEEMP"", ""GEESC"", ""GEEST"", ""GEFES"", ""GEFIN"", ""GEFIP"", ""GEFIX"", ""GEFOM"", ""GEFOP"", ""GEFUS"", ""GEGAC"", ""GEGAN"", ""GEGAP"", ""GEGAT"", ""GEGRO"", ""GEHUR"", ""GEICI"", ""GEICO"", ""GEICV"", ""GEIFI"", ""GEIMP"", ""GEINC"", ""GEINF"", ""GEINV"", ""GEIPA"", ""GEIPT"", ""GEJUD"", ""GELIT"", ""GELOG"", ""GELOT"", ""GEMCV"", ""GEMEA"", ""GEMGE"", ""GEMOB"", ""GEMOC"", ""GEMOD"", ""GEMOG"", ""GEMON"", ""GEMOR"", ""GEMPE"", ""GEMPF"", ""GEMPJ"", ""GENAC"", ""GENAT"", ""GENEF"", ""GENEP"", ""GENIT"", ""GENOA"", ""GENOR"", ""GENSE"", ""GEOMI"", ""GEOPE"", ""GEORC"", ""GEOSI"", ""GEOTI"", ""GEPAD"", ""GEPAE"", ""GEPAR"", ""GEPAS"", ""GEPEC"", ""GEPES"", ""GEPEV"", ""GEPJO"", ""GEPLA"", ""GEPOS"", ""GEPOT"", ""GEPRE"", ""GEPSO"", ""GEPTE"", ""GEPUP"", ""GERAC"", ""GERAT"", ""GERED"", ""GEREL"", ""GEREM"", ""GEREP"", ""GERET"", ""GERFU"", ""GERID"", ""GERIM"", ""GERIN"", ""GERIV"", ""GEROP"", ""GERPA"", ""GERSA"", ""GERSE"", ""GERTI"", ""GESAN"", ""GESAP"", ""GESEC"", ""GESED"", ""GESEF"", ""GESEM"", ""GESET"", ""GESFI"", ""GESIG"", ""GESIR"", ""GESPJ"", ""GESTE"", ""GESTO"", ""GESUP"", ""GETEN"", ""GETER"", ""GETRE"", ""GETRI"", ""GEVAR"", ""GICAC"", ""GICET"", ""GICOM"", ""GICOT"", ""GIDUR"", ""GIFUG"", ""GIFUS"", ""GIICP"", ""GILIC"", ""GILIE"", ""GILOG"", ""GIPES"", ""GIPSO"", ""GIREC"", ""GIRET"", ""GIRIS"", ""GISEG"", ""GITEC"", ""JURIR"", ""MESAM"", ""OUVID"", ""PA"", ""PAB"", ""PEAGR"", ""PEAPF"", ""PEATE"", ""PEBSL"", ""PECAC"", ""PECAD"", ""PECOC"", ""PEDEP"", ""PEFIN"", ""PEFUG"", ""PEGOV"", ""PEJUD"", ""PEOPI"", ""PEPAN"", ""PESCC"", ""PRESI"", ""REAUD"", ""RECOC"", ""RECOL"", ""RECOM"", ""RECOV"", ""REDAD"", ""REDUR"", ""REICP"", ""REIMP"", ""REJUR"", ""RELIE"", ""RELOG"", ""REMCO"", ""REPES"", ""REPSO"", ""REREC"", ""RERET"", ""RESEC"", ""RESEG"", ""RETEC"", ""RETNE"", ""SG204"", ""SG212"", ""SG213"", ""SN"", ""SR099"", ""SR101"", ""SR102"", ""SR103"", ""SR104"", ""SR105"", ""SR107"", ""SR108"", ""SR109"", ""SR110"", ""SR112"", ""SR113"", ""SR114"", ""SR115"", ""SR117"", ""SR120"", ""SR121"", ""SR122"", ""SR123"", ""SR129"", ""SR131"", ""SR132"", ""SR133"", ""SR137"", ""SR138"", ""SR141"", ""SR142"", ""SR145"", ""SR146"", ""SR148"", ""SR149"", ""SR150"", ""SR151"", ""SR152"", ""SR153"", ""SR154"", ""SR155"", ""SR156"", ""SR157"", ""SR158"", ""SR159"", ""SR160"", ""SR162"", ""SR163"", ""SR164"", ""SR165"", ""SR166"", ""SR167"", ""SR168"", ""SR169"", ""SR170"", ""SR171"", ""SR173"", ""SR174"", ""SR177"", ""SR178"", ""SR179"", ""SR181"", ""SR182"", ""SR183"", ""SR184"", ""SR185"", ""SR186"", ""SR187"", ""SR188"", ""SR189"", ""SR190"", ""SR191"", ""SR192"", ""SR193"", ""SR194"", ""SR195"", ""SR196"", ""SR197"", ""SR199"", ""SR200"", ""SR201"", ""SR202"", ""SR203"", ""SR204"", ""SR205"", ""SR206"", ""SR207"", ""SR208"", ""SR209"", ""SR210"", ""SR211"", ""SR212"", ""SR213"", ""SR214"", ""SR215"", ""SR216"", ""SR217"", ""SR218"", ""SR219"", ""SR220"", ""SR221"", ""SR222"", ""SR223"", ""SR224"", ""SR225"", ""SR226"", ""SR227"", ""SR228"", ""SR229"", ""SR230"", ""SR231"", ""SUAFI"", ""SUAJU"", ""SUALO"", ""SUATA"", ""SUATB"", ""SUATC"", ""SUATD"", ""SUATE"", ""SUCAR"", ""SUCOI"", ""SUCON"", ""SUCOR"", ""SUCOT"", ""SUCTI"", ""SUDEC"", ""SUDES"", ""SUDIS"", ""SUEMP"", ""SUETI"", ""SUFES"", ""SUFUG"", ""SUFUS"", ""SUGET"", ""SUGTI"", ""SUHAB"", ""SUHAM"", ""SUHAR"", ""SUINP"", ""SUINT"", ""SUITI"", ""SUMAR"", ""SUMAV"", ""SUMCV"", ""SUMEF"", ""SUMPE"", ""SUNGE"", ""SUNSE"", ""SUOPE"", ""SUPEN"", ""SUPLA"", ""SUPOT"", ""SUPSO"", ""SUPUJ"", ""SURBE"", ""SUREB"", ""SUREC"", ""SUREL"", ""SUREP"", ""SURET"", ""SURIC"", ""SUSAN"", ""SUSEC"", ""SUSEG"", ""SUTEN"", ""SUVOP"", ""VICOP"", ""VICOR"", ""VIFIC"", ""VIFUG"", ""VIGOV"", ""VILOG"", ""VINER"", ""VIPES"", ""VITEC"", ""VITER"", ""VIVAR""}) 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""REMCO""}) 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEACE""}) 
+ nu_unde_ltco_fisica == ""5349"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEATE""}) 
+ nu_unde_ltco_fisica == ""5467"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEMCO""}) 
+ nu_unde_ltco_fisica == ""5517"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""GEPVA""}) 
+ nu_unde_ltco == ""5551"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEPUB""}) 
+ nu_unde_ltco_fisica == ""5583"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEOPT""}) 
+ nu_unde_ltco_fisica == ""5624"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUEMP""}) 
+ nu_unde_ltco_fisica == ""5720"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUPVA""}) 
+ nu_unde_ltco_fisica == ""5722"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEPOP""}) 
+ nu_unde_ltco_fisica == ""5781"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUMEP""}) 
+ nu_unde_ltco_fisica == ""5795"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""CNBND""}) 
+ nu_unde_ltco_fisica == ""7006"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2001"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2029"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2037"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2048""))"
+SIAUP,SIAUP_PERFIL9,PERFIL,2487,"
+---------------Regra---------------
+((sg_unde_ltco.in({""AG"", ""ASIMP"", ""AUDAT"", ""AUDES"", ""AUDIR"", ""AUDIT"", ""AUDRE"", ""AUDTI"", ""CEATI"", ""CEBND"", ""CECVS"", ""CEFUS"", ""CEHOP"", ""CEMCO"", ""CEMOF"", ""CEOUV"", ""CEPCO"", ""CEPES"", ""CEPSO"", ""CEPTI"", ""CERAT"", ""CERIS"", ""CESEG"", ""CETEC"", ""CETES"", ""CETNE"", ""CIPES"", ""CIREC"", ""CITDI"", ""COADM"", ""COAUD"", ""COFIS"", ""DECAR"", ""DECEV"", ""DECON"", ""DECOP"", ""DECOR"", ""DEFIN"", ""DEFUS"", ""DEGAN"", ""DEGOV"", ""DEHAB"", ""DEMAC"", ""DEOPE"", ""DEORE"", ""DEPES"", ""DESAN"", ""DESCO"", ""DETEC"", ""DETER"", ""DIGER"", ""DIJUR"", ""DINOV"", ""DIPAR"", ""EREUA"", ""ERJAP"", ""ERVEN"", ""GAPRE"", ""GEABR"", ""GEAFE"", ""GEAGO"", ""GEAJU"", ""GEALO"", ""GEALT"", ""GEAMA"", ""GEAMG"", ""GEAMP"", ""GEARE"", ""GEARJ"", ""GEARQ"", ""GEART"", ""GEASP"", ""GEAST"", ""GEATI"", ""GEATO"", ""GEATS"", ""GEAVO"", ""GEBAN"", ""GEBES"", ""GECAC"", ""GECAF"", ""GECAM"", ""GECAN"", ""GECAR"", ""GECAT"", ""GECEA"", ""GECEP"", ""GECER"", ""GECGO"", ""GECIS"", ""GECME"", ""GECOA"", ""GECOC"", ""GECOE"", ""GECOG"", ""GECOL"", ""GECOM"", ""GECOP"", ""GECOR"", ""GECOT"", ""GECRI"", ""GECRM"", ""GECTE"", ""GECTI"", ""GECVA"", ""GEDEC"", ""GEDEF"", ""GEDEP"", ""GEDTI"", ""GEDUA"", ""GEDUB"", ""GEDUC"", ""GEDUD"", ""GEDUE"", ""GEECO"", ""GEEMP"", ""GEESC"", ""GEEST"", ""GEFES"", ""GEFIN"", ""GEFIP"", ""GEFIX"", ""GEFOM"", ""GEFOP"", ""GEFUS"", ""GEGAC"", ""GEGAN"", ""GEGAP"", ""GEGAT"", ""GEGRO"", ""GEHUR"", ""GEICI"", ""GEICO"", ""GEICV"", ""GEIFI"", ""GEIMP"", ""GEINC"", ""GEINF"", ""GEINV"", ""GEIPA"", ""GEIPT"", ""GEJUD"", ""GELIT"", ""GELOG"", ""GELOT"", ""GEMCV"", ""GEMEA"", ""GEMGE"", ""GEMOB"", ""GEMOC"", ""GEMOD"", ""GEMOG"", ""GEMON"", ""GEMOR"", ""GEMPE"", ""GEMPF"", ""GEMPJ"", ""GENAC"", ""GENAT"", ""GENEF"", ""GENEP"", ""GENIT"", ""GENOA"", ""GENOR"", ""GENSE"", ""GEOMI"", ""GEOPE"", ""GEORC"", ""GEOSI"", ""GEOTI"", ""GEPAD"", ""GEPAE"", ""GEPAR"", ""GEPAS"", ""GEPEC"", ""GEPES"", ""GEPEV"", ""GEPJO"", ""GEPLA"", ""GEPOS"", ""GEPOT"", ""GEPRE"", ""GEPSO"", ""GEPTE"", ""GEPUP"", ""GERAC"", ""GERAT"", ""GERED"", ""GEREL"", ""GEREM"", ""GEREP"", ""GERET"", ""GERFU"", ""GERID"", ""GERIM"", ""GERIN"", ""GERIV"", ""GEROP"", ""GERPA"", ""GERSA"", ""GERSE"", ""GERTI"", ""GESAN"", ""GESAP"", ""GESEC"", ""GESED"", ""GESEF"", ""GESEM"", ""GESET"", ""GESFI"", ""GESIG"", ""GESIR"", ""GESPJ"", ""GESTE"", ""GESTO"", ""GESUP"", ""GETEN"", ""GETER"", ""GETRE"", ""GETRI"", ""GEVAR"", ""GICAC"", ""GICET"", ""GICOM"", ""GICOT"", ""GIDUR"", ""GIFUG"", ""GIFUS"", ""GIICP"", ""GILIC"", ""GILIE"", ""GILOG"", ""GIPES"", ""GIPSO"", ""GIREC"", ""GIRET"", ""GIRIS"", ""GISEG"", ""GITEC"", ""JURIR"", ""MESAM"", ""OUVID"", ""PA"", ""PAB"", ""PEAGR"", ""PEAPF"", ""PEATE"", ""PEBSL"", ""PECAC"", ""PECAD"", ""PECOC"", ""PEDEP"", ""PEFIN"", ""PEFUG"", ""PEGOV"", ""PEJUD"", ""PEOPI"", ""PEPAN"", ""PESCC"", ""PRESI"", ""REAUD"", ""RECOC"", ""RECOL"", ""RECOM"", ""RECOV"", ""REDAD"", ""REDUR"", ""REICP"", ""REIMP"", ""REJUR"", ""RELIE"", ""RELOG"", ""REMCO"", ""REPES"", ""REPSO"", ""REREC"", ""RERET"", ""RESEC"", ""RESEG"", ""RETEC"", ""RETNE"", ""SG204"", ""SG212"", ""SG213"", ""SN"", ""SR099"", ""SR101"", ""SR102"", ""SR103"", ""SR104"", ""SR105"", ""SR107"", ""SR108"", ""SR109"", ""SR110"", ""SR112"", ""SR113"", ""SR114"", ""SR115"", ""SR117"", ""SR120"", ""SR121"", ""SR122"", ""SR123"", ""SR129"", ""SR131"", ""SR132"", ""SR133"", ""SR137"", ""SR138"", ""SR141"", ""SR142"", ""SR145"", ""SR146"", ""SR148"", ""SR149"", ""SR150"", ""SR151"", ""SR152"", ""SR153"", ""SR154"", ""SR155"", ""SR156"", ""SR157"", ""SR158"", ""SR159"", ""SR160"", ""SR162"", ""SR163"", ""SR164"", ""SR165"", ""SR166"", ""SR167"", ""SR168"", ""SR169"", ""SR170"", ""SR171"", ""SR173"", ""SR174"", ""SR177"", ""SR178"", ""SR179"", ""SR181"", ""SR182"", ""SR183"", ""SR184"", ""SR185"", ""SR186"", ""SR187"", ""SR188"", ""SR189"", ""SR190"", ""SR191"", ""SR192"", ""SR193"", ""SR194"", ""SR195"", ""SR196"", ""SR197"", ""SR199"", ""SR200"", ""SR201"", ""SR202"", ""SR203"", ""SR204"", ""SR205"", ""SR206"", ""SR207"", ""SR208"", ""SR209"", ""SR210"", ""SR211"", ""SR212"", ""SR213"", ""SR214"", ""SR215"", ""SR216"", ""SR217"", ""SR218"", ""SR219"", ""SR220"", ""SR221"", ""SR222"", ""SR223"", ""SR224"", ""SR225"", ""SR226"", ""SR227"", ""SR228"", ""SR229"", ""SR230"", ""SR231"", ""SUAFI"", ""SUAJU"", ""SUALO"", ""SUATA"", ""SUATB"", ""SUATC"", ""SUATD"", ""SUATE"", ""SUCAR"", ""SUCOI"", ""SUCON"", ""SUCOR"", ""SUCOT"", ""SUCTI"", ""SUDEC"", ""SUDES"", ""SUDIS"", ""SUEMP"", ""SUETI"", ""SUFES"", ""SUFUG"", ""SUFUS"", ""SUGET"", ""SUGTI"", ""SUHAB"", ""SUHAM"", ""SUHAR"", ""SUINP"", ""SUINT"", ""SUITI"", ""SUMAR"", ""SUMAV"", ""SUMCV"", ""SUMEF"", ""SUMPE"", ""SUNGE"", ""SUNSE"", ""SUOPE"", ""SUPEN"", ""SUPLA"", ""SUPOT"", ""SUPSO"", ""SUPUJ"", ""SURBE"", ""SUREB"", ""SUREC"", ""SUREL"", ""SUREP"", ""SURET"", ""SURIC"", ""SUSAN"", ""SUSEC"", ""SUSEG"", ""SUTEN"", ""SUVOP"", ""VICOP"", ""VICOR"", ""VIFIC"", ""VIFUG"", ""VIGOV"", ""VILOG"", ""VINER"", ""VIPES"", ""VITEC"", ""VITER"", ""VIVAR""}) 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""REMCO""}) 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEACE""}) 
+ nu_unde_ltco_fisica == ""5349"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEATE""}) 
+ nu_unde_ltco_fisica == ""5467"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEMCO""}) 
+ nu_unde_ltco_fisica == ""5517"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""GEPVA""}) 
+ nu_unde_ltco == ""5551"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEPUB""}) 
+ nu_unde_ltco_fisica == ""5583"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEOPT""}) 
+ nu_unde_ltco_fisica == ""5624"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUEMP""}) 
+ nu_unde_ltco_fisica == ""5720"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUPVA""}) 
+ nu_unde_ltco_fisica == ""5722"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEPOP""}) 
+ nu_unde_ltco_fisica == ""5781"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUMEP""}) 
+ nu_unde_ltco_fisica == ""5795"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""CNBND""}) 
+ nu_unde_ltco_fisica == ""7006"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2001"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2029"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2037"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2048""))"
+SIAUP,SIAUP_PERFIL9A,PERFIL,14965,"
+---------------Regra---------------
+((sg_unde_ltco.in({""AG"", ""ASIMP"", ""AUDAT"", ""AUDES"", ""AUDIR"", ""AUDIT"", ""AUDRE"", ""AUDTI"", ""CEATI"", ""CEBND"", ""CECVS"", ""CEFUS"", ""CEHOP"", ""CEMCO"", ""CEMOF"", ""CEOUV"", ""CEPCO"", ""CEPES"", ""CEPSO"", ""CEPTI"", ""CERAT"", ""CERIS"", ""CESEG"", ""CETEC"", ""CETES"", ""CETNE"", ""CIPES"", ""CIREC"", ""CITDI"", ""COADM"", ""COAUD"", ""COFIS"", ""DECAR"", ""DECEV"", ""DECON"", ""DECOP"", ""DECOR"", ""DEFIN"", ""DEFUS"", ""DEGAN"", ""DEGOV"", ""DEHAB"", ""DEMAC"", ""DEOPE"", ""DEORE"", ""DEPES"", ""DESAN"", ""DESCO"", ""DETEC"", ""DETER"", ""DIGER"", ""DIJUR"", ""DINOV"", ""DIPAR"", ""EREUA"", ""ERJAP"", ""ERVEN"", ""GAPRE"", ""GEABR"", ""GEAFE"", ""GEAGO"", ""GEAJU"", ""GEALO"", ""GEALT"", ""GEAMA"", ""GEAMG"", ""GEAMP"", ""GEARE"", ""GEARJ"", ""GEARQ"", ""GEART"", ""GEASP"", ""GEAST"", ""GEATI"", ""GEATO"", ""GEATS"", ""GEAVO"", ""GEBAN"", ""GEBES"", ""GECAC"", ""GECAF"", ""GECAM"", ""GECAN"", ""GECAR"", ""GECAT"", ""GECEA"", ""GECEP"", ""GECER"", ""GECGO"", ""GECIS"", ""GECME"", ""GECOA"", ""GECOC"", ""GECOE"", ""GECOG"", ""GECOL"", ""GECOM"", ""GECOP"", ""GECOR"", ""GECOT"", ""GECRI"", ""GECRM"", ""GECTE"", ""GECTI"", ""GECVA"", ""GEDEC"", ""GEDEF"", ""GEDEP"", ""GEDTI"", ""GEDUA"", ""GEDUB"", ""GEDUC"", ""GEDUD"", ""GEDUE"", ""GEECO"", ""GEEMP"", ""GEESC"", ""GEEST"", ""GEFES"", ""GEFIN"", ""GEFIP"", ""GEFIX"", ""GEFOM"", ""GEFOP"", ""GEFUS"", ""GEGAC"", ""GEGAN"", ""GEGAP"", ""GEGAT"", ""GEGRO"", ""GEHUR"", ""GEICI"", ""GEICO"", ""GEICV"", ""GEIFI"", ""GEIMP"", ""GEINC"", ""GEINF"", ""GEINV"", ""GEIPA"", ""GEIPT"", ""GEJUD"", ""GELIT"", ""GELOG"", ""GELOT"", ""GEMCV"", ""GEMEA"", ""GEMGE"", ""GEMOB"", ""GEMOC"", ""GEMOD"", ""GEMOG"", ""GEMON"", ""GEMOR"", ""GEMPE"", ""GEMPF"", ""GEMPJ"", ""GENAC"", ""GENAT"", ""GENEF"", ""GENEP"", ""GENIT"", ""GENOA"", ""GENOR"", ""GENSE"", ""GEOMI"", ""GEOPE"", ""GEORC"", ""GEOSI"", ""GEOTI"", ""GEPAD"", ""GEPAE"", ""GEPAR"", ""GEPAS"", ""GEPEC"", ""GEPES"", ""GEPEV"", ""GEPJO"", ""GEPLA"", ""GEPOS"", ""GEPOT"", ""GEPRE"", ""GEPSO"", ""GEPTE"", ""GEPUP"", ""GERAC"", ""GERAT"", ""GERED"", ""GEREL"", ""GEREM"", ""GEREP"", ""GERET"", ""GERFU"", ""GERID"", ""GERIM"", ""GERIN"", ""GERIV"", ""GEROP"", ""GERPA"", ""GERSA"", ""GERSE"", ""GERTI"", ""GESAN"", ""GESAP"", ""GESEC"", ""GESED"", ""GESEF"", ""GESEM"", ""GESET"", ""GESFI"", ""GESIG"", ""GESIR"", ""GESPJ"", ""GESTE"", ""GESTO"", ""GESUP"", ""GETEN"", ""GETER"", ""GETRE"", ""GETRI"", ""GEVAR"", ""GICAC"", ""GICET"", ""GICOM"", ""GICOT"", ""GIDUR"", ""GIFUG"", ""GIFUS"", ""GIICP"", ""GILIC"", ""GILIE"", ""GILOG"", ""GIPES"", ""GIPSO"", ""GIREC"", ""GIRET"", ""GIRIS"", ""GISEG"", ""GITEC"", ""JURIR"", ""MESAM"", ""OUVID"", ""PA"", ""PAB"", ""PEAGR"", ""PEAPF"", ""PEATE"", ""PEBSL"", ""PECAC"", ""PECAD"", ""PECOC"", ""PEDEP"", ""PEFIN"", ""PEFUG"", ""PEGOV"", ""PEJUD"", ""PEOPI"", ""PEPAN"", ""PESCC"", ""PRESI"", ""REAUD"", ""RECOC"", ""RECOL"", ""RECOM"", ""RECOV"", ""REDAD"", ""REDUR"", ""REICP"", ""REIMP"", ""REJUR"", ""RELIE"", ""RELOG"", ""REMCO"", ""REPES"", ""REPSO"", ""REREC"", ""RERET"", ""RESEC"", ""RESEG"", ""RETEC"", ""RETNE"", ""SG204"", ""SG212"", ""SG213"", ""SN"", ""SR099"", ""SR101"", ""SR102"", ""SR103"", ""SR104"", ""SR105"", ""SR107"", ""SR108"", ""SR109"", ""SR110"", ""SR112"", ""SR113"", ""SR114"", ""SR115"", ""SR117"", ""SR120"", ""SR121"", ""SR122"", ""SR123"", ""SR129"", ""SR131"", ""SR132"", ""SR133"", ""SR137"", ""SR138"", ""SR141"", ""SR142"", ""SR145"", ""SR146"", ""SR148"", ""SR149"", ""SR150"", ""SR151"", ""SR152"", ""SR153"", ""SR154"", ""SR155"", ""SR156"", ""SR157"", ""SR158"", ""SR159"", ""SR160"", ""SR162"", ""SR163"", ""SR164"", ""SR165"", ""SR166"", ""SR167"", ""SR168"", ""SR169"", ""SR170"", ""SR171"", ""SR173"", ""SR174"", ""SR177"", ""SR178"", ""SR179"", ""SR181"", ""SR182"", ""SR183"", ""SR184"", ""SR185"", ""SR186"", ""SR187"", ""SR188"", ""SR189"", ""SR190"", ""SR191"", ""SR192"", ""SR193"", ""SR194"", ""SR195"", ""SR196"", ""SR197"", ""SR199"", ""SR200"", ""SR201"", ""SR202"", ""SR203"", ""SR204"", ""SR205"", ""SR206"", ""SR207"", ""SR208"", ""SR209"", ""SR210"", ""SR211"", ""SR212"", ""SR213"", ""SR214"", ""SR215"", ""SR216"", ""SR217"", ""SR218"", ""SR219"", ""SR220"", ""SR221"", ""SR222"", ""SR223"", ""SR224"", ""SR225"", ""SR226"", ""SR227"", ""SR228"", ""SR229"", ""SR230"", ""SR231"", ""SUAFI"", ""SUAJU"", ""SUALO"", ""SUATA"", ""SUATB"", ""SUATC"", ""SUATD"", ""SUATE"", ""SUCAR"", ""SUCOI"", ""SUCON"", ""SUCOR"", ""SUCOT"", ""SUCTI"", ""SUDEC"", ""SUDES"", ""SUDIS"", ""SUEMP"", ""SUETI"", ""SUFES"", ""SUFUG"", ""SUFUS"", ""SUGET"", ""SUGTI"", ""SUHAB"", ""SUHAM"", ""SUHAR"", ""SUINP"", ""SUINT"", ""SUITI"", ""SUMAR"", ""SUMAV"", ""SUMCV"", ""SUMEF"", ""SUMPE"", ""SUNGE"", ""SUNSE"", ""SUOPE"", ""SUPEN"", ""SUPLA"", ""SUPOT"", ""SUPSO"", ""SUPUJ"", ""SURBE"", ""SUREB"", ""SUREC"", ""SUREL"", ""SUREP"", ""SURET"", ""SURIC"", ""SUSAN"", ""SUSEC"", ""SUSEG"", ""SUTEN"", ""SUVOP"", ""VICOP"", ""VICOR"", ""VIFIC"", ""VIFUG"", ""VIGOV"", ""VILOG"", ""VINER"", ""VIPES"", ""VITEC"", ""VITER"", ""VIVAR""}) 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""REMCO""}) 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEACE""}) 
+ nu_unde_ltco_fisica == ""5349"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEATE""}) 
+ nu_unde_ltco_fisica == ""5467"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEMCO""}) 
+ nu_unde_ltco_fisica == ""5517"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""GEPVA""}) 
+ nu_unde_ltco == ""5551"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEPUB""}) 
+ nu_unde_ltco_fisica == ""5583"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEOPT""}) 
+ nu_unde_ltco_fisica == ""5624"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUEMP""}) 
+ nu_unde_ltco_fisica == ""5720"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUPVA""}) 
+ nu_unde_ltco_fisica == ""5722"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEPOP""}) 
+ nu_unde_ltco_fisica == ""5781"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUMEP""}) 
+ nu_unde_ltco_fisica == ""5795"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""CNBND""}) 
+ nu_unde_ltco_fisica == ""7006"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2001"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2029"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2037"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2048""))"
+SIAUP,SIAUP_PERFIL9B,PERFIL,353,"
+---------------Regra---------------
+((sg_unde_ltco.in({""AG"", ""ASIMP"", ""AUDAT"", ""AUDES"", ""AUDIR"", ""AUDIT"", ""AUDRE"", ""AUDTI"", ""CEATI"", ""CEBND"", ""CECVS"", ""CEFUS"", ""CEHOP"", ""CEMCO"", ""CEMOF"", ""CEOUV"", ""CEPCO"", ""CEPES"", ""CEPSO"", ""CEPTI"", ""CERAT"", ""CERIS"", ""CESEG"", ""CETEC"", ""CETES"", ""CETNE"", ""CIPES"", ""CIREC"", ""CITDI"", ""COADM"", ""COAUD"", ""COFIS"", ""DECAR"", ""DECEV"", ""DECON"", ""DECOP"", ""DECOR"", ""DEFIN"", ""DEFUS"", ""DEGAN"", ""DEGOV"", ""DEHAB"", ""DEMAC"", ""DEOPE"", ""DEORE"", ""DEPES"", ""DESAN"", ""DESCO"", ""DETEC"", ""DETER"", ""DIGER"", ""DIJUR"", ""DINOV"", ""DIPAR"", ""EREUA"", ""ERJAP"", ""ERVEN"", ""GAPRE"", ""GEABR"", ""GEAFE"", ""GEAGO"", ""GEAJU"", ""GEALO"", ""GEALT"", ""GEAMA"", ""GEAMG"", ""GEAMP"", ""GEARE"", ""GEARJ"", ""GEARQ"", ""GEART"", ""GEASP"", ""GEAST"", ""GEATI"", ""GEATO"", ""GEATS"", ""GEAVO"", ""GEBAN"", ""GEBES"", ""GECAC"", ""GECAF"", ""GECAM"", ""GECAN"", ""GECAR"", ""GECAT"", ""GECEA"", ""GECEP"", ""GECER"", ""GECGO"", ""GECIS"", ""GECME"", ""GECOA"", ""GECOC"", ""GECOE"", ""GECOG"", ""GECOL"", ""GECOM"", ""GECOP"", ""GECOR"", ""GECOT"", ""GECRI"", ""GECRM"", ""GECTE"", ""GECTI"", ""GECVA"", ""GEDEC"", ""GEDEF"", ""GEDEP"", ""GEDTI"", ""GEDUA"", ""GEDUB"", ""GEDUC"", ""GEDUD"", ""GEDUE"", ""GEECO"", ""GEEMP"", ""GEESC"", ""GEEST"", ""GEFES"", ""GEFIN"", ""GEFIP"", ""GEFIX"", ""GEFOM"", ""GEFOP"", ""GEFUS"", ""GEGAC"", ""GEGAN"", ""GEGAP"", ""GEGAT"", ""GEGRO"", ""GEHUR"", ""GEICI"", ""GEICO"", ""GEICV"", ""GEIFI"", ""GEIMP"", ""GEINC"", ""GEINF"", ""GEINV"", ""GEIPA"", ""GEIPT"", ""GEJUD"", ""GELIT"", ""GELOG"", ""GELOT"", ""GEMCV"", ""GEMEA"", ""GEMGE"", ""GEMOB"", ""GEMOC"", ""GEMOD"", ""GEMOG"", ""GEMON"", ""GEMOR"", ""GEMPE"", ""GEMPF"", ""GEMPJ"", ""GENAC"", ""GENAT"", ""GENEF"", ""GENEP"", ""GENIT"", ""GENOA"", ""GENOR"", ""GENSE"", ""GEOMI"", ""GEOPE"", ""GEORC"", ""GEOSI"", ""GEOTI"", ""GEPAD"", ""GEPAE"", ""GEPAR"", ""GEPAS"", ""GEPEC"", ""GEPES"", ""GEPEV"", ""GEPJO"", ""GEPLA"", ""GEPOS"", ""GEPOT"", ""GEPRE"", ""GEPSO"", ""GEPTE"", ""GEPUP"", ""GERAC"", ""GERAT"", ""GERED"", ""GEREL"", ""GEREM"", ""GEREP"", ""GERET"", ""GERFU"", ""GERID"", ""GERIM"", ""GERIN"", ""GERIV"", ""GEROP"", ""GERPA"", ""GERSA"", ""GERSE"", ""GERTI"", ""GESAN"", ""GESAP"", ""GESEC"", ""GESED"", ""GESEF"", ""GESEM"", ""GESET"", ""GESFI"", ""GESIG"", ""GESIR"", ""GESPJ"", ""GESTE"", ""GESTO"", ""GESUP"", ""GETEN"", ""GETER"", ""GETRE"", ""GETRI"", ""GEVAR"", ""GICAC"", ""GICET"", ""GICOM"", ""GICOT"", ""GIDUR"", ""GIFUG"", ""GIFUS"", ""GIICP"", ""GILIC"", ""GILIE"", ""GILOG"", ""GIPES"", ""GIPSO"", ""GIREC"", ""GIRET"", ""GIRIS"", ""GISEG"", ""GITEC"", ""JURIR"", ""MESAM"", ""OUVID"", ""PA"", ""PAB"", ""PEAGR"", ""PEAPF"", ""PEATE"", ""PEBSL"", ""PECAC"", ""PECAD"", ""PECOC"", ""PEDEP"", ""PEFIN"", ""PEFUG"", ""PEGOV"", ""PEJUD"", ""PEOPI"", ""PEPAN"", ""PESCC"", ""PRESI"", ""REAUD"", ""RECOC"", ""RECOL"", ""RECOM"", ""RECOV"", ""REDAD"", ""REDUR"", ""REICP"", ""REIMP"", ""REJUR"", ""RELIE"", ""RELOG"", ""REMCO"", ""REPES"", ""REPSO"", ""REREC"", ""RERET"", ""RESEC"", ""RESEG"", ""RETEC"", ""RETNE"", ""SG204"", ""SG212"", ""SG213"", ""SN"", ""SR099"", ""SR101"", ""SR102"", ""SR103"", ""SR104"", ""SR105"", ""SR107"", ""SR108"", ""SR109"", ""SR110"", ""SR112"", ""SR113"", ""SR114"", ""SR115"", ""SR117"", ""SR120"", ""SR121"", ""SR122"", ""SR123"", ""SR129"", ""SR131"", ""SR132"", ""SR133"", ""SR137"", ""SR138"", ""SR141"", ""SR142"", ""SR145"", ""SR146"", ""SR148"", ""SR149"", ""SR150"", ""SR151"", ""SR152"", ""SR153"", ""SR154"", ""SR155"", ""SR156"", ""SR157"", ""SR158"", ""SR159"", ""SR160"", ""SR162"", ""SR163"", ""SR164"", ""SR165"", ""SR166"", ""SR167"", ""SR168"", ""SR169"", ""SR170"", ""SR171"", ""SR173"", ""SR174"", ""SR177"", ""SR178"", ""SR179"", ""SR181"", ""SR182"", ""SR183"", ""SR184"", ""SR185"", ""SR186"", ""SR187"", ""SR188"", ""SR189"", ""SR190"", ""SR191"", ""SR192"", ""SR193"", ""SR194"", ""SR195"", ""SR196"", ""SR197"", ""SR199"", ""SR200"", ""SR201"", ""SR202"", ""SR203"", ""SR204"", ""SR205"", ""SR206"", ""SR207"", ""SR208"", ""SR209"", ""SR210"", ""SR211"", ""SR212"", ""SR213"", ""SR214"", ""SR215"", ""SR216"", ""SR217"", ""SR218"", ""SR219"", ""SR220"", ""SR221"", ""SR222"", ""SR223"", ""SR224"", ""SR225"", ""SR226"", ""SR227"", ""SR228"", ""SR229"", ""SR230"", ""SR231"", ""SUAFI"", ""SUAJU"", ""SUALO"", ""SUATA"", ""SUATB"", ""SUATC"", ""SUATD"", ""SUATE"", ""SUCAR"", ""SUCOI"", ""SUCON"", ""SUCOR"", ""SUCOT"", ""SUCTI"", ""SUDEC"", ""SUDES"", ""SUDIS"", ""SUEMP"", ""SUETI"", ""SUFES"", ""SUFUG"", ""SUFUS"", ""SUGET"", ""SUGTI"", ""SUHAB"", ""SUHAM"", ""SUHAR"", ""SUINP"", ""SUINT"", ""SUITI"", ""SUMAR"", ""SUMAV"", ""SUMCV"", ""SUMEF"", ""SUMPE"", ""SUNGE"", ""SUNSE"", ""SUOPE"", ""SUPEN"", ""SUPLA"", ""SUPOT"", ""SUPSO"", ""SUPUJ"", ""SURBE"", ""SUREB"", ""SUREC"", ""SUREL"", ""SUREP"", ""SURET"", ""SURIC"", ""SUSAN"", ""SUSEC"", ""SUSEG"", ""SUTEN"", ""SUVOP"", ""VICOP"", ""VICOR"", ""VIFIC"", ""VIFUG"", ""VIGOV"", ""VILOG"", ""VINER"", ""VIPES"", ""VITEC"", ""VITER"", ""VIVAR""}) 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""REMCO""}) 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEACE""}) 
+ nu_unde_ltco_fisica == ""5349"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEATE""}) 
+ nu_unde_ltco_fisica == ""5467"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEMCO""}) 
+ nu_unde_ltco_fisica == ""5517"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""GEPVA""}) 
+ nu_unde_ltco == ""5551"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEPUB""}) 
+ nu_unde_ltco_fisica == ""5583"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEOPT""}) 
+ nu_unde_ltco_fisica == ""5624"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUEMP""}) 
+ nu_unde_ltco_fisica == ""5720"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUPVA""}) 
+ nu_unde_ltco_fisica == ""5722"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEPOP""}) 
+ nu_unde_ltco_fisica == ""5781"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUMEP""}) 
+ nu_unde_ltco_fisica == ""5795"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""CNBND""}) 
+ nu_unde_ltco_fisica == ""7006"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2001"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2029"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2037"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2048""))"
+SIAUP,SIAUP_PERFIL9C,PERFIL,872,"
+---------------Regra---------------
+((sg_unde_ltco.in({""AG"", ""ASIMP"", ""AUDAT"", ""AUDES"", ""AUDIR"", ""AUDIT"", ""AUDRE"", ""AUDTI"", ""CEATI"", ""CEBND"", ""CECVS"", ""CEFUS"", ""CEHOP"", ""CEMCO"", ""CEMOF"", ""CEOUV"", ""CEPCO"", ""CEPES"", ""CEPSO"", ""CEPTI"", ""CERAT"", ""CERIS"", ""CESEG"", ""CETEC"", ""CETES"", ""CETNE"", ""CIPES"", ""CIREC"", ""CITDI"", ""COADM"", ""COAUD"", ""COFIS"", ""DECAR"", ""DECEV"", ""DECON"", ""DECOP"", ""DECOR"", ""DEFIN"", ""DEFUS"", ""DEGAN"", ""DEGOV"", ""DEHAB"", ""DEMAC"", ""DEOPE"", ""DEORE"", ""DEPES"", ""DESAN"", ""DESCO"", ""DETEC"", ""DETER"", ""DIGER"", ""DIJUR"", ""DINOV"", ""DIPAR"", ""EREUA"", ""ERJAP"", ""ERVEN"", ""GAPRE"", ""GEABR"", ""GEAFE"", ""GEAGO"", ""GEAJU"", ""GEALO"", ""GEALT"", ""GEAMA"", ""GEAMG"", ""GEAMP"", ""GEARE"", ""GEARJ"", ""GEARQ"", ""GEART"", ""GEASP"", ""GEAST"", ""GEATI"", ""GEATO"", ""GEATS"", ""GEAVO"", ""GEBAN"", ""GEBES"", ""GECAC"", ""GECAF"", ""GECAM"", ""GECAN"", ""GECAR"", ""GECAT"", ""GECEA"", ""GECEP"", ""GECER"", ""GECGO"", ""GECIS"", ""GECME"", ""GECOA"", ""GECOC"", ""GECOE"", ""GECOG"", ""GECOL"", ""GECOM"", ""GECOP"", ""GECOR"", ""GECOT"", ""GECRI"", ""GECRM"", ""GECTE"", ""GECTI"", ""GECVA"", ""GEDEC"", ""GEDEF"", ""GEDEP"", ""GEDTI"", ""GEDUA"", ""GEDUB"", ""GEDUC"", ""GEDUD"", ""GEDUE"", ""GEECO"", ""GEEMP"", ""GEESC"", ""GEEST"", ""GEFES"", ""GEFIN"", ""GEFIP"", ""GEFIX"", ""GEFOM"", ""GEFOP"", ""GEFUS"", ""GEGAC"", ""GEGAN"", ""GEGAP"", ""GEGAT"", ""GEGRO"", ""GEHUR"", ""GEICI"", ""GEICO"", ""GEICV"", ""GEIFI"", ""GEIMP"", ""GEINC"", ""GEINF"", ""GEINV"", ""GEIPA"", ""GEIPT"", ""GEJUD"", ""GELIT"", ""GELOG"", ""GELOT"", ""GEMCV"", ""GEMEA"", ""GEMGE"", ""GEMOB"", ""GEMOC"", ""GEMOD"", ""GEMOG"", ""GEMON"", ""GEMOR"", ""GEMPE"", ""GEMPF"", ""GEMPJ"", ""GENAC"", ""GENAT"", ""GENEF"", ""GENEP"", ""GENIT"", ""GENOA"", ""GENOR"", ""GENSE"", ""GEOMI"", ""GEOPE"", ""GEORC"", ""GEOSI"", ""GEOTI"", ""GEPAD"", ""GEPAE"", ""GEPAR"", ""GEPAS"", ""GEPEC"", ""GEPES"", ""GEPEV"", ""GEPJO"", ""GEPLA"", ""GEPOS"", ""GEPOT"", ""GEPRE"", ""GEPSO"", ""GEPTE"", ""GEPUP"", ""GERAC"", ""GERAT"", ""GERED"", ""GEREL"", ""GEREM"", ""GEREP"", ""GERET"", ""GERFU"", ""GERID"", ""GERIM"", ""GERIN"", ""GERIV"", ""GEROP"", ""GERPA"", ""GERSA"", ""GERSE"", ""GERTI"", ""GESAN"", ""GESAP"", ""GESEC"", ""GESED"", ""GESEF"", ""GESEM"", ""GESET"", ""GESFI"", ""GESIG"", ""GESIR"", ""GESPJ"", ""GESTE"", ""GESTO"", ""GESUP"", ""GETEN"", ""GETER"", ""GETRE"", ""GETRI"", ""GEVAR"", ""GICAC"", ""GICET"", ""GICOM"", ""GICOT"", ""GIDUR"", ""GIFUG"", ""GIFUS"", ""GIICP"", ""GILIC"", ""GILIE"", ""GILOG"", ""GIPES"", ""GIPSO"", ""GIREC"", ""GIRET"", ""GIRIS"", ""GISEG"", ""GITEC"", ""JURIR"", ""MESAM"", ""OUVID"", ""PA"", ""PAB"", ""PEAGR"", ""PEAPF"", ""PEATE"", ""PEBSL"", ""PECAC"", ""PECAD"", ""PECOC"", ""PEDEP"", ""PEFIN"", ""PEFUG"", ""PEGOV"", ""PEJUD"", ""PEOPI"", ""PEPAN"", ""PESCC"", ""PRESI"", ""REAUD"", ""RECOC"", ""RECOL"", ""RECOM"", ""RECOV"", ""REDAD"", ""REDUR"", ""REICP"", ""REIMP"", ""REJUR"", ""RELIE"", ""RELOG"", ""REMCO"", ""REPES"", ""REPSO"", ""REREC"", ""RERET"", ""RESEC"", ""RESEG"", ""RETEC"", ""RETNE"", ""SG204"", ""SG212"", ""SG213"", ""SN"", ""SR099"", ""SR101"", ""SR102"", ""SR103"", ""SR104"", ""SR105"", ""SR107"", ""SR108"", ""SR109"", ""SR110"", ""SR112"", ""SR113"", ""SR114"", ""SR115"", ""SR117"", ""SR120"", ""SR121"", ""SR122"", ""SR123"", ""SR129"", ""SR131"", ""SR132"", ""SR133"", ""SR137"", ""SR138"", ""SR141"", ""SR142"", ""SR145"", ""SR146"", ""SR148"", ""SR149"", ""SR150"", ""SR151"", ""SR152"", ""SR153"", ""SR154"", ""SR155"", ""SR156"", ""SR157"", ""SR158"", ""SR159"", ""SR160"", ""SR162"", ""SR163"", ""SR164"", ""SR165"", ""SR166"", ""SR167"", ""SR168"", ""SR169"", ""SR170"", ""SR171"", ""SR173"", ""SR174"", ""SR177"", ""SR178"", ""SR179"", ""SR181"", ""SR182"", ""SR183"", ""SR184"", ""SR185"", ""SR186"", ""SR187"", ""SR188"", ""SR189"", ""SR190"", ""SR191"", ""SR192"", ""SR193"", ""SR194"", ""SR195"", ""SR196"", ""SR197"", ""SR199"", ""SR200"", ""SR201"", ""SR202"", ""SR203"", ""SR204"", ""SR205"", ""SR206"", ""SR207"", ""SR208"", ""SR209"", ""SR210"", ""SR211"", ""SR212"", ""SR213"", ""SR214"", ""SR215"", ""SR216"", ""SR217"", ""SR218"", ""SR219"", ""SR220"", ""SR221"", ""SR222"", ""SR223"", ""SR224"", ""SR225"", ""SR226"", ""SR227"", ""SR228"", ""SR229"", ""SR230"", ""SR231"", ""SUAFI"", ""SUAJU"", ""SUALO"", ""SUATA"", ""SUATB"", ""SUATC"", ""SUATD"", ""SUATE"", ""SUCAR"", ""SUCOI"", ""SUCON"", ""SUCOR"", ""SUCOT"", ""SUCTI"", ""SUDEC"", ""SUDES"", ""SUDIS"", ""SUEMP"", ""SUETI"", ""SUFES"", ""SUFUG"", ""SUFUS"", ""SUGET"", ""SUGTI"", ""SUHAB"", ""SUHAM"", ""SUHAR"", ""SUINP"", ""SUINT"", ""SUITI"", ""SUMAR"", ""SUMAV"", ""SUMCV"", ""SUMEF"", ""SUMPE"", ""SUNGE"", ""SUNSE"", ""SUOPE"", ""SUPEN"", ""SUPLA"", ""SUPOT"", ""SUPSO"", ""SUPUJ"", ""SURBE"", ""SUREB"", ""SUREC"", ""SUREL"", ""SUREP"", ""SURET"", ""SURIC"", ""SUSAN"", ""SUSEC"", ""SUSEG"", ""SUTEN"", ""SUVOP"", ""VICOP"", ""VICOR"", ""VIFIC"", ""VIFUG"", ""VIGOV"", ""VILOG"", ""VINER"", ""VIPES"", ""VITEC"", ""VITER"", ""VIVAR""}) 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""REMCO""}) 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEACE""}) 
+ nu_unde_ltco_fisica == ""5349"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEATE""}) 
+ nu_unde_ltco_fisica == ""5467"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEMCO""}) 
+ nu_unde_ltco_fisica == ""5517"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""GEPVA""}) 
+ nu_unde_ltco == ""5551"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEPUB""}) 
+ nu_unde_ltco_fisica == ""5583"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEOPT""}) 
+ nu_unde_ltco_fisica == ""5624"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUEMP""}) 
+ nu_unde_ltco_fisica == ""5720"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUPVA""}) 
+ nu_unde_ltco_fisica == ""5722"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEPOP""}) 
+ nu_unde_ltco_fisica == ""5781"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUMEP""}) 
+ nu_unde_ltco_fisica == ""5795"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""CNBND""}) 
+ nu_unde_ltco_fisica == ""7006"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2001"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2029"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2037"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2048""))"
+SIAUP,SIAUP_PERFIL9E,PERFIL,448,"
+---------------Regra---------------
+((sg_unde_ltco.in({""AG"", ""ASIMP"", ""AUDAT"", ""AUDES"", ""AUDIR"", ""AUDIT"", ""AUDRE"", ""AUDTI"", ""CEATI"", ""CEBND"", ""CECVS"", ""CEFUS"", ""CEHOP"", ""CEMCO"", ""CEMOF"", ""CEOUV"", ""CEPCO"", ""CEPES"", ""CEPSO"", ""CEPTI"", ""CERAT"", ""CERIS"", ""CESEG"", ""CETEC"", ""CETES"", ""CETNE"", ""CIPES"", ""CIREC"", ""CITDI"", ""COADM"", ""COAUD"", ""COFIS"", ""DECAR"", ""DECEV"", ""DECON"", ""DECOP"", ""DECOR"", ""DEFIN"", ""DEFUS"", ""DEGAN"", ""DEGOV"", ""DEHAB"", ""DEMAC"", ""DEOPE"", ""DEORE"", ""DEPES"", ""DESAN"", ""DESCO"", ""DETEC"", ""DETER"", ""DIGER"", ""DIJUR"", ""DINOV"", ""DIPAR"", ""EREUA"", ""ERJAP"", ""ERVEN"", ""GAPRE"", ""GEABR"", ""GEAFE"", ""GEAGO"", ""GEAJU"", ""GEALO"", ""GEALT"", ""GEAMA"", ""GEAMG"", ""GEAMP"", ""GEARE"", ""GEARJ"", ""GEARQ"", ""GEART"", ""GEASP"", ""GEAST"", ""GEATI"", ""GEATO"", ""GEATS"", ""GEAVO"", ""GEBAN"", ""GEBES"", ""GECAC"", ""GECAF"", ""GECAM"", ""GECAN"", ""GECAR"", ""GECAT"", ""GECEA"", ""GECEP"", ""GECER"", ""GECGO"", ""GECIS"", ""GECME"", ""GECOA"", ""GECOC"", ""GECOE"", ""GECOG"", ""GECOL"", ""GECOM"", ""GECOP"", ""GECOR"", ""GECOT"", ""GECRI"", ""GECRM"", ""GECTE"", ""GECTI"", ""GECVA"", ""GEDEC"", ""GEDEF"", ""GEDEP"", ""GEDTI"", ""GEDUA"", ""GEDUB"", ""GEDUC"", ""GEDUD"", ""GEDUE"", ""GEECO"", ""GEEMP"", ""GEESC"", ""GEEST"", ""GEFES"", ""GEFIN"", ""GEFIP"", ""GEFIX"", ""GEFOM"", ""GEFOP"", ""GEFUS"", ""GEGAC"", ""GEGAN"", ""GEGAP"", ""GEGAT"", ""GEGRO"", ""GEHUR"", ""GEICI"", ""GEICO"", ""GEICV"", ""GEIFI"", ""GEIMP"", ""GEINC"", ""GEINF"", ""GEINV"", ""GEIPA"", ""GEIPT"", ""GEJUD"", ""GELIT"", ""GELOG"", ""GELOT"", ""GEMCV"", ""GEMEA"", ""GEMGE"", ""GEMOB"", ""GEMOC"", ""GEMOD"", ""GEMOG"", ""GEMON"", ""GEMOR"", ""GEMPE"", ""GEMPF"", ""GEMPJ"", ""GENAC"", ""GENAT"", ""GENEF"", ""GENEP"", ""GENIT"", ""GENOA"", ""GENOR"", ""GENSE"", ""GEOMI"", ""GEOPE"", ""GEORC"", ""GEOSI"", ""GEOTI"", ""GEPAD"", ""GEPAE"", ""GEPAR"", ""GEPAS"", ""GEPEC"", ""GEPES"", ""GEPEV"", ""GEPJO"", ""GEPLA"", ""GEPOS"", ""GEPOT"", ""GEPRE"", ""GEPSO"", ""GEPTE"", ""GEPUP"", ""GERAC"", ""GERAT"", ""GERED"", ""GEREL"", ""GEREM"", ""GEREP"", ""GERET"", ""GERFU"", ""GERID"", ""GERIM"", ""GERIN"", ""GERIV"", ""GEROP"", ""GERPA"", ""GERSA"", ""GERSE"", ""GERTI"", ""GESAN"", ""GESAP"", ""GESEC"", ""GESED"", ""GESEF"", ""GESEM"", ""GESET"", ""GESFI"", ""GESIG"", ""GESIR"", ""GESPJ"", ""GESTE"", ""GESTO"", ""GESUP"", ""GETEN"", ""GETER"", ""GETRE"", ""GETRI"", ""GEVAR"", ""GICAC"", ""GICET"", ""GICOM"", ""GICOT"", ""GIDUR"", ""GIFUG"", ""GIFUS"", ""GIICP"", ""GILIC"", ""GILIE"", ""GILOG"", ""GIPES"", ""GIPSO"", ""GIREC"", ""GIRET"", ""GIRIS"", ""GISEG"", ""GITEC"", ""JURIR"", ""MESAM"", ""OUVID"", ""PA"", ""PAB"", ""PEAGR"", ""PEAPF"", ""PEATE"", ""PEBSL"", ""PECAC"", ""PECAD"", ""PECOC"", ""PEDEP"", ""PEFIN"", ""PEFUG"", ""PEGOV"", ""PEJUD"", ""PEOPI"", ""PEPAN"", ""PESCC"", ""PRESI"", ""REAUD"", ""RECOC"", ""RECOL"", ""RECOM"", ""RECOV"", ""REDAD"", ""REDUR"", ""REICP"", ""REIMP"", ""REJUR"", ""RELIE"", ""RELOG"", ""REMCO"", ""REPES"", ""REPSO"", ""REREC"", ""RERET"", ""RESEC"", ""RESEG"", ""RETEC"", ""RETNE"", ""SG204"", ""SG212"", ""SG213"", ""SN"", ""SR099"", ""SR101"", ""SR102"", ""SR103"", ""SR104"", ""SR105"", ""SR107"", ""SR108"", ""SR109"", ""SR110"", ""SR112"", ""SR113"", ""SR114"", ""SR115"", ""SR117"", ""SR120"", ""SR121"", ""SR122"", ""SR123"", ""SR129"", ""SR131"", ""SR132"", ""SR133"", ""SR137"", ""SR138"", ""SR141"", ""SR142"", ""SR145"", ""SR146"", ""SR148"", ""SR149"", ""SR150"", ""SR151"", ""SR152"", ""SR153"", ""SR154"", ""SR155"", ""SR156"", ""SR157"", ""SR158"", ""SR159"", ""SR160"", ""SR162"", ""SR163"", ""SR164"", ""SR165"", ""SR166"", ""SR167"", ""SR168"", ""SR169"", ""SR170"", ""SR171"", ""SR173"", ""SR174"", ""SR177"", ""SR178"", ""SR179"", ""SR181"", ""SR182"", ""SR183"", ""SR184"", ""SR185"", ""SR186"", ""SR187"", ""SR188"", ""SR189"", ""SR190"", ""SR191"", ""SR192"", ""SR193"", ""SR194"", ""SR195"", ""SR196"", ""SR197"", ""SR199"", ""SR200"", ""SR201"", ""SR202"", ""SR203"", ""SR204"", ""SR205"", ""SR206"", ""SR207"", ""SR208"", ""SR209"", ""SR210"", ""SR211"", ""SR212"", ""SR213"", ""SR214"", ""SR215"", ""SR216"", ""SR217"", ""SR218"", ""SR219"", ""SR220"", ""SR221"", ""SR222"", ""SR223"", ""SR224"", ""SR225"", ""SR226"", ""SR227"", ""SR228"", ""SR229"", ""SR230"", ""SR231"", ""SUAFI"", ""SUAJU"", ""SUALO"", ""SUATA"", ""SUATB"", ""SUATC"", ""SUATD"", ""SUATE"", ""SUCAR"", ""SUCOI"", ""SUCON"", ""SUCOR"", ""SUCOT"", ""SUCTI"", ""SUDEC"", ""SUDES"", ""SUDIS"", ""SUEMP"", ""SUETI"", ""SUFES"", ""SUFUG"", ""SUFUS"", ""SUGET"", ""SUGTI"", ""SUHAB"", ""SUHAM"", ""SUHAR"", ""SUINP"", ""SUINT"", ""SUITI"", ""SUMAR"", ""SUMAV"", ""SUMCV"", ""SUMEF"", ""SUMPE"", ""SUNGE"", ""SUNSE"", ""SUOPE"", ""SUPEN"", ""SUPLA"", ""SUPOT"", ""SUPSO"", ""SUPUJ"", ""SURBE"", ""SUREB"", ""SUREC"", ""SUREL"", ""SUREP"", ""SURET"", ""SURIC"", ""SUSAN"", ""SUSEC"", ""SUSEG"", ""SUTEN"", ""SUVOP"", ""VICOP"", ""VICOR"", ""VIFIC"", ""VIFUG"", ""VIGOV"", ""VILOG"", ""VINER"", ""VIPES"", ""VITEC"", ""VITER"", ""VIVAR""}) 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""REMCO""}) 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEACE""}) 
+ nu_unde_ltco_fisica == ""5349"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEATE""}) 
+ nu_unde_ltco_fisica == ""5467"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEMCO""}) 
+ nu_unde_ltco_fisica == ""5517"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""GEPVA""}) 
+ nu_unde_ltco == ""5551"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEPUB""}) 
+ nu_unde_ltco_fisica == ""5583"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEOPT""}) 
+ nu_unde_ltco_fisica == ""5624"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUEMP""}) 
+ nu_unde_ltco_fisica == ""5720"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUPVA""}) 
+ nu_unde_ltco_fisica == ""5722"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""GEPOP""}) 
+ nu_unde_ltco_fisica == ""5781"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""SUMEP""}) 
+ nu_unde_ltco_fisica == ""5795"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco_fisica.in({""CNBND""}) 
+ nu_unde_ltco_fisica == ""7006"" 
+ tipo_usuario == ""C"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2001"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2029"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2037"") 
+---------------Regra---------------
+ (sg_unde_ltco.in({""CORED""}) 
+ tipo_usuario == ""C"" 
+ nu_funcao == ""2048""))"
